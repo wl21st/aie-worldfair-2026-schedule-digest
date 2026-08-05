@@ -1,3 +1,8 @@
+---
+layout: default
+title: "AI Engineer World's Fair 2026 — Top 30 by AI Category"
+---
+
 # AI Engineer World's Fair 2026 — Top 30 by AI Category
 
 Scope: ranked for an enterprise AI architect and LLM/AI infrastructure enthusiast; categories overlap intentionally.[1]

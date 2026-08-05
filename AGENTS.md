@@ -1,3 +1,8 @@
+---
+layout: default
+title: "AGENTS.md — Repository Guidance & Agent Docs"
+---
+
 # AGENTS.md
 
 ## What this repo is
