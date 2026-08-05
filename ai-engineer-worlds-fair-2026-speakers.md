@@ -1,3 +1,8 @@
+---
+layout: default
+title: "AI Engineer World’s Fair 2026 — Speakers and Event Highlights"
+---
+
 # AI Engineer World’s Fair 2026 — Speakers and Recent Event Sharing
 
 > Generated from the official speaker data and public social pages checked on 2026-08-03 21:00 PDT.

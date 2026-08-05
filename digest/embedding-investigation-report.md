@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Speaker Embeddings Technical Investigation Report"
+---
+
 # Investigation Report: AI Engineer World's Fair 2026 Speaker Embeddings
 
 ## 1. Overview & Dataset Metadata
