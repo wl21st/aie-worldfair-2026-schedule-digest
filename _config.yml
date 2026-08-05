@@ -1,5 +1,6 @@
 title: "AI Engineer World's Fair 2026 Digest"
 description: "Schedule digests, speaker directories, and embedding investigation reports for AI Engineer World's Fair 2026."
+theme: jekyll-theme-primer
 
 defaults:
   - scope:
