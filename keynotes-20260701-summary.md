@@ -1,3 +1,9 @@
+---
+layout: default
+title: "AI Engineer World's Fair 2026 — July 1 Keynote Summary"
+description: "Summary of the AI Engineer World's Fair 2026 July 1 main-stage keynotes."
+---
+
 # AI Engineer World's Fair 2026 — Main Stage Summary
 
 ## Quick Reference: Session Overview
