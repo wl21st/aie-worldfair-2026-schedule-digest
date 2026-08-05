@@ -1,4 +1,10 @@
-# AI Engineer World Fair 2026 — Structured Session Analysis
+---
+layout: default
+title: "AI Engineer World's Fair 2026 — Structured Keynote Analysis"
+description: "Cross-cutting analysis of AI Engineer World's Fair 2026 keynote sessions and themes."
+---
+
+# AI Engineer World's Fair 2026 — Structured Session Analysis
 
 **Event:** AI Engineer World Fair  
 **Dates:** June 30 – July 2, 2026  

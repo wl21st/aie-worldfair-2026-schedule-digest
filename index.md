@@ -20,6 +20,10 @@ Ranked selection of top 30 sessions across key AI tracks (LLM Infrastructure, AI
 
 Complete table of all 561 schedule records, including generated keywords and official YouTube recording links where a confident match was found. A filtered [sessions-with-recordings view](./ai-engineer-worlds-fair-2026-sessions.html#sessions-with-youtube-recordings) is included on the same page.
 
+### 🎤 [Keynotes](./keynotes.html)
+
+Daily keynote summaries for June 30–July 2, plus a structured analysis of the conference's cross-cutting themes and enterprise implications.
+
 ### 🎤 [Speakers Directory](./ai-engineer-worlds-fair-2026-speakers.html)
 
 Comprehensive directory of conference speakers, corporate affiliations, talk descriptions, and public event sharing highlights.
@@ -40,6 +44,7 @@ Operational documentation, repository scope, and context guidelines for AI codin
 | :--- | :--- | :--- | :--- |
 | **Top 30 Digest** | Schedule | 30 Sessions | Ranked LLM, RAG & Infrastructure Talks |
 | **All Sessions** | Schedule | 561 Sessions | Full schedule, keywords & recordings |
+| **Keynotes** | Conference Analysis | 3 Daily Summaries | Main-stage keynote summaries & themes |
 | **Speaker Directory** | Metadata | 100+ Speakers | Affiliations & Social Highlights |
 | **Embedding Report** | Vector Analysis | 512d Vectors | Similarity Distribution & Duplicate Auditing |
 | **AGENTS.md** | Repository Scope | Guidelines | Data Architecture & Prompting Instructions |
