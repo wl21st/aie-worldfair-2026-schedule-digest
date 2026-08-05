@@ -358,6 +358,21 @@ td {
   vertical-align: top;
 }
 
+.youtube-thumbnail {
+  display: block;
+  width: 160px;
+  max-width: 22vw;
+  height: auto;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+  transition: opacity 160ms ease, transform 160ms ease;
+}
+
+.youtube-thumbnail:hover {
+  opacity: 0.86;
+  transform: translateY(-1px);
+}
+
 tr:nth-child(even) {
   background-color: var(--table-row-alt);
 }

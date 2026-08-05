@@ -135,6 +135,21 @@ def escape_cell(value: Any) -> str:
     return text.replace("|", "\\|") or "—"
 
 
+def youtube_thumbnail(url: str) -> str:
+    """Render a compact clickable YouTube thumbnail for a watch URL."""
+    match = re.search(r"[?&]v=([A-Za-z0-9_-]{11})", url)
+    if not match:
+        raise ValueError(f"Expected a YouTube watch URL with an 11-character video ID: {url}")
+    video_id = match.group(1)
+    thumbnail_url = f"https://i.ytimg.com/vi/{video_id}/hqdefault.jpg"
+    return (
+        f'<a href="{url}" aria-label="Watch on YouTube">'
+        f'<img class="youtube-thumbnail" src="{thumbnail_url}" '
+        f'alt="YouTube thumbnail" loading="lazy">'
+        "</a>"
+    )
+
+
 def load_sessions(path: Path) -> tuple[dict[str, Any], list[dict[str, Any]]]:
     data = json.loads(path.read_text(encoding="utf-8"))
     if not isinstance(data, dict) or not isinstance(data.get("sessions"), list):
@@ -352,7 +367,7 @@ def generate_markdown(
         if youtube:
             linked += 1
             source_counts[source] += 1
-            youtube_cell = f"[Watch]({youtube})"
+            youtube_cell = youtube_thumbnail(youtube)
         else:
             youtube_cell = "—"
             source_counts[source] += 1
@@ -393,7 +408,7 @@ def generate_markdown(
             "| " + " | ".join([
                 str(index),
                 escape_cell(row.get("title")) + " [1]",
-                f"[Watch]({youtube})",
+                youtube_thumbnail(youtube),
                 escape_cell(row.get("day")),
                 escape_cell(row.get("time")),
                 escape_cell(row.get("track")),
