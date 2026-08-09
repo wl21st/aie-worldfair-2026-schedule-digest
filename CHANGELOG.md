@@ -8,6 +8,8 @@ This file records refreshes and content changes to the AI Engineer World's Fair 
 - Regenerated `ai-engineer-worlds-fair-2026-sessions.md` from the immutable `raw/sessions.json` snapshot.
 - Updated `ai-engineer-worlds-fair-2026-master.md` with 13 newly matched recordings across 23 ranked-category rows, including repeated session appearances.
 - Verified 561 complete schedule rows, 105 rows with confident recordings, unchanged `raw/sessions.json`, and deterministic regeneration.
+- Added `ai-engineer-youtube-channel-videos.md`, a newest-first catalog of 996 official channel videos with thumbnails, durations, and deterministic title-derived topic tags.
+- Added the YouTube Channel Catalog link to `index.md` for GitHub Pages discovery.
 
 ## Scheduled refresh format
 
