@@ -20,6 +20,10 @@ Ranked selection of top 30 sessions across key AI tracks (LLM Infrastructure, AI
 
 Complete table of all 561 schedule records, including generated keywords and official YouTube recording links where a confident match was found. A filtered [sessions-with-recordings view](./ai-engineer-worlds-fair-2026-sessions.html#sessions-with-youtube-recordings) is included on the same page.
 
+### ▶️ [YouTube Channel Catalog](./ai-engineer-youtube-channel-videos.html)
+
+Newest-first catalog of 996 videos from the official AI Engineer YouTube channel, with thumbnails, duration, and deterministic topic tags for spotting new uploads.
+
 ### 🎤 [Keynotes](./keynotes.html)
 
 Daily keynote summaries for June 30–July 2, plus a structured analysis of the conference's cross-cutting themes and enterprise implications.
