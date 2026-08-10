@@ -24,6 +24,10 @@ Complete table of all 561 schedule records, including generated keywords and off
 
 Newest-first catalog of 996 videos from the official AI Engineer YouTube channel, with thumbnails, duration, and deterministic topic tags for spotting new uploads.
 
+### 🎬 [World's Fair 2026 YouTube Videos](./ai-engineer-worlds-fair-2026-youtube-videos.html)
+
+Newest-first list of the 104 currently identified videos in the official World's Fair 2026 playlist, with thumbnails, duration, and topic tags.
+
 ### 🎤 [Keynotes](./keynotes.html)
 
 Daily keynote summaries for June 30–July 2, plus a structured analysis of the conference's cross-cutting themes and enterprise implications.

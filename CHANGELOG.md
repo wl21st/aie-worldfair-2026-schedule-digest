@@ -10,6 +10,8 @@ This file records refreshes and content changes to the AI Engineer World's Fair 
 - Verified 561 complete schedule rows, 105 rows with confident recordings, unchanged `raw/sessions.json`, and deterministic regeneration.
 - Added `ai-engineer-youtube-channel-videos.md`, a newest-first catalog of 996 official channel videos with thumbnails, durations, and deterministic title-derived topic tags.
 - Added the YouTube Channel Catalog link to `index.md` for GitHub Pages discovery.
+- Refreshed `ai-engineer-worlds-fair-2026-sessions.md`; all 210 existing YouTube watch-link occurrences render clickable thumbnails.
+- Added `ai-engineer-worlds-fair-2026-youtube-videos.md`, a newest-first list of 104 identified videos from the official World's Fair 2026 playlist.
 
 ## Scheduled refresh format
 
