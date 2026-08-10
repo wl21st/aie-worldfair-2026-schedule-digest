@@ -342,26 +342,10 @@ def generate_markdown(
 ) -> tuple[str, dict[str, int]]:
     document_frequency, canonical = build_keyword_index(rows)
     total = len(rows)
-    lines = [
-        "---",
-        "layout: default",
-        'title: "AI Engineer World\'s Fair 2026 — All Sessions"',
-        "---",
-        "",
-        "# AI Engineer World's Fair 2026 — All Sessions",
-        "",
-        f"Complete schedule table generated from the {total}-record `raw/sessions.json` snapshot. Session fields and descriptions are preserved from the official schedule export.[1]",
-        "",
-        f"YouTube links point to recordings found in the official AI Engineer channel's World's Fair 2026 playlist or previously verified official recording links; `—` means no confident match was found.[2]",
-        "",
-        "Keywords are deterministic summaries derived from each session title and description; the original track remains in its own column.",
-        "",
-        "| # | Day | Time | Session | YouTube | Track | Type | Room | Speakers | Keywords | Status |",
-        "| ---: | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
-    ]
     linked = 0
     source_counts = Counter()
     video_rows = []
+    complete_rows = []
     for index, row in enumerate(rows, start=1):
         youtube, source = choose_youtube_link(row, videos, existing_links)
         if youtube:
@@ -377,22 +361,33 @@ def generate_markdown(
         keywords = escape_cell(keywords_for(row, document_frequency, canonical, total))
         if youtube:
             video_rows.append((index, row, youtube, keywords))
-        lines.append(
-            "| " + " | ".join([
-                str(index),
-                escape_cell(row.get("day")),
-                escape_cell(row.get("time")),
-                session_title,
-                youtube_cell,
-                escape_cell(row.get("track")),
-                escape_cell(row.get("type")),
-                escape_cell(row.get("room")),
-                escape_cell(speaker_text),
-                keywords,
-                escape_cell(row.get("status")),
-            ]) + " |"
-        )
-    lines.extend([
+        complete_rows.append((
+            index,
+            row,
+            session_title,
+            youtube_cell,
+            keywords,
+            speaker_text,
+        ))
+    lines = [
+        "---",
+        "layout: default",
+        'title: "AI Engineer World\'s Fair 2026 — All Sessions"',
+        "---",
+        "",
+        "# AI Engineer World's Fair 2026 — All Sessions",
+        "",
+        f"Complete schedule table generated from the {total}-record `raw/sessions.json` snapshot. Session fields and descriptions are preserved from the official schedule export.[1]",
+        "",
+        f"YouTube links point to recordings found in the official AI Engineer channel's World's Fair 2026 playlist or previously verified official recording links; `—` means no confident match was found.[2]",
+        "",
+        "Keywords are deterministic summaries derived from each session title and description; the original track remains in its own column.",
+        "",
+        "## Table of Contents",
+        "",
+        "- [Sessions with YouTube recordings](#sessions-with-youtube-recordings)",
+        "- [Complete schedule](#complete-schedule)",
+        "- [Sources](#sources)",
         "",
         "## Sessions with YouTube recordings",
         "",
@@ -400,7 +395,7 @@ def generate_markdown(
         "",
         "| # | Session | YouTube | Day | Time | Track | Type | Room | Speakers | Keywords | Status |",
         "| ---: | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
-    ])
+    ]
     for index, row, youtube, keywords in video_rows:
         speakers = row.get("speakers") or []
         speaker_text = ", ".join(str(item) for item in speakers) if speakers else "—"
@@ -411,6 +406,31 @@ def generate_markdown(
                 youtube_thumbnail(youtube),
                 escape_cell(row.get("day")),
                 escape_cell(row.get("time")),
+                escape_cell(row.get("track")),
+                escape_cell(row.get("type")),
+                escape_cell(row.get("room")),
+                escape_cell(speaker_text),
+                keywords,
+                escape_cell(row.get("status")),
+            ]) + " |"
+        )
+    lines.extend([
+        "",
+        "## Complete schedule",
+        "",
+        "Complete schedule, including records without a confident YouTube match.",
+        "",
+        "| # | Day | Time | Session | YouTube | Track | Type | Room | Speakers | Keywords | Status |",
+        "| ---: | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+    ])
+    for index, row, session_title, youtube_cell, keywords, speaker_text in complete_rows:
+        lines.append(
+            "| " + " | ".join([
+                str(index),
+                escape_cell(row.get("day")),
+                escape_cell(row.get("time")),
+                session_title,
+                youtube_cell,
                 escape_cell(row.get("track")),
                 escape_cell(row.get("type")),
                 escape_cell(row.get("room")),
