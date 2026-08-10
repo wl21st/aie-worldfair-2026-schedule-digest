@@ -59,6 +59,565 @@ This is a focused, publicly accessible sample rather than a claim that every one
 
 The following 552 records are transcribed from the official `speakers.json`. Roles, companies, bios, social URLs, and listed session metadata are preserved where present; missing fields are shown as `—`. [1]
 
+## Speaker quick reference
+
+Use this alphabetical table to scan affiliations and jump to the full speaker record below. Session counts refer to the schedule records attached to each speaker. [1]
+
+| # | Speaker | Role | Company | Sessions |
+|---:|---|---|---|---:|
+| 1 | [Aaron Stanley](#1-aaron-stanley-1) [1] | CISO [1] | dbt Labs [1] | 1 |
+| 2 | [Abduallah Mohamed](#2-abduallah-mohamed-1) [1] | VP of AI/ML [1] | AIDAChip [1] | 1 |
+| 3 | [Abdul Dakkak](#3-abdul-dakkak-1) [1] | Chief Scientist [1] | Modular [1] | 1 |
+| 4 | [Abhi Arya](#4-abhi-arya-1) [1] | Product, Software, Infra, and Applied AI [1] | Reducto [1] | 1 |
+| 5 | [Abhilash Asokan](#5-abhilash-asokan-1) [1] | — [1] | ZS [1] | 1 |
+| 6 | [Abhishek Bhardwaj](#6-abhishek-bhardwaj-1) [1] | Member of Technical Staff, RL & Agent Infrastructure [1] | OpenAI [1] | 2 |
+| 7 | [Adam Azzam](#7-adam-azzam-1) [1] | Member of Product Staff [1] | Modal [1] | 1 |
+| 8 | [Adam Huda](#8-adam-huda-1) [1] | Sr Engineering Leader for AI Dev Tools [1] | Uber [1] | 1 |
+| 9 | [Addy Osmani](#9-addy-osmani-1) [1] | Director of Engineering [1] | Independent [1] | 1 |
+| 10 | [Adi Singh](#10-adi-singh-1) [1] | Co-founder [1] | AgentMail [1] | 1 |
+| 11 | [Adit Abraham](#11-adit-abraham-1) [1] | CEO and cofounder [1] | Reducto [1] | 1 |
+| 12 | [Aditya Gautam](#12-aditya-gautam-1) [1] | Machine Learning Lead [1] | Meta [1] | 1 |
+| 13 | [Aditya Khandelwal](#13-aditya-khandelwal-1) [1] | MTS [1] | Amazon AGI Lab [1] | 1 |
+| 14 | [Ahmad Osman](#14-ahmad-osman-1) [1] | Founder & CEO [1] | Osmantic [1] | 5 |
+| 15 | [Ahmed Ahres](#15-ahmed-ahres-1) [1] | Head of Product & GTM [1] | Reactor [1] | 1 |
+| 16 | [Ahnaf Prio](#16-ahnaf-prio-1) [1] | Senior Engineering Manager [1] | Best Buy [1] | 1 |
+| 17 | [Ajay Prakash](#17-ajay-prakash-1) [1] | Senior Staff Software Engineer [1] | Linkedin [1] | 1 |
+| 18 | [Akele Reed](#18-akele-reed-1) [1] | Principal AI Engineer [1] | Sondermind [1] | 1 |
+| 19 | [Alex Atallah](#19-alex-atallah-1) [1] | Co-founder & CEO [1] | OpenRouter [1] | 2 |
+| 20 | [Alex Bauer](#20-alex-bauer-1) [1] | Co-founder [1] | Upside [1] | 1 |
+| 21 | [Alex Campos](#21-alex-campos-1) [1] | Director of Sales Partnerships [1] | FriendliAI [1] | 1 |
+| 22 | [Alex Cheema](#22-alex-cheema-1) [1] | CEO [1] | EXO Labs [1] | 2 |
+| 23 | [Alex Hancock](#23-alex-hancock-1) [1] | Software Engineer [1] | Block [1] | 1 |
+| 24 | [Alex Shaw](#24-alex-shaw-1) [1] | Member of Technical Staff [1] | Laude Institute [1] | 1 |
+| 25 | [Alex Volkov](#25-alex-volkov-1) [1] | AI Evangelist & Host of ThursdAI [1] | W&B from CoreWeave [1] | 1 |
+| 26 | [Alexander Embiricos](#26-alexander-embiricos-1) [1] | Head of Enterprise Product [1] | OpenAI [1] | 1 |
+| 27 | [Ali Adl-Tabatabai](#27-ali-adl-tabatabai-1) [1] | Founder and CEO [1] | Gitar.ai [1] | 1 |
+| 28 | [Ali Khial](#28-ali-khial-1) [1] | Head of AI/ML [1] | G2i [1] | 1 |
+| 29 | [Aliisa Rosenthal](#29-aliisa-rosenthal-1) [1] | General Partner [1] | Acrew Capital [1] | 1 |
+| 30 | [Aman Gupta](#30-aman-gupta-1) [1] | Principal Machine Learning Engineer [1] | Nubank [1] | 1 |
+| 31 | [Ameya Bhatawdekar](#31-ameya-bhatawdekar-1) [1] | VP, Field CTO [1] | Braintrust [1] | 1 |
+| 32 | [Ameya Ketkar](#32-ameya-ketkar-1) [1] | Software Engineer [1] | Uber Technology Inc. [1] | 1 |
+| 33 | [Amit Desai](#33-amit-desai-1) [1] | Director, Voice & Assistant AI [1] | Roku [1] | 1 |
+| 34 | [Amit Navindgi](#34-amit-navindgi-1) [1] | Senior Staff Software Engineer [1] | Zoox [1] | 1 |
+| 35 | [Anant Srivastava](#35-anant-srivastava-1) [1] | Principal Technologist - Data and AI Platforms [1] | Oracle [1] | 1 |
+| 36 | [Anders Swanson](#36-anders-swanson-1) [1] | Developer Evangelist [1] | Oracle [1] | 1 |
+| 37 | [Andreea Pleşea](#37-andreea-pleea-1) [1] | Co-Founder and COO [1] | Druid AI [1] | 1 |
+| 38 | [Andrei Bocan](#38-andrei-bocan-1) [1] | Principal Engineer [1] | Atlassian [1] | 1 |
+| 39 | [Andrew Dai](#39-andrew-dai-1) [1] | Co-founder and CEO [1] | Elorian [1] | 1 |
+| 40 | [Andrew Garvin](#40-andrew-garvin-1) [1] | Cofounder of Metronome [1] | Stripe [1] | 1 |
+| 41 | [Andrew Orobator](#41-andrew-orobator-1) [1] | Senior Software Engineer [1] | Reddit [1] | 1 |
+| 42 | [Andrew Qu](#42-andrew-qu-1) [1] | Chief of Software [1] | Vercel [1] | 1 |
+| 43 | [Ang Li](#43-ang-li-1) [1] | CEO [1] | Simular [1] | 1 |
+| 44 | [Angela Jiang](#44-angela-jiang-1) [1] | Head of Product, Claude Platform [1] | Anthropic [1] | 1 |
+| 45 | [Anil Nadiminti](#45-anil-nadiminti-1) [1] | Sr Solutions Architect [1] | Amazon Web Services (AWS) [1] | 1 |
+| 46 | [Anirban Chatterjee](#46-anirban-chatterjee-1) [1] | Director, Product and Solutions Marketing [1] | Sonar [1] | 1 |
+| 47 | [Ankit Jain](#47-ankit-jain-1) [1] | Founder & CEO [1] | Aviator [1] | 1 |
+| 48 | [Ankur Duggal](#48-ankur-duggal-1) [1] | Solutions Architect [1] | Arize AI [1] | 1 |
+| 49 | [Anna Spysz](#49-anna-spysz-1) [1] | Developer Relations Engineer [1] | Stripe [1] | 1 |
+| 50 | [Annabell Schäfer](#50-annabell-schfer-1) [1] | Growth Engineer [1] | Clickhouse [1] | 1 |
+| 51 | [Antje Barth](#51-antje-barth-1) [1] | Member of Technical Staff [1] | Amazon AGI Lab [1] | 1 |
+| 52 | [Anuj Iravane](#52-anuj-iravane-1) [1] | Head of AI [1] | Anterior [1] | 1 |
+| 53 | [Aparna Dhinakaran](#53-aparna-dhinakaran-1) [1] | CPO [1] | Arize [1] | 1 |
+| 54 | [Archana Kamath](#54-archana-kamath-1) [1] | VP of Engineering [1] | Digital Ocean [1] | 1 |
+| 55 | [Arek Borucki](#55-arek-borucki-1) [1] | Machine Learning Platform & Database Engineer [1] | Hugging Face [1] | 1 |
+| 56 | [Ari Morcos](#56-ari-morcos-1) [1] | Co-founder, CEO [1] | DatologyAI [1] | 1 |
+| 57 | [Arjun Singh](#57-arjun-singh-1) [1] | Co-founder and CEO [1] | Superconductor [1] | 1 |
+| 58 | [Arman Vaziri](#58-arman-vaziri-1) [1] | Senior Staff Software Engineer [1] | Ramp [1] | 1 |
+| 59 | [Armen Aghajanyan](#59-armen-aghajanyan-1) [1] | Co-Founder & CEO [1] | Perceptron AI [1] | 1 |
+| 60 | [Arturo Nunez](#60-arturo-nunez-1) [1] | Founder [1] | Nereu [1] | 1 |
+| 61 | [Arun Sekhar](#61-arun-sekhar-1) [1] | Principal Product Manager for AI Developer Experience [1] | Microsoft [1] | 3 |
+| 62 | [Arunachalam Manikandan](#62-arunachalam-manikandan-1) [1] | AI Engineer, Co-Founder [1] | University of Minnesota [1] | 1 |
+| 63 | [Asaf Gardin](#63-asaf-gardin-1) [1] | Senior Software Engineer/Inference Engineer [1] | AI21 [1] | 1 |
+| 64 | [Ashish Kamra](#64-ashish-kamra-1) [1] | Senior Manager, Software Engineering [1] | Red Hat [1] | 1 |
+| 65 | [Ashok Chandrasekar](#65-ashok-chandrasekar-1) [1] | Staff Software Engineer [1] | Google [1] | 1 |
+| 66 | [Ashu Joshi](#66-ashu-joshi-1) [1] | Director, Business Strategy [1] | Microsoft [1] | 2 |
+| 67 | [Asma Beevi](#67-asma-beevi-1) [1] | Senior Engineer [1] | NVIDIA [1] | 2 |
+| 68 | [Averi Kitsch](#68-averi-kitsch-1) [1] | Staff Software Engineer [1] | Google [1] | 1 |
+| 69 | [Ayush Bhardwaj](#69-ayush-bhardwaj-1) [1] | Tech Lead [1] | Allos AI [1] | 1 |
+| 70 | [Barr Yaron](#70-barr-yaron-1) [1] | Partner [1] | Amplify Partners [1] | 1 |
+| 71 | [Ben Dicken](#71-ben-dicken-1) [1] | — [1] | — [1] | 1 |
+| 72 | [Ben Holmes](#72-ben-holmes-1) [1] | Dev Rel Lead [1] | Warp [1] | 1 |
+| 73 | [Ben Hylak](#73-ben-hylak-1) [1] | CTO [1] | Raindrop [1] | 1 |
+| 74 | [Ben Kus](#74-ben-kus-1) [1] | CTO [1] | Box [1] | 1 |
+| 75 | [Benjamin Clavié](#75-benjamin-clavi-1) [1] | Member of Technical Staff [1] | Mixedbread Inc. [1] | 1 |
+| 76 | [Benjamin Guo](#76-benjamin-guo-1) [1] | Cofounder [1] | Zo Computer [1] | 1 |
+| 77 | [Benoit Schillings](#77-benoit-schillings-1) [1] | VP of Technology [1] | Google DeepMind [1] | 1 |
+| 78 | [Bereket Habtemeskel](#78-bereket-habtemeskel-1) [1] | CEO [1] | Better Auth [1] | 1 |
+| 79 | [Bogdan Gaza](#79-bogdan-gaza-1) [1] | Co-Founder & CTO [1] | DatologyAI [1] | 1 |
+| 80 | [Bohan Li](#80-bohan-li-1) [1] | Staff Software Engineer [1] | EliseAi [1] | 1 |
+| 81 | [Brandon Callender](#81-brandon-callender-1) [1] | Founding Engineer [1] | typedef [1] | 1 |
+| 82 | [Brandon Waselnuk](#82-brandon-waselnuk-1) [1] | Developer Relations [1] | Unblocked [1] | 1 |
+| 83 | [Brendan Rappazzo](#83-brendan-rappazzo-1) [1] | Machine Learning Scientist [1] | Morgan Stanley [1] | 2 |
+| 84 | [Brian Douglas](#84-brian-douglas-1) [1] | CoFounder [1] | Paper Compute Company [1] | 3 |
+| 85 | [Brian Lewis](#85-brian-lewis-1) [1] | AI Product Lead [1] | Millennium [1] | 1 |
+| 86 | [Byung-Gon (Gon) Chun](#86-byung-gon-gon-chun-1) [1] | Founder & CEO [1] | FriendliAI [1] | 1 |
+| 87 | [Carlos Sanchez](#87-carlos-sanchez-1) [1] | Principal Scientist [1] | Adobe [1] | 1 |
+| 88 | [Carole Robin, Ph.D.](#88-carole-robin-phd-1) [1] | Co-Founder [1] | Leaders in Tech [1] | 1 |
+| 89 | [Carter Abdallah](#89-carter-abdallah-1) [1] | Senior Developer Tech [1] | NVIDIA [1] | 2 |
+| 90 | [Chaitanya Asawa](#90-chaitanya-asawa-1) [1] | Head of Engineering for Clinical Decision Support [1] | Abridge [1] | 1 |
+| 91 | [Chang Liu](#91-chang-liu-1) [1] | Senior Product Manager [1] | Microsoft [1] | 2 |
+| 92 | [Charles Frye](#92-charles-frye-1) [1] | Member of Technical Staff [1] | Modal [1] | 1 |
+| 93 | [Charlie Dickens](#93-charlie-dickens-1) [1] | — [1] | — [1] | 1 |
+| 94 | [Charlie Guo](#94-charlie-guo-1) [1] | Developer Experience Engineer [1] | OpenAI [1] | 2 |
+| 95 | [Charlie Holtz](#95-charlie-holtz-1) [1] | CEO [1] | Conductor [1] | 1 |
+| 96 | [Chengxi Taylor](#96-chengxi-taylor-1) [1] | Co-founder & President [1] | General Reasoning Inc. [1] | 1 |
+| 97 | [Chris Alexiuk](#97-chris-alexiuk-1) [1] | Sr. Product Research Engineer [1] | NVIDIA [1] | 4 |
+| 98 | [Chris Souza](#98-chris-souza-1) [1] | — [1] | Google [1] | 1 |
+| 99 | [Christopher Burns](#99-christopher-burns-1) [1] | Founder [1] | Inth [1] | 1 |
+| 100 | [Christopher Lovejoy](#100-christopher-lovejoy-1) [1] | Member of Technical Staff [1] | Anthropic [1] | 1 |
+| 101 | [Christopher Manning](#101-christopher-manning-1) [1] | Distinguished Member of Technical Staff [1] | Moonlake AI [1] | 2 |
+| 102 | [Clare Liguori](#102-clare-liguori-1) [1] | Senior Principal Engineer [1] | Amazon Web Services [1] | 1 |
+| 103 | [Clay Cockrell](#103-clay-cockrell-1) [1] | Co-Founder [1] | CoupleWork AI [1] | 1 |
+| 104 | [Cody Menefee](#104-cody-menefee-1) [1] | Success Engineer [1] | Firecrawl [1] | 1 |
+| 105 | [Corby Rosset](#105-corby-rosset-1) [1] | Senior Researcher [1] | Microsoft Research [1] | 1 |
+| 106 | [Corey Gallon](#106-corey-gallon-1) [1] | Managing Director [1] | Rexmore [1] | 1 |
+| 107 | [Cormac Brick](#107-cormac-brick-1) [1] | Principal Engineer, Google AI Edge [1] | Google [1] | 1 |
+| 108 | [Cornelia Davis](#108-cornelia-davis-1) [1] | Principal Technologist [1] | Temporal [1] | 1 |
+| 109 | [Cyrus Clarke](#109-cyrus-clarke-1) [1] | Researcher [1] | MIT Media Lab [1] | 1 |
+| 110 | [Daksh Gupta](#110-daksh-gupta-1) [1] | co-founder/CEO [1] | Greptile [1] | 1 |
+| 111 | [Dan Adler](#111-dan-adler-1) [1] | — [1] | Sourcegraph [1] | 1 |
+| 112 | [Dan Bălăceanu](#112-dan-blceanu-1) [1] | Chief Product Officer and Co-Founder [1] | DRUID AI [1] | 1 |
+| 113 | [Dan Bjornn](#113-dan-bjornn-1) [1] | Senior Data Scientist [1] | Lease End [1] | 1 |
+| 114 | [Dan Farrelly](#114-dan-farrelly-1) [1] | CTO and Co-founder [1] | Inngest [1] | 1 |
+| 115 | [Dan Feng](#115-dan-feng-1) [1] | Senior Director of Engineering [1] | Maven Clinic [1] | 1 |
+| 116 | [Dan Fu](#116-dan-fu-1) [1] | VP of Kernels [1] | Together AI [1] | 1 |
+| 117 | [Dan Ndombe](#117-dan-ndombe-1) [1] | Staff Developer Success Advocate [1] | Docker [1] | 1 |
+| 118 | [Daniel Bump](#118-daniel-bump-1) [1] | Engineer [1] | Google [1] | 1 |
+| 119 | [Daniel Chalef](#119-daniel-chalef-1) [1] | Founder and CEO [1] | Zep AI [1] | 1 |
+| 120 | [Daniel Han](#120-daniel-han-1) [1] | Co-founder [1] | Unsloth [1] | 3 |
+| 121 | [Daniel Kim](#121-daniel-kim-1) [1] | Head of Growth [1] | Cerebras [1] | 1 |
+| 122 | [Daniel Svonava](#122-daniel-svonava-1) [1] | CEO and co-founder [1] | Superlinked [1] | 1 |
+| 123 | [Dat Ngo](#123-dat-ngo-1) [1] | AI Architect [1] | Arize AI [1] | 1 |
+| 124 | [Dave Revere](#124-dave-revere-1) [1] | Staff AI Engineer [1] | SonderMind [1] | 1 |
+| 125 | [David Brumley](#125-david-brumley-1) [1] | Chief AI and Science Officer [1] | Bugcrowd, Inc [1] | 1 |
+| 126 | [David Corbitt](#126-david-corbitt-1) [1] | Head of Product, Serverless Training [1] | CoreWeave [1] | 1 |
+| 127 | [David Hsu](#127-david-hsu-1) [1] | CEO [1] | Retool [1] | 1 |
+| 128 | [David Levine](#128-david-levine-1) [1] | Founder & CEO [1] | Kiduna Club [1] | 1 |
+| 129 | [Dean Quiñanola](#129-dean-quianola-1) [1] | Staff Software Engineer, App Eng Manager [1] | Runpod [1] | 1 |
+| 130 | [Deepak Pathak](#130-deepak-pathak-1) [1] | Co-Founder & CEO [1] | Skild AI [1] | 1 |
+| 131 | [Denys Linkov](#131-denys-linkov-1) [1] | Head of ML [1] | Wisedocs [1] | 1 |
+| 132 | [Derek Meegan](#132-derek-meegan-1) [1] | Software Engineer [1] | Browserbase [1] | 1 |
+| 133 | [Devansh Tandon](#133-devansh-tandon-1) [1] | Principal Product Manager [1] | Meta [1] | 2 |
+| 134 | [Dex Horthy](#134-dex-horthy-1) [1] | Co-Founder [1] | HumanLayer [1] | 1 |
+| 135 | [Dhruv Batra](#135-dhruv-batra-1) [1] | Co-founder & Chief Scientist [1] | Yutori [1] | 1 |
+| 136 | [Dhruv Nathawani](#136-dhruv-nathawani-1) [1] | Research Scientist [1] | Nvidia [1] | 1 |
+| 137 | [Dhruv Srikanth](#137-dhruv-srikanth-1) [1] | Founding Engineer [1] | Weco AI [1] | 1 |
+| 138 | [Dillon DuPont](#138-dillon-dupont-1) [1] | CTO [1] | Cua [1] | 1 |
+| 139 | [Diogo Almeida](#139-diogo-almeida-1) [1] | CEO [1] | TypeSafe AI [1] | 1 |
+| 140 | [Divakar Kumar](#140-divakar-kumar-1) [1] | Technical Architect [1] | FlyersSoft [1] | 1 |
+| 141 | [Dixing Xu](#141-dixing-xu-1) [1] | Member of Technical Staff [1] | Weco AI [1] | 1 |
+| 142 | [Dmitry Buykin](#142-dmitry-buykin-1) [1] | Applied AI Lead, Staff Software Engineer [1] | Maersk [1] | 1 |
+| 143 | [Dominik Kundel](#143-dominik-kundel-1) [1] | Developer Experience Lead [1] | OpenAI [1] | 2 |
+| 144 | [Dor Sasson](#144-dor-sasson-1) [1] | — [1] | Stigg [1] | 1 |
+| 145 | [Doug Guthrie](#145-doug-guthrie-1) [1] | Solutions Engineer [1] | Braintrust [1] | 1 |
+| 146 | [Doug Keller](#146-doug-keller-1) [1] | Senior Staff AI Engineer [1] | SonderMind [1] | 1 |
+| 147 | [Dru Knox](#147-dru-knox-1) [1] | Head of Product [1] | Tessl [1] | 1 |
+| 148 | [Du'an Lightfoot](#148-duan-lightfoot-1) [1] | Senior AI Engineer [1] | Akamai Technologies [1] | 1 |
+| 149 | [Dustin Mihalik](#149-dustin-mihalik-1) [1] | Technical Fellow [1] | Indeed [1] | 1 |
+| 150 | [Dylan Bristot](#150-dylan-bristot-1) [1] | Product Marketing [1] | Token Factory [1] | 1 |
+| 151 | [Dylan Couzon](#151-dylan-couzon-1) [1] | DevRel Engineer [1] | Qdrant [1] | 1 |
+| 152 | [Edo Liberty](#152-edo-liberty-1) [1] | Founder and Chief Scientist [1] | Pinecone [1] | 1 |
+| 153 | [Ekaterina Deyneka](#153-ekaterina-deyneka-1) [1] | Founder & CEO [1] | Reelful [1] | 1 |
+| 154 | [Eli Cohen](#154-eli-cohen-1) [1] | Director of Technology Incubation [1] | Snyk [1] | 1 |
+| 155 | [Elie Bakouch](#155-elie-bakouch-1) [1] | Research Engineer [1] | Prime Intellect [1] | 1 |
+| 156 | [Elizabeth Fuentes Leone](#156-elizabeth-fuentes-leone-1) [1] | Developer Advocate [1] | Amazon Web Services [1] | 2 |
+| 157 | [Em Shreve](#157-em-shreve-1) [1] | — [1] | — [1] | 1 |
+| 158 | [Emil Eifrem](#158-emil-eifrem-1) [1] | CEO [1] | Neo4j [1] | 1 |
+| 159 | [Emile Baizel](#159-emile-baizel-1) [1] | — [1] | Amazon AGI Lab [1] | 1 |
+| 160 | [Eno Reyes](#160-eno-reyes-1) [1] | CTO & Co-Founder [1] | Factory [1] | 1 |
+| 161 | [Erik Meijer](#161-erik-meijer-1) [1] | Research Scholar [1] | Leibniz Labs [1] | 1 |
+| 162 | [Erina Karati](#162-erina-karati-1) [1] | Former Microsoft [1] | Supercell [1] | 1 |
+| 163 | [Ethan (Jung Min) Cha](#163-ethan-jung-min-cha-1) [1] | AI Development Lead [1] | The Carlyle Group [1] | 1 |
+| 164 | [Ethan Sutin](#164-ethan-sutin-1) [1] | Co-founder [1] | Bee (acq. Amazon) [1] | 1 |
+| 165 | [Eugene Yan](#165-eugene-yan-1) [1] | Member of Technical Staff [1] | Anthropic [1] | 1 |
+| 166 | [Eve Bouffard](#166-eve-bouffard-1) [1] | Head of Design [1] | Y Combinator [1] | 1 |
+| 167 | [Everett Berry](#167-everett-berry-1) [1] | Head of GTM Engineering [1] | Clay [1] | 1 |
+| 168 | [Extend AI](#168-extend-ai-1) [1] | — [1] | Extend AI [1] | 1 |
+| 169 | [Eyal Blum](#169-eyal-blum-1) [1] | Software Engineer [1] | Figma [1] | 1 |
+| 170 | [Ezra Tanzer](#170-ezra-tanzer-1) [1] | Director, Product Management [1] | Snyk [1] | 1 |
+| 171 | [Felipe Blanes](#171-felipe-blanes-1) [1] | — [1] | Amazon [1] | 1 |
+| 172 | [Filip Makraduli](#172-filip-makraduli-1) [1] | Founding Member of Technical Staff [1] | Superlinked [1] | 2 |
+| 173 | [Flora Liu](#173-flora-liu-1) [1] | Software engineer [1] | Notion [1] | 1 |
+| 174 | [Francesco Bonacci](#174-francesco-bonacci-1) [1] | Co-founder & CEO [1] | Cua [1] | 1 |
+| 175 | [Frank Coyle](#175-frank-coyle-1) [1] | Lecturer, UCALBerkeley / Founder AI/Edge [1] | UCAL Berkeley [1] | 2 |
+| 176 | [Fuad Ali](#176-fuad-ali-1) [1] | Senior Product Manager [1] | Arize AI [1] | 2 |
+| 177 | [Gabriel Cemaj](#177-gabriel-cemaj-1) [1] | Member of the Technical Staff [1] | Anthropic [1] | 4 |
+| 178 | [Gabriel Chua](#178-gabriel-chua-1) [1] | Developer Experience Engineer [1] | OpenAI [1] | 1 |
+| 179 | [Gabriel Jorge Menezes](#179-gabriel-jorge-menezes-1) [1] | Core Infrastructure Engineer [1] | Krea.ai [1] | 1 |
+| 180 | [Gabriel Martinez](#180-gabriel-martinez-1) [1] | Engineering Manager [1] | G2i [1] | 1 |
+| 181 | [Gabriel Spencer-Harper](#181-gabriel-spencer-harper-1) [1] | CEO [1] | Meticulous [1] | 1 |
+| 182 | [Gagan Bhat](#182-gagan-bhat-1) [1] | Member of Technical Staff [1] | Anthropic [1] | 1 |
+| 183 | [Garrett Galow](#183-garrett-galow-1) [1] | Product Manager [1] | WorkOS [1] | 1 |
+| 184 | [Garry Tan](#184-garry-tan-1) [1] | President & CEO [1] | Y Combinator [1] | 1 |
+| 185 | [Gaurav Mishra](#185-gaurav-mishra-1) [1] | — [1] | Amazon AGI Lab [1] | 1 |
+| 186 | [Geoffrey Litt](#186-geoffrey-litt-1) [1] | Design Engineer [1] | Notion [1] | 1 |
+| 187 | [George Cameron](#187-george-cameron-1) [1] | Co-Founder [1] | Artificial Analysis [1] | 1 |
+| 188 | [George He](#188-george-he-1) [1] | Head of Platform Engineering [1] | LlamaIndex [1] | 1 |
+| 189 | [Giedrius Steimantas](#189-giedrius-steimantas-1) [1] | Director of Scraping Engineering [1] | Oxylabs [1] | 1 |
+| 190 | [Gil Feig](#190-gil-feig-1) [1] | CTO and Co-Founder [1] | Merge [1] | 1 |
+| 191 | [Giselle van Dongen](#191-giselle-van-dongen-1) [1] | Developer Advocate [1] | Restate [1] | 1 |
+| 192 | [Greg Pstrucha](#192-greg-pstrucha-1) [1] | — [1] | Sentry [1] | 1 |
+| 193 | [Gus Iwanaga](#193-gus-iwanaga-1) [1] | General Manager (Product, UX, Eng) [1] | commercetools [1] | 1 |
+| 194 | [Gustavo Cordido](#194-gustavo-cordido-1) [1] | Cloud Advocate & AI Content Engineer [1] | Microsoft [1] | 1 |
+| 195 | [Han Xiao](#195-han-xiao-1) [1] | VP, AI [1] | Elastic [1] | 1 |
+| 196 | [Harald Kirschner](#196-harald-kirschner-1) [1] | Principal Product Manager [1] | Microsoft [1] | 2 |
+| 197 | [Harshal Bhangale](#197-harshal-bhangale-1) [1] | Staff Software Engineer [1] | Circle [1] | 1 |
+| 198 | [Harshul Jain](#198-harshul-jain-1) [1] | Senior Software Engineer - ML/AI [1] | Audible [1] | 2 |
+| 199 | [Hassan El Mghari](#199-hassan-el-mghari-1) [1] | Director of Developer Experience [1] | Together AI [1] | 1 |
+| 200 | [Heather Downing](#200-heather-downing-1) [1] | Developer Advocate [1] | Yugabyte [1] | 1 |
+| 201 | [Hiral Shah](#201-hiral-shah-1) [1] | Senior Director of Product, AI Applications [1] | Docusign [1] | 1 |
+| 202 | [Hossein Niazmandi](#202-hossein-niazmandi-1) [1] | Solutions [1] | Braintrust [1] | 1 |
+| 203 | [Howie Liu](#203-howie-liu-1) [1] | CEO [1] | Airtable [1] | 2 |
+| 204 | [Hursh Agrawal](#204-hursh-agrawal-1) [1] | Co-Founder & CTO [1] | The Browser Company [1] | 1 |
+| 205 | [Idan Gazit](#205-idan-gazit-1) [1] | Head of GitHub Next [1] | GitHub [1] | 3 |
+| 206 | [Ido Salomon](#206-ido-salomon-1) [1] | Co-Creator [1] | MCP Apps [1] | 2 |
+| 207 | [Ignacio Martinez](#207-ignacio-martinez-1) [1] | AI Developer Advocate [1] | Oracle [1] | 1 |
+| 208 | [Imad Touil](#208-imad-touil-1) [1] | Distinguished Engineer [1] | QuantumBlack, AI by McKinsey [1] | 1 |
+| 209 | [Isaac Miller](#209-isaac-miller-1) [1] | Lead Maintainer of DSPy; Co-Founder [1] | cmpnd [1] | 1 |
+| 210 | [Isabella Kai He](#210-isabella-kai-he-1) [1] | Member of Technical Staff [1] | Anthropic [1] | 1 |
+| 211 | [Ishan Anand](#211-ishan-anand-1) [1] | Chief AI Officer (CAIO) [1] | InsightSciences.ai [1] | 1 |
+| 212 | [Itamar Friedman](#212-itamar-friedman-1) [1] | Co-Founder & CEO [1] | Qodo [1] | 1 |
+| 213 | [Ivan Burazin](#213-ivan-burazin-1) [1] | CEO [1] | Daytona [1] | 1 |
+| 214 | [Ivan Leo](#214-ivan-leo-1) [1] | Developer Experience Engineer [1] | Google DeepMind [1] | 1 |
+| 215 | [Jack Morris](#215-jack-morris-1) [1] | Cofounder [1] | Engram [1] | 1 |
+| 216 | [Jacob Lauritzen](#216-jacob-lauritzen-1) [1] | CTO [1] | Legora [1] | 1 |
+| 217 | [Jacqueline Wood](#217-jacqueline-wood-1) [1] | Staff Machine Learning Engineer [1] | Spotify [1] | 1 |
+| 218 | [Jai Chopra](#218-jai-chopra-1) [1] | Product Manager [1] | Uber [1] | 1 |
+| 219 | [Jake Broekhuizen](#219-jake-broekhuizen-1) [1] | Labs Lead [1] | LangChain [1] | 1 |
+| 220 | [Jakub Hojsan](#220-jakub-hojsan-1) [1] | — [1] | Exa [1] | 1 |
+| 221 | [James Le](#221-james-le-1) [1] | Head of Developer Experience [1] | TwelveLabs [1] | 1 |
+| 222 | [James Russo](#222-james-russo-1) [1] | Software Engineer [1] | HeyGen [1] | 1 |
+| 223 | [James Zou](#223-james-zou-1) [1] | Associate Professor of Biomedical Data Science [1] | Stanford University / Together AI [1] | 1 |
+| 224 | [Jan Curn](#224-jan-curn-1) [1] | Founder & CEO [1] | Apify [1] | 2 |
+| 225 | [Jared Joselowitz](#225-jared-joselowitz-1) [1] | AI Research Engineer [1] | Ufonia [1] | 1 |
+| 226 | [Jason Kramberger](#226-jason-kramberger-1) [1] | Software Engineer [1] | Google [1] | 1 |
+| 227 | [Jason Liu](#227-jason-liu-1) [1] | Developer Experience, OpenAI [1] | OpenAI [1] | 4 |
+| 228 | [Jason Lopatecki](#228-jason-lopatecki-1) [1] | CEO [1] | Arize [1] | 1 |
+| 229 | [Jason Ma](#229-jason-ma-1) [1] | CTO and co-founder [1] | Dyna Robotics [1] | 1 |
+| 230 | [Javier Garza](#230-javier-garza-1) [1] | Developer Advocate [1] | Snyk [1] | 1 |
+| 231 | [Jay Mok](#231-jay-mok-1) [1] | — [1] | PayPal [1] | 1 |
+| 232 | [Jean-Denis Greze](#232-jean-denis-greze-1) [1] | Co-Founder & CEO [1] | Town [1] | 1 |
+| 233 | [Jeff Ng](#233-jeff-ng-1) [1] | Engineer [1] | Unblocked [1] | 1 |
+| 234 | [Jeff Vestal](#234-jeff-vestal-1) [1] | Senior Principal AI Architect [1] | Elastic [1] | 1 |
+| 235 | [Jeffrey Wang](#235-jeffrey-wang-1) [1] | Co-founder [1] | Exa [1] | 1 |
+| 236 | [Jennifer Lee](#236-jennifer-lee-1) [1] | Product Lead, Machine Payments & Agentic Commerce [1] | Stripe [1] | 1 |
+| 237 | [Jeremiah Lowin](#237-jeremiah-lowin-1) [1] | Founder & CEO [1] | Prefect [1] | 1 |
+| 238 | [Jeremy Adams](#238-jeremy-adams-1) [1] | Tech Translator [1] | Neo4j [1] | 1 |
+| 239 | [Jerry Liu](#239-jerry-liu-1) [1] | CEO [1] | LlamaIndex [1] | 1 |
+| 240 | [Jess Wang](#240-jess-wang-1) [1] | — [1] | — [1] | 1 |
+| 241 | [Jesse Hall](#241-jesse-hall-1) [1] | Staff Developer Advocate [1] | Livekit [1] | 1 |
+| 242 | [Jesse Lumarie](#242-jesse-lumarie-1) [1] | Software Engineer [1] | Figma [1] | 1 |
+| 243 | [Jetashree Ravi](#243-jetashree-ravi-1) [1] | Tech Lead Manager [1] | Fireworks AI [1] | 1 |
+| 244 | [Jia Wu](#244-jia-wu-1) [1] | Deployed Engineering Lead [1] | Cognition AI [1] | 1 |
+| 245 | [Jim Clark](#245-jim-clark-1) [1] | Principal Software Engineer [1] | Docker [1] | 1 |
+| 246 | [Jo Kristian Bergum](#246-jo-kristian-bergum-1) [1] | CEO [1] | Hornet.dev [1] | 1 |
+| 247 | [Joanne Song](#247-joanne-song-1) [1] | — [1] | The New York Times Games [1] | 1 |
+| 248 | [Joel Hooks](#248-joel-hooks-1) [1] | Co-founder; software developer and developer-education entrepreneur [1] | badass.dev / egghead.io [1] | 1 |
+| 249 | [John Craft](#249-john-craft-1) [1] | Solutions Engineer [1] | Docker [1] | 6 |
+| 250 | [John Lindquist](#250-john-lindquist-1) [1] | Agentic Instructor [1] | egghead.io [1] | 3 |
+| 251 | [John McBride](#251-john-mcbride-1) [1] | Co-Founder, CTO [1] | Paper Compute Co. [1] | 1 |
+| 252 | [John Ousterhout](#252-john-ousterhout-1) [1] | Professor Emeritus [1] | Stanford University [1] | 1 |
+| 253 | [Jonathan Gordon](#253-jonathan-gordon-1) [1] | Founder [1] | ReWeaver AI [1] | 1 |
+| 254 | [Jonathan Kelley](#254-jonathan-kelley-1) [1] | Founder [1] | Dioxus Labs [1] | 1 |
+| 255 | [Joseph Nelson](#255-joseph-nelson-1) [1] | Cofounder, CEO [1] | Roboflow [1] | 3 |
+| 256 | [Joseph Wang](#256-joseph-wang-1) [1] | CEO [1] | Emulated [1] | 1 |
+| 257 | [Josh Leavitt](#257-josh-leavitt-1) [1] | Sr. Director of AI & Data [1] | Coinbase [1] | 1 |
+| 258 | [Joshua Mo](#258-joshua-mo-1) [1] | Lead DevRel Engineer [1] | Venice AI [1] | 1 |
+| 259 | [Joshua Xu](#259-joshua-xu-1) [1] | CEO [1] | HeyGen [1] | 1 |
+| 260 | [Joyce Zhang](#260-joyce-zhang-1) [1] | Dating Coach for Tech Founders [1] | Joyce Consulting Group [1] | 1 |
+| 261 | [Jue Wang](#261-jue-wang-1) [1] | Senior Staff Researcher [1] | Together AI [1] | 1 |
+| 262 | [Julian Bright](#262-julian-bright-1) [1] | Co-Founder [1] | Introspection [1] | 1 |
+| 263 | [Justin Joyce](#263-justin-joyce-1) [1] | Principal Sales Operations and Strategy Manager [1] | Cloudflare [1] | 1 |
+| 264 | [Justin Reock](#264-justin-reock-1) [1] | Deputy CTO [1] | DX [1] | 2 |
+| 265 | [Justin Smith](#265-justin-smith-1) [1] | Founding Product Engineer [1] | Resolve AI [1] | 1 |
+| 266 | [Kamalakannan Nandagopal](#266-kamalakannan-nandagopal-1) [1] | Staff Software Engineer [1] | Postman [1] | 1 |
+| 267 | [Kanish Manuja](#267-kanish-manuja-1) [1] | Principal Software Engineer [1] | Twilio Inc. [1] | 1 |
+| 268 | [Karan Vaidya](#268-karan-vaidya-1) [1] | Co-founder [1] | Composio [1] | 1 |
+| 269 | [Karthik Ranganathan](#269-karthik-ranganathan-1) [1] | Co-founder and Co-CEO [1] | Yugabyte [1] | 1 |
+| 270 | [Katelyn Lesse](#270-katelyn-lesse-1) [1] | Head of Engineering, Claude Platform [1] | Anthropic [1] | 1 |
+| 271 | [Kay Malcolm](#271-kay-malcolm-1) [1] | Vice President of Product Management, Oracle AI Database [1] | Oracle [1] | 1 |
+| 272 | [Keegan McCallum](#272-keegan-mccallum-1) [1] | Founder [1] | uRun [1] | 1 |
+| 273 | [Keiji Kanazawa](#273-keiji-kanazawa-1) [1] | Principal Product Manager [1] | Microsoft [1] | 2 |
+| 274 | [Kenny Workman](#274-kenny-workman-1) [1] | CTO [1] | LatchBio [1] | 1 |
+| 275 | [Kent C. Dodds](#275-kent-c-dodds-1) [1] | Software Engineer and Educator [1] | EpicProduct.engineer [1] | 2 |
+| 276 | [Kenton Varda](#276-kenton-varda-1) [1] | Principal Engineer [1] | Cloudflare [1] | 1 |
+| 277 | [Kevin Bai](#277-kevin-bai-1) [1] | Member of Technical Staff [1] | Anthropic [1] | 1 |
+| 278 | [Kevin Hou](#278-kevin-hou-1) [1] | Engineering Lead @ Antigravity [1] | Google DeepMind [1] | 1 |
+| 279 | [Kevin Madura](#279-kevin-madura-1) [1] | Director, Advanced Technology [1] | AlixPartners [1] | 1 |
+| 280 | [Kevin Orellana](#280-kevin-orellana-1) [1] | Software Engineer [1] | Amazon Web Services [1] | 1 |
+| 281 | [Khaled Alashmouny](#281-khaled-alashmouny-1) [1] | Founder & CEO [1] | AIDAChip [1] | 1 |
+| 282 | [Kieran Klaassen](#282-kieran-klaassen-1) [1] | GM of Cora / Compound Engineering [1] | Every/Cora [1] | 1 |
+| 283 | [Killian Carlsen-Phelan](#283-killian-carlsen-phelan-1) [1] | Developer Content Engineer [1] | Sonar [1] | 1 |
+| 284 | [Kim Maida](#284-kim-maida-1) [1] | Founding GTM Engineer [1] | Keycard [1] | 1 |
+| 285 | [Krishna Prasad Srinivasan](#285-krishna-prasad-srinivasan-1) [1] | Head of Vision Models [1] | Sarvam [1] | 1 |
+| 286 | [Kunal Lanjewar](#286-kunal-lanjewar-1) [1] | Staff Engineer [1] | Riot Games [1] | 1 |
+| 287 | [Kwindla Kramer](#287-kwindla-kramer-1) [1] | CEO [1] | Daily [1] | 2 |
+| 288 | [Kyle Mistele](#288-kyle-mistele-1) [1] | CTO [1] | HumanLayer [1] | 1 |
+| 289 | [Lakshya Agrawal](#289-lakshya-agrawal-1) [1] | Creator and maintainer of GEPA [1] | GEPA [1] | 1 |
+| 290 | [Lance Martin](#290-lance-martin-1) [1] | Member of Technical Staff [1] | Anthropic [1] | 1 |
+| 291 | [Laurie Voss](#291-laurie-voss-1) [1] | Head of Developer Relations [1] | Arize AI [1] | 5 |
+| 292 | [Lee Robinson](#292-lee-robinson-1) [1] | ML, Model Behavior [1] | Cursor [1] | 1 |
+| 293 | [Lena Hall](#293-lena-hall-1) [1] | Senior Director Developers and AI [1] | Akamai [1] | 1 |
+| 294 | [Leo Mehr](#294-leo-mehr-1) [1] | Director of Engineering [1] | Ramp [1] | 1 |
+| 295 | [Leo Platzer](#295-leo-platzer-1) [1] | Founder [1] | Deasy Labs / Collibra [1] | 1 |
+| 296 | [Liad Yosef](#296-liad-yosef-1) [1] | Co-creator [1] | MCP Apps [1] | 2 |
+| 297 | [Lina Colucci](#297-lina-colucci-1) [1] | CEO [1] | LemonSlice [1] | 1 |
+| 298 | [Lotte Seifert](#298-lotte-seifert-1) [1] | Founder [1] | SID AI [1] | 1 |
+| 299 | [Lotte Verheyden](#299-lotte-verheyden-1) [1] | AI engineer and developer educator, Langfuse [1] | Clickhouse [1] | 1 |
+| 300 | [Louis-François Bouchard](#300-louis-franois-bouchard-1) [1] | CTO & Co-Founder [1] | Towards AI [1] | 1 |
+| 301 | [Lovina Dmello](#301-lovina-dmello-1) [1] | Senior Software Developer [1] | NVIDIA [1] | 1 |
+| 302 | [Lu Zhang](#302-lu-zhang-1) [1] | Member of Technical Staff [1] | OpenAI [1] | 1 |
+| 303 | [Lucas Atkins](#303-lucas-atkins-1) [1] | CTO [1] | Arcee AI [1] | 2 |
+| 304 | [Lucas Palma](#304-lucas-palma-1) [1] | Information Security Manager [1] | Nubank [1] | 1 |
+| 305 | [Lukas Petersson](#305-lukas-petersson-1) [1] | Co-Founder [1] | Andon Labs [1] | 1 |
+| 306 | [Mahesh Sathiamoorthy](#306-mahesh-sathiamoorthy-1) [1] | CEO [1] | Bespoke Labs [1] | 1 |
+| 307 | [Manoj Nair](#307-manoj-nair-1) [1] | CTO & Chief Innovation Officer [1] | Snyk [1] | 2 |
+| 308 | [Maor Bril](#308-maor-bril-1) [1] | Chaos Catalyst [1] | Character.ai [1] | 1 |
+| 309 | [Marah Abdin](#309-marah-abdin-1) [1] | Team Lead - Synthetic Data [1] | poolside [1] | 1 |
+| 310 | [Marco Casalaina](#310-marco-casalaina-1) [1] | VP Products, Core AI and AI Futurist [1] | Microsoft [1] | 1 |
+| 311 | [Maria Bledsoe](#311-maria-bledsoe-1) [1] | General Manager, Product Marketing [1] | Microsoft [1] | 1 |
+| 312 | [Marina Petzel](#312-marina-petzel-1) [1] | — [1] | — [1] | 1 |
+| 313 | [Mark Lummus](#313-mark-lummus-1) [1] | Product Lead [1] | PayPal [1] | 1 |
+| 314 | [Martin Harrysson](#314-martin-harrysson-1) [1] | Senior Partner [1] | McKinsey & Company [1] | 2 |
+| 315 | [Matt Brockman](#315-matt-brockman-1) [1] | AI Engineer [1] | E2B [1] | 1 |
+| 316 | [Matt Dailey](#316-matt-dailey-1) [1] | Founder [1] | Ref. [1] | 1 |
+| 317 | [Matt Gibiec](#317-matt-gibiec-1) [1] | Regional Director, Solutions Engineering [1] | Dynatrace [1] | 1 |
+| 318 | [Matt Lawler](#318-matt-lawler-1) [1] | Forward Deployed Engineer Lead [1] | AssemblyAI [1] | 1 |
+| 319 | [Matt Linderman](#319-matt-linderman-1) [1] | Partner, Technology Practice [1] | McKinsey & Company [1] | 2 |
+| 320 | [Matthew Berman](#320-matthew-berman-1) [1] | Founder [1] | Forward Future [1] | 2 |
+| 321 | [Matthew Jewkes](#321-matthew-jewkes-1) [1] | Cofounder & CTO [1] | Standard Cybernetics [1] | 1 |
+| 322 | [Max Drake](#322-max-drake-1) [1] | Product Engineer [1] | tldraw [1] | 1 |
+| 323 | [Maxime Rivest](#323-maxime-rivest-1) [1] | Core Contributor [1] | DSPy [1] | 1 |
+| 324 | [Maximilian-David Rumpf](#324-maximilian-david-rumpf-1) [1] | CEO [1] | SID.ai [1] | 1 |
+| 325 | [Maximillian Piras](#325-maximillian-piras-1) [1] | Founding Designer [1] | Yutori [1] | 1 |
+| 326 | [Melanie Warrick](#326-melanie-warrick-1) [1] | Developer Relations Engineering [1] | Temporal Technologies [1] | 1 |
+| 327 | [Merve Noyan](#327-merve-noyan-1) [1] | MLE [1] | Hugging Face [1] | 3 |
+| 328 | [Micah Hill-Smith](#328-micah-hill-smith-1) [1] | CEO [1] | Artificial Analysis [1] | 1 |
+| 329 | [Micah Silverman](#329-micah-silverman-1) [1] | Director of Developer Relations [1] | Snyk [1] | 1 |
+| 330 | [Michael Forrester](#330-michael-forrester-1) [1] | AI Workforce Transformation [1] | Accenture [1] | 1 |
+| 331 | [Michael Grinich](#331-michael-grinich-1) [1] | Founder & CEO [1] | WorkOS [1] | 1 |
+| 332 | [Michael Liendo](#332-michael-liendo-1) [1] | Staff Developer Advocate [1] | Auth0 [1] | 1 |
+| 333 | [Michael Patterson](#333-michael-patterson-1) [1] | — [1] | Coder [1] | 1 |
+| 334 | [Michelle Nguyen](#334-michelle-nguyen-1) [1] | Co-Founder [1] | Gimlet Labs [1] | 1 |
+| 335 | [Midam Kim](#335-midam-kim-1) [1] | ML Engineer [1] | ServiceNow [1] | 1 |
+| 336 | [Miguel González Fernández](#336-miguel-gonzlez-fernndez-1) [1] | Tech Lead [1] | Browserbase [1] | 1 |
+| 337 | [Mihnea Munteanu](#337-mihnea-munteanu-1) [1] | Senior Product Lead [1] | YouTube [1] | 1 |
+| 338 | [Mike Chambers](#338-mike-chambers-1) [1] | Senior Developer Advocate for Generative AI [1] | Amazon Web Services (AWS) [1] | 1 |
+| 339 | [Mike Krieger](#339-mike-krieger-1) [1] | Head of Labs [1] | Anthropic [1] | 1 |
+| 340 | [Mike Phipps](#340-mike-phipps-1) [1] | Lead AI Engineer [1] | Gates Foundation [1] | 1 |
+| 341 | [Mingsheng Hong](#341-mingsheng-hong-1) [1] | VP of AI at Ironclad [1] | Ironclad [1] | 1 |
+| 342 | [Moritz Johner](#342-moritz-johner-1) [1] | Staff Engineer [1] | Form3 [1] | 1 |
+| 343 | [Nachiket Paranjape](#343-nachiket-paranjape-1) [1] | Software Engineer [1] | DoorDash [1] | 1 |
+| 344 | [Nader Khalil](#344-nader-khalil-1) [1] | Director of Developer Technology [1] | NVIDIA [1] | 4 |
+| 345 | [Naman Ahuja](#345-naman-ahuja-1) [1] | Senior Software Engineer [1] | Meta [1] | 1 |
+| 346 | [Nan Jiang](#346-nan-jiang-1) [1] | MTS [1] | Modal [1] | 1 |
+| 347 | [Natalie Meurer](#347-natalie-meurer-1) [1] | Head of Agent Engineering [1] | Sierra [1] | 1 |
+| 348 | [Navinkumar Patil](#348-navinkumar-patil-1) [1] | Staff Software Engineer [1] | PayPal [1] | 1 |
+| 349 | [Neil Zeghidour](#349-neil-zeghidour-1) [1] | Co-founder & CEO [1] | Gradium [1] | 5 |
+| 350 | [Nicholas Arcolano](#350-nicholas-arcolano-1) [1] | Head of AI & Research [1] | Jellyfish [1] | 1 |
+| 351 | [Nick Heiner](#351-nick-heiner-1) [1] | VP of RL Environments [1] | Surge AI [1] | 1 |
+| 352 | [Nick Nisi](#352-nick-nisi-1) [1] | Developer Experience Engineer [1] | WorkOS [1] | 1 |
+| 353 | [Nicolai Ouporov](#353-nicolai-ouporov-1) [1] | CEO [1] | Fleet [1] | 1 |
+| 354 | [Nidhi Kaushik Vyas](#354-nidhi-kaushik-vyas-1) [1] | Product [1] | Google DeepMind [1] | 1 |
+| 355 | [Niels Rogge](#355-niels-rogge-1) [1] | Machine Learning Engineer [1] | Hugging Face [1] | 1 |
+| 356 | [Nikita Kothari](#356-nikita-kothari-1) [1] | Senior Member of Technical Staff [1] | Salesforce [1] | 1 |
+| 357 | [Nilofer Rajpurkar](#357-nilofer-rajpurkar-1) [1] | Product Lead, Agent and Developer Experience [1] | Stripe [1] | 1 |
+| 358 | [Nishant Gupta](#358-nishant-gupta-1) [1] | Software Engineer, Tech Lead [1] | Meta [1] | 1 |
+| 359 | [Niv Granot](#359-niv-granot-1) [1] | Tech Group Lead [1] | AI21 Labs [1] | 1 |
+| 360 | [Nixon Dinh](#360-nixon-dinh-1) [1] | — [1] | PayPal [1] | 1 |
+| 361 | [Nnenna Ndukwe](#361-nnenna-ndukwe-1) [1] | Principal Developer Advocate and Software Engineer [1] | Qodo AI [1] | 1 |
+| 362 | [Nyah Macklin](#362-nyah-macklin-1) [1] | Sr. Developer Advocate, Artificial intelligence [1] | Neo4j [1] | 1 |
+| 363 | [Olive Song](#363-olive-song-1) [1] | RL Lead [1] | MiniMax [1] | 2 |
+| 364 | [Omar Solano](#364-omar-solano-1) [1] | AI Engineer [1] | Towards AI [1] | 1 |
+| 365 | [Omer Primor](#365-omer-primor-1) [1] | — [1] | Bright Data [1] | 1 |
+| 366 | [Omri Bruchim](#366-omri-bruchim-1) [1] | Engineering Group Manager [1] | Monday [1] | 1 |
+| 367 | [Owen Halpert](#367-owen-halpert-1) [1] | GTM [1] | turbopuffer [1] | 1 |
+| 368 | [Pablo Castro](#368-pablo-castro-1) [1] | Distinguished Engineer and CVP [1] | Microsoft [1] | 1 |
+| 369 | [Paige Bailey](#369-paige-bailey-1) [1] | AI Developer Relations Engineering Lead [1] | Google DeepMind [1] | 1 |
+| 370 | [Palak Agarwal](#370-palak-agarwal-1) [1] | Developer Relations Lead [1] | Reducto [1] | 1 |
+| 371 | [Pamela Fox](#371-pamela-fox-1) [1] | Principal Cloud Advocate [1] | Microsoft [1] | 6 |
+| 372 | [Paola Estefania](#372-paola-estefania-1) [1] | Staff Engineer [1] | Better Auth [1] | 1 |
+| 373 | [Parth Asawa](#373-parth-asawa-1) [1] | CS PhD student [1] | UC Berkeley [1] | 1 |
+| 374 | [Parth Sareen](#374-parth-sareen-1) [1] | — [1] | Ollama [1] | 2 |
+| 375 | [Patricija Žemaitytė](#375-patricija-emaityt-1) [1] | Product Manager [1] | Oxylabs [1] | 1 |
+| 376 | [Patrick Debois](#376-patrick-debois-1) [1] | Member Technical Staff [1] | Tessl [1] | 1 |
+| 377 | [Paul Bakaus](#377-paul-bakaus-1) [1] | Founder [1] | Renaissance Geek, Inc. [1] | 2 |
+| 378 | [Paul Klein IV](#378-paul-klein-iv-1) [1] | Founder & CEO [1] | Browserbase [1] | 1 |
+| 379 | [Paula Dozsa](#379-paula-dozsa-1) [1] | iOS Engineer [1] | Tolan [1] | 1 |
+| 380 | [Pauline Brunet](#380-pauline-brunet-1) [1] | VP, Forward Deployed Engineering [1] | Cursor [1] | 1 |
+| 381 | [Pedro Lopez](#381-pedro-lopez-1) [1] | Senior Software Engineer [1] | Airbyte [1] | 1 |
+| 382 | [Peter Werry](#382-peter-werry-1) [1] | Founding Engineer [1] | Unblocked [1] | 3 |
+| 383 | [Philip Kiely](#383-philip-kiely-1) [1] | Developer Relations [1] | Baseten [1] | 1 |
+| 384 | [Philipp Schmid](#384-philipp-schmid-1) [1] | Staff Engineer [1] | Google DeepMind [1] | 3 |
+| 385 | [Pierluca D'Oro](#385-pierluca-doro-1) [1] | Founder [1] | Programma Labs [1] | 1 |
+| 386 | [Prakhar Dixit](#386-prakhar-dixit-1) [1] | Partner [1] | McKinsey [1] | 2 |
+| 387 | [Pranav Maheshwari](#387-pranav-maheshwari-1) [1] | Director of Integrations [1] | Edge And Node [1] | 1 |
+| 388 | [Pranay Bhatia](#388-pranay-bhatia-1) [1] | AI engineer and product leader [1] | Fireworks AI [1] | 1 |
+| 389 | [Preetika Bhateja](#389-preetika-bhateja-1) [1] | Product Manager [1] | Google [1] | 1 |
+| 390 | [Prerna Kakkar](#390-prerna-kakkar-1) [1] | Senior Software Engineer [1] | Google [1] | 1 |
+| 391 | [Priyanka Phatak](#391-priyanka-phatak-1) [1] | Member of Technical Staff [1] | Anthropic [1] | 4 |
+| 392 | [Prukalpa Sankar](#392-prukalpa-sankar-1) [1] | Founder & Co-CEO [1] | Atlan [1] | 1 |
+| 393 | [Qianru Lao](#393-qianru-lao-1) [1] | Member of Technical Staff [1] | OpenAI [1] | 1 |
+| 394 | [Qingyang Wu](#394-qingyang-wu-1) [1] | Staff Research Scientist [1] | Together AI [1] | 1 |
+| 395 | [Rachna Srivastava](#395-rachna-srivastava-1) [1] | Enterprise Architect [1] | DFPI [1] | 1 |
+| 396 | [Rafael Levi](#396-rafael-levi-1) [1] | DevRel [1] | Bright Data [1] | 2 |
+| 397 | [Rafal Wilinski](#397-rafal-wilinski-1) [1] | Founding Engineer [1] | Runlayer [1] | 1 |
+| 398 | [Raghav Saboo](#398-raghav-saboo-1) [1] | Staff Machine Learning Engineer, Tech Lead Search & Personalization [1] | DoorDash, Inc. [1] | 1 |
+| 399 | [Ramana Siddanth Emani](#399-ramana-siddanth-emani-1) [1] | Data Scientist [1] | Auditoria AI [1] | 1 |
+| 400 | [Rania Khalaf](#400-rania-khalaf-1) [1] | Chief AI Officer [1] | WSO2 [1] | 1 |
+| 401 | [Rashi Agrawal](#401-rashi-agrawal-1) [1] | Head of Agentic AI [1] | Hinge Health [1] | 1 |
+| 402 | [Rayan Garg](#402-rayan-garg-1) [1] | CEO [1] | Theta Software [1] | 1 |
+| 403 | [Raymond Feng](#403-raymond-feng-1) [1] | Researcher [1] | Applied Compute [1] | 1 |
+| 404 | [Rémi Louf](#404-rmi-louf-1) [1] | CEO [1] | .txt [1] | 1 |
+| 405 | [Remy Guercio](#405-remy-guercio-1) [1] | Strategic Projects [1] | Tailscale [1] | 1 |
+| 406 | [Richard Socher](#406-richard-socher-1) [1] | CEO & Co-Founder [1] | You.com / Recursive Superintelligence [1] | 1 |
+| 407 | [Rishab Kumar](#407-rishab-kumar-1) [1] | Staff Developer Evangelist [1] | Twilio [1] | 1 |
+| 408 | [Rita Zhang](#408-rita-zhang-1) [1] | — [1] | Coreweave [1] | 1 |
+| 409 | [Ritvik Pandya](#409-ritvik-pandya-1) [1] | Engineering Manager [1] | JP Morgan Chase [1] | 1 |
+| 410 | [Rob Cheung](#410-rob-cheung-1) [1] | Co-founder [1] | Zo Computer [1] | 1 |
+| 411 | [Rob Wachen](#411-rob-wachen-1) [1] | Co-founder and President [1] | Etched [1] | 1 |
+| 412 | [Robert Brennan](#412-robert-brennan-1) [1] | CEO [1] | OpenHands [1] | 1 |
+| 413 | [Robert McHardy](#413-robert-mchardy-1) [1] | Pre-training Lead [1] | poolside [1] | 1 |
+| 414 | [Roberto Milev](#414-roberto-milev-1) [1] | Chief Architect [1] | Navan [1] | 1 |
+| 415 | [Rodrigo Coelho](#415-rodrigo-coelho-1) [1] | CEO [1] | Edge & Node [1] | 1 |
+| 416 | [Roland Gavrilescu](#416-roland-gavrilescu-1) [1] | Co-Founder, CEO [1] | Introspection [1] | 1 |
+| 417 | [Romain Huet](#417-romain-huet-1) [1] | Head of Developer Experience [1] | OpenAI [1] | 1 |
+| 418 | [Ronak Chokshi](#418-ronak-chokshi-1) [1] | Director of Product Marketing [1] | Microsoft [1] | 1 |
+| 419 | [Ronak Malde](#419-ronak-malde-1) [1] | Co-Founder and CEO [1] | Trajectory [1] | 1 |
+| 420 | [Ross Taylor](#420-ross-taylor-1) [1] | CEO [1] | General Reasoning [1] | 1 |
+| 421 | [Ross Wollman](#421-ross-wollman-1) [1] | — [1] | — [1] | 1 |
+| 422 | [Rowan Christmas](#422-rowan-christmas-1) [1] | Staff Product Manager [1] | Docker [1] | 1 |
+| 423 | [Rustem Feyzkhanov](#423-rustem-feyzkhanov-1) [1] | Senior Engineering Manager - AI Platform [1] | Snorkel AI [1] | 1 |
+| 424 | [Ryan Cooke](#424-ryan-cooke-1) [1] | — [1] | WorkOS [1] | 1 |
+| 425 | [Ryan Dahl](#425-ryan-dahl-1) [1] | CEO [1] | Deno [1] | 1 |
+| 426 | [Ryan Marten](#426-ryan-marten-1) [1] | Member of Technical Staff [1] | Laude Institute [1] | 1 |
+| 427 | [Sachin Malhotra](#427-sachin-malhotra-1) [1] | Member of Technical Staff [1] | Anthropic [1] | 1 |
+| 428 | [Safia Abdalla](#428-safia-abdalla-1) [1] | Software Engineer [1] | Warp [1] | 1 |
+| 429 | [Sai Krishna Rallabandi](#429-sai-krishna-rallabandi-1) [1] | Director, Data Science [1] | Fidelity Investments [1] | 1 |
+| 430 | [Sait Izmit](#430-sait-izmit-1) [1] | Principal Product Manager [1] | Snowflake [1] | 1 |
+| 431 | [Salil Subbakrishna](#431-salil-subbakrishna-1) [1] | — [1] | GitHub [1] | 1 |
+| 432 | [Salman Munaf](#432-salman-munaf-1) [1] | Lead Site Reliability Engineer [1] | TikTok [1] | 1 |
+| 433 | [Sam Bhagwat](#433-sam-bhagwat-1) [1] | Founder/CEO [1] | Mastra [1] | 1 |
+| 434 | [Sam Parsons](#434-sam-parsons-1) [1] | Senior Staff Software Engineer and Tech Lead [1] | PayPal Braintree [1] | 1 |
+| 435 | [Samridhi Vaid](#435-samridhi-vaid-1) [1] | Senior Machine Learning Engineer [1] | Towards AI [1] | 1 |
+| 436 | [Samuel Colvin](#436-samuel-colvin-1) [1] | Founder & CEO [1] | Pydantic [1] | 1 |
+| 437 | [Samuel Denton](#437-samuel-denton-1) [1] | Platform Research Lead [1] | Applied Compute [1] | 1 |
+| 438 | [Sandhya Subramani](#438-sandhya-subramani-1) [1] | Senior Developer Advocate, GenAI [1] | Amazon Web Services [1] | 3 |
+| 439 | [Sangwu Lee](#439-sangwu-lee-1) [1] | AI Lead [1] | Krea.ai [1] | 1 |
+| 440 | [Saoud Rizwan](#440-saoud-rizwan-1) [1] | Founder & CEO [1] | Cline [1] | 1 |
+| 441 | [Sara Hooker](#441-sara-hooker-1) [1] | CEO, and Co-founder [1] | Adaption [1] | 1 |
+| 442 | [Sarah Sachs](#442-sarah-sachs-1) [1] | Eng Lead, AI [1] | Notion [1] | 1 |
+| 443 | [Sarah Sanders](#443-sarah-sanders-1) [1] | Context Engineer [1] | PostHog [1] | 1 |
+| 444 | [Sarah Simionescu](#444-sarahsimionescu-1) [1] | — [1] | Composio [1] | 1 |
+| 445 | [Sarthak Aggarwal](#445-sarthak-aggarwal-1) [1] | Co-founder [1] | Decawork [1] | 1 |
+| 446 | [Saul Howard](#446-saul-howard-1) [1] | VP Engineering [1] | Anterior [1] | 1 |
+| 447 | [Sean Cai](#447-sean-cai-1) [1] | CEO [1] | Independent / State of Data [1] | 1 |
+| 448 | [Sean Sodha](#448-sean-sodha-1) [1] | Senior Product Manager [1] | NVIDIA [1] | 1 |
+| 449 | [Sebastian Fox](#449-sebastian-fox-1) [1] | CEO [1] | Composo [1] | 1 |
+| 450 | [Serena Ge](#450-serena-ge-1) [1] | CEO [1] | Datacurve [1] | 1 |
+| 451 | [Shafik Quoraishee](#451-shafik-quoraishee-1) [1] | Staff Engineer [1] | The New York Times [1] | 1 |
+| 452 | [Shane Wolf](#452-shane-wolf-1) [1] | — [1] | Atlassian [1] | 1 |
+| 453 | [Shashank Goyal](#453-shashank-goyal-1) [1] | Head of Provider Ecosystem [1] | OpenRouter [1] | 1 |
+| 454 | [Shawn Chan](#454-shawn-chan-1) [1] | Vice President [1] | China Resources Holdings [1] | 1 |
+| 455 | [Sheilah Kirui](#455-sheilah-kirui-1) [1] | — [1] | NVIDIA [1] | 1 |
+| 456 | [Shlok Khemani](#456-shlok-khemani-1) [1] | Independent Researcher [1] | Independent [1] | 1 |
+| 457 | [Shreya Rajpal](#457-shreya-rajpal-1) [1] | CEO [1] | Snowglobe [1] | 1 |
+| 458 | [Shruti Arora](#458-shruti-arora-1) [1] | Member of Technical Staff and Customer Engagement [1] | Amazon AGI Lab [1] | 1 |
+| 459 | [Shu Fang](#459-shu-fang-1) [1] | Software Engineer [1] | Two Sigma Investments [1] | 1 |
+| 460 | [Shubhankar Srivastava](#460-shubhankar-srivastava-1) [1] | Founding Sales Engineer [1] | Browserbase [1] | 1 |
+| 461 | [Simon Eskildsen](#461-simon-eskildsen-1) [1] | CEO and co-founder [1] | turbopuffer [1] | 1 |
+| 462 | [Simran Arora](#462-simran-arora-1) [1] | Computer Science PhD Student [1] | Stanford University [1] | 1 |
+| 463 | [Sitanshu Gupta](#463-sitanshu-gupta-1) [1] | — [1] | Coreweave [1] | 1 |
+| 464 | [Sonar](#464-sonar-1) [1] | — [1] | — [1] | 1 |
+| 465 | [Soumya Gupta](#465-soumya-gupta-1) [1] | ML Engineer [1] | Uber [1] | 1 |
+| 466 | [Stefania Druga](#466-stefania-druga-1) [1] | Research Scientist [1] | Sakana.ai [1] | 1 |
+| 467 | [Stephanie Jarmak](#467-stephanie-jarmak-1) [1] | Agent Advocate [1] | Sourcegraph [1] | 1 |
+| 468 | [Stephen Chin](#468-stephen-chin-1) [1] | VP of Developer Relations [1] | Neo4j [1] | 1 |
+| 469 | [Steve Yegge](#469-steve-yegge-1) [1] | Icon [1] | Gas Town [1] | 1 |
+| 470 | [Subbiah Sethuraman](#470-subbiah-sethuraman-1) [1] | Partner [1] | ZS Associates [1] | 1 |
+| 471 | [Suchet Bargoti](#471-suchet-bargoti-1) [1] | Director of Inspection and Mapping [1] | Skydio [1] | 1 |
+| 472 | [Sujee Maniyam](#472-sujee-maniyam-1) [1] | Developer Advocate [1] | Nebius [1] | 1 |
+| 473 | [Sumanyu Sharma](#473-sumanyu-sharma-1) [1] | Founder/CEO [1] | Hamming AI [1] | 1 |
+| 474 | [Sunny Rekhi](#474-sunny-rekhi-1) [1] | FDE CTO [1] | Decagon [1] | 1 |
+| 475 | [Suraj Gupta](#475-suraj-gupta-1) [1] | Software Engineer [1] | Warp [1] | 1 |
+| 476 | [Susheem Koul](#476-susheem-koul-1) [1] | Senior Software Engineer [1] | Microsoft [1] | 1 |
+| 477 | [Swaroop Chitlur Haridas](#477-swaroop-chitlur-haridas-1) [1] | — [1] | DoorDash [1] | 1 |
+| 478 | [swyx](#478-swyx-1) [1] | Curator [1] | Latent Space / AI Engineer [1] | 6 |
+| 479 | [Tanay Varshney](#479-tanay-varshney-1) [1] | Principal Engineer [1] | NVIDIA [1] | 2 |
+| 480 | [Tanmai Gopal](#480-tanmai-gopal-1) [1] | CEO/cofounder [1] | PromptQL [1] | 1 |
+| 481 | [Tanmay Sah](#481-tanmay-sah-1) [1] | Senior Quantitative Modeler [1] | Zions Bancorporation [1] | 2 |
+| 482 | [Tariq Shaukat](#482-tariq-shaukat-1) [1] | Chief Executive Officer [1] | Sonar [1] | 1 |
+| 483 | [Tarun Sunkaraneni](#483-tarun-sunkaraneni-1) [1] | Browser Use [1] | Amazon AGI [1] | 1 |
+| 484 | [Tejas Bhakta](#484-tejas-bhakta-1) [1] | CEO [1] | Morph [1] | 1 |
+| 485 | [Tejas Kumar](#485-tejas-kumar-1) [1] | AI Engineer [1] | IBM [1] | 1 |
+| 486 | [Tereza Tížková](#486-tereza-tkov-1) [1] | Growth [1] | Factory [1] | 1 |
+| 487 | [Thais Castello Branco](#487-thais-castello-branco-1) [1] | Founder & CEO [1] | Taste Labs [1] | 2 |
+| 488 | [Thariq Shihipar](#488-thariq-shihipar-1) [1] | Claude Code [1] | Anthropic [1] | 1 |
+| 489 | [Theo Browne](#489-theo-browne-1) [1] | Founder/YouTuber [1] | T3 Tools & YouTuber [1] | 2 |
+| 490 | [Thom Wolf](#490-thom-wolf-1) [1] | Co-founder and CSO [1] | Hugging Face [1] | 2 |
+| 491 | [Thor 雷神 Schaeff](#491-thor--schaeff-1) [1] | Member of the Technical Staff (DevX) at Google DeepMind [1] | Google DeepMind [1] | 5 |
+| 492 | [Thorsten Hans](#492-thorsten-hans-1) [1] | Senior Developer Advocate [1] | Akamai [1] | 1 |
+| 493 | [Tim Sweeney](#493-tim-sweeney-1) [1] | Principal Engineer [1] | Weights & Biases by CoreWeave [1] | 1 |
+| 494 | [Tina Manghnani](#494-tina-manghnani-1) [1] | Product Manager [1] | Microsoft [1] | 2 |
+| 495 | [Tisha Chawla](#495-tisha-chawla-1) [1] | Software Engineer [1] | Microsoft [1] | 1 |
+| 496 | [Todd Fisher](#496-todd-fisher-1) [1] | Head of Engineering Launching 0-1 startups [1] | Philo Ventures [1] | 1 |
+| 497 | [Tom Ouyang](#497-tom-ouyang-1) [1] | Principal Engineer [1] | Google DeepMind [1] | 1 |
+| 498 | [Tomás Hernando Kofman](#498-toms-hernando-kofman-1) [1] | CEO & Co-Founder [1] | Not Diamond [1] | 1 |
+| 499 | [Tony Fabrikant](#499-tony-fabrikant-1) [1] | Co-founder [1] | CoupleWork AI [1] | 1 |
+| 500 | [Tushar Jain](#500-tushar-jain-1) [1] | EVP of Engineering [1] | Docker [1] | 1 |
+| 501 | [Tyler Gillam](#501-tyler-gillam-1) [1] | Senior Software Engineer II - Agentic AI [1] | Digital Ocean [1] | 1 |
+| 502 | [Uday Kanagala](#502-uday-kanagala-1) [1] | Software Architect [1] | Navan [1] | 1 |
+| 503 | [Uday Kiran Medisetty](#503-uday-kiran-medisetty-1) [1] | Distinguished Engineer [1] | Uber [1] | 1 |
+| 504 | [Udi Menkes](#504-udi-menkes-1) [1] | Principal Product Manager [1] | Intuit [1] | 1 |
+| 505 | [Uri Rolls](#505-uri-rolls-1) [1] | CEO [1] | Arithmetic [1] | 1 |
+| 506 | [Vaibhav Gupta](#506-vaibhav-gupta-1) [1] | CEO [1] | Boundary [1] | 1 |
+| 507 | [Valeria Wu Fon](#507-valeria-wu-fon-1) [1] | Product Manager [1] | Google DeepMind [1] | 1 |
+| 508 | [Varun Krovvidi](#508-varun-krovvidi-1) [1] | — [1] | — [1] | 1 |
+| 509 | [Varun Pant](#509-varun-pant-1) [1] | Builder, NeuroSymbolic AI [1] | AWS [1] | 1 |
+| 510 | [Varun Shenoy](#510-varun-shenoy-1) [1] | Cofounder [1] | Long Lake [1] | 1 |
+| 511 | [Varun Singh](#511-varun-singh-1) [1] | Pre-Training Lead [1] | Arcee AI [1] | 1 |
+| 512 | [Vasant Kearney](#512-vasant-kearney-1) [1] | CEO and Founder [1] | Onlay [1] | 1 |
+| 513 | [Vasuman Moza](#513-vasuman-moza-1) [1] | Founder & CEO [1] | Varick Agents [1] | 1 |
+| 514 | [Vayum Arora](#514-vayum-arora-1) [1] | Growth [1] | Weco AI [1] | 1 |
+| 515 | [Venky B](#515-venky-b-1) [1] | Founder & CEO [1] | Plivo [1] | 1 |
+| 516 | [Vincent Weisser](#516-vincent-weisser-1) [1] | Co-founder & CEO [1] | Prime Intellect [1] | 2 |
+| 517 | [Vincent Wendy](#517-vincent-wendy-1) [1] | Senior Creative Designer [1] | AI Engineer [1] | 1 |
+| 518 | [Vinoo Ganesh](#518-vinoo-ganesh-1) [1] | CEO & Co-Founder [1] | Kepler [1] | 2 |
+| 519 | [Vinoth Govindarajan](#519-vinoth-govindarajan-1) [1] | Member of Technical Staff [1] | OpenAI [1] | 1 |
+| 520 | [Viren Baraiya](#520-viren-baraiya-1) [1] | Co-Founder and CTO [1] | Orkes [1] | 1 |
+| 521 | [Vivek Muppalla](#521-vivek-muppalla-1) [1] | VP AI Engineering [1] | Hippocratic AI [1] | 1 |
+| 522 | [Vivek Trivedy](#522-vivek-trivedy-1) [1] | Head of Applied Research [1] | LangChain [1] | 1 |
+| 523 | [Vlad Luzin](#523-vlad-luzin-1) [1] | Founder [1] | Band.ai [1] | 2 |
+| 524 | [Vyas A](#524-vyas-a-1) [1] | Head of Product [1] | Plivo [1] | 1 |
+| 525 | [Walden Yan](#525-walden-yan-1) [1] | Co-founder & CPO [1] | Cognition [1] | 2 |
+| 526 | [Wallon Walusayi](#526-wallon-walusayi-1) [1] | — [1] | Qodo [1] | 2 |
+| 527 | [Wei-Lin Chiang](#527-wei-lin-chiang-1) [1] | Co-founder & CTO [1] | Arena [1] | 1 |
+| 528 | [Whitney Lee](#528-whitney-lee-1) [1] | Senior Technical Advocate [1] | Datadog [1] | 1 |
+| 529 | [Will Bond](#529-will-bond-1) [1] | Staff Software Engineer [1] | Uber [1] | 1 |
+| 530 | [Will Brown](#530-will-brown-1) [1] | Researcher [1] | Prime Intellect [1] | 2 |
+| 531 | [Will Bryk](#531-will-bryk-1) [1] | CEO [1] | Exa [1] | 1 |
+| 532 | [Will Lyon](#532-will-lyon-1) [1] | Product Manager [1] | Neo4j [1] | 1 |
+| 533 | [Willem Pienaar](#533-willem-pienaar-1) [1] | Co-founder and CTO [1] | Cleric [1] | 1 |
+| 534 | [Wolfram Ravenwolf](#534-wolfram-ravenwolf-1) [1] | AI Evangelist [1] | Weights & Biases by CoreWeave [1] | 1 |
+| 535 | [XiangMing Sun](#535-xiangming-sun-1) [1] | — [1] | Unitree [1] | 1 |
+| 536 | [Yogendra Miraje](#536-yogendra-miraje-1) [1] | Principal AI Engineer [1] | FactSet [1] | 1 |
+| 537 | [Yohan Raju](#537-yohan-raju-1) [1] | Pre-Sales Expert [1] | Bright Data [1] | 1 |
+| 538 | [Yohei Nakajima](#538-yohei-nakajima-1) [1] | Managing Partner [1] | Untapped Capital [1] | 1 |
+| 539 | [Yoni Michael](#539-yoni-michael-1) [1] | Co-Founder [1] | typedef [1] | 1 |
+| 540 | [Yu Su](#540-yu-su-1) [1] | Co-founder and CEO [1] | NeoCognition [1] | 1 |
+| 541 | [Yubo Wang](#541-yubo-wang-1) [1] | LLM Inference [1] | Together AI [1] | 1 |
+| 542 | [Yuchen Fama](#542-yuchen-fama-1) [1] | Senior Principal Product Manager [1] | Red Hat [1] | 1 |
+| 543 | [Yunmo Koo](#543-yunmo-koo-1) [1] | Founding Engineer [1] | FriendliAI [1] | 1 |
+| 544 | [Yuval Belfer](#544-yuval-belfer-1) [1] | Sr. Developer Advocate [1] | AI21 [1] | 2 |
+| 545 | [Yves Raimond](#545-yves-raimond-1) [1] | SVP/GM, AI & Personalization [1] | Spotify [1] | 1 |
+| 546 | [Zach Blumenfeld](#546-zach-blumenfeld-1) [1] | AI Research Engineer [1] | Neo4j [1] | 1 |
+| 547 | [Zach Lloyd](#547-zach-lloyd-1) [1] | Founder and CEO [1] | Warp [1] | 1 |
+| 548 | [Zack Proser](#548-zack-proser-1) [1] | AI Engineer, Applied AI [1] | WorkOS [1] | 1 |
+| 549 | [Zain Hasan](#549-zain-hasan-1) [1] | Staff AI/ML Engineer - DX [1] | Together AI [1] | 1 |
+| 550 | [Zhengyao Jiang](#550-zhengyao-jiang-1) [1] | CEO & Cofounder [1] | Weco AI [1] | 2 |
+| 551 | [Zixuan Li](#551-zixuan-li-1) [1] | Head of Z.ai [1] | Z.ai [1] | 1 |
+| 552 | [Zubin Aysola](#552-zubin-aysola-1) [1] | Senior Software Engineer Weave [1] | Weights & Biases by CoreWeave [1] | 1 |
+
 ### 1. Aaron Stanley [1]
 
 - **Role:** CISO [1]
