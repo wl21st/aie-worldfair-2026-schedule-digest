@@ -7,37 +7,37 @@
   "tags": [],
   "thumbnails": [
     {
-      "url": "https://i.ytimg.com/vi/OL7kfezynJM/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLAsGvupuJm58IF6SgCp7dBpCmakVQ",
+      "url": "https://i.ytimg.com/vi/5dCAmSDOAjI/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLCTtOvdr75y5bILdkP5DU1jlNRtog",
       "height": 94,
       "width": 168,
       "id": "0",
       "resolution": "168x94"
     },
     {
-      "url": "https://i.ytimg.com/vi/OL7kfezynJM/hqdefault.jpg?sqp=-oaymwEWCMQBEG5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLAfLJ2YRBR0XG1FC9UQhwSTPxFOcA",
+      "url": "https://i.ytimg.com/vi/5dCAmSDOAjI/hqdefault.jpg?sqp=-oaymwEWCMQBEG5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLDkJBSjgxtbsIsr0togCjzRTmMzsg",
       "height": 110,
       "width": 196,
       "id": "1",
       "resolution": "196x110"
     },
     {
-      "url": "https://i.ytimg.com/vi/OL7kfezynJM/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLB3hk76a3NzosINqO-fn2IjSBIupQ",
+      "url": "https://i.ytimg.com/vi/5dCAmSDOAjI/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDpCPLJOkmIBORe0k9nT7BOwbbTNg",
       "height": 138,
       "width": 246,
       "id": "2",
       "resolution": "246x138"
     },
     {
-      "url": "https://i.ytimg.com/vi/OL7kfezynJM/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDHXZPtTDEr-U2k9cD2Q3m-WxtABw",
+      "url": "https://i.ytimg.com/vi/5dCAmSDOAjI/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLA5nm-CyV7TRNcFPZIL68sX6frOHQ",
       "height": 188,
       "width": 336,
       "id": "3",
       "resolution": "336x188"
     }
   ],
-  "modified_date": "20260810",
-  "view_count": 3820,
-  "playlist_count": 107,
+  "modified_date": "20260819",
+  "view_count": 4632,
+  "playlist_count": 128,
   "channel": "AI Engineer",
   "channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
   "uploader_id": "@aiDotEngineer",
@@ -47,31 +47,955 @@
   "_type": "playlist",
   "entries": [
     {
-      "title": "Multiplayer agentic engineering — Arjun Singh, Superconductor",
+      "title": "The Next Medium: Why Real-Time Interactive Video Changes Everything — Ahmed Ahres, Reactor",
       "thumbnails": [
         {
-          "url": "https://i.ytimg.com/vi/OL7kfezynJM/hqdefault_custom_3.jpg?sqp=CNit5NMG-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAWhHZGl_qUrlyD3KnccSaQ5wdlHw",
+          "url": "https://i.ytimg.com/vi/5dCAmSDOAjI/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAu7qD0QNzqqHG_KsjDyjw2ePEBNw",
           "height": 94,
           "width": 168
         },
         {
-          "url": "https://i.ytimg.com/vi/OL7kfezynJM/hqdefault_custom_3.jpg?sqp=CNit5NMG-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAKn1ZnVQAIQpeXx5AownVmx_00AA",
+          "url": "https://i.ytimg.com/vi/5dCAmSDOAjI/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLC3DVojRkk-Rv1ZogDCf680V-Jn8Q",
           "height": 110,
           "width": 196
         },
         {
-          "url": "https://i.ytimg.com/vi/OL7kfezynJM/hqdefault_custom_3.jpg?sqp=CNit5NMG-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA5v6e3j1pwQcFAfBr6wuQ5Pi9pUw",
+          "url": "https://i.ytimg.com/vi/5dCAmSDOAjI/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA5uuY8Lmb84Qm_8PMcUjvMOg5kPw",
           "height": 138,
           "width": 246
         },
         {
-          "url": "https://i.ytimg.com/vi/OL7kfezynJM/hqdefault_custom_3.jpg?sqp=CNit5NMG-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAk8Vp58pY-bfwgNC5A5OkvC3Ec4w",
+          "url": "https://i.ytimg.com/vi/5dCAmSDOAjI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAyz4cg_RcSW804ln9ujwglt26g4g",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1050,
+      "view_count": 1300,
+      "timestamp": null,
+      "live_status": null,
+      "availability": null,
+      "channel_url": "https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader_url": "https://www.youtube.com/@aiDotEngineer",
+      "creators": null,
+      "channel": "AI Engineer",
+      "channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader": "AI Engineer",
+      "uploader_id": "@aiDotEngineer",
+      "ie_key": "Youtube",
+      "id": "5dCAmSDOAjI",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=5dCAmSDOAjI",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Infra behind Krea 2: How to train and serve at scale — Gabriel Jorge Menezes, Krea.ai",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/byn9PURoBNY/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBwk9LNN4ZTw4RRdLVdfuLUXPs6dg",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/byn9PURoBNY/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBTu814FYVbOwN2xVt_-7imzN7lrw",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/byn9PURoBNY/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD0LMAScvQERcvFAbOhLTPcd_rM5A",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/byn9PURoBNY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA3GDyK2Q8VhAZvRVLvilsrbdb9Pw",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1015,
+      "view_count": 1000,
+      "timestamp": null,
+      "live_status": null,
+      "availability": null,
+      "channel_url": "https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader_url": "https://www.youtube.com/@aiDotEngineer",
+      "creators": null,
+      "channel": "AI Engineer",
+      "channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader": "AI Engineer",
+      "uploader_id": "@aiDotEngineer",
+      "ie_key": "Youtube",
+      "id": "byn9PURoBNY",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=byn9PURoBNY",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Generative Video at the Speed of Light — Keegan McCallum, uRun",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/Xln-On3syJk/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAD8r4XMVwENWwVy8qGXz8LQSKXlA",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Xln-On3syJk/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDVgWsA5lnVoWbo--gJu3pEfZaZag",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Xln-On3syJk/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCIiwZiJKduO811jaon-uZx1d-ijA",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Xln-On3syJk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCA0qhpqCwnsADv6v0jAZ8AxD6NiQ",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 523,
+      "view_count": 1500,
+      "timestamp": null,
+      "live_status": null,
+      "availability": null,
+      "channel_url": "https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader_url": "https://www.youtube.com/@aiDotEngineer",
+      "creators": null,
+      "channel": "AI Engineer",
+      "channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader": "AI Engineer",
+      "uploader_id": "@aiDotEngineer",
+      "ie_key": "Youtube",
+      "id": "Xln-On3syJk",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=Xln-On3syJk",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Voice agents with Realtime Video — Sidney Primas, LemonSlice",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/z1dqv74SpUs/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBee7bqSrt7QbIguq5s_mqU8cDGiQ",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/z1dqv74SpUs/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBM_TGdLvWBXZtNegWG2LZNwPeBrw",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/z1dqv74SpUs/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB1yP06-ycSdUmL-iIQhSAMnefDTA",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/z1dqv74SpUs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAcFf8oJw_ouhYSOsUARQLUDTOWOg",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1596,
+      "view_count": 1600,
+      "timestamp": null,
+      "live_status": null,
+      "availability": null,
+      "channel_url": "https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader_url": "https://www.youtube.com/@aiDotEngineer",
+      "creators": null,
+      "channel": "AI Engineer",
+      "channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader": "AI Engineer",
+      "uploader_id": "@aiDotEngineer",
+      "ie_key": "Youtube",
+      "id": "z1dqv74SpUs",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=z1dqv74SpUs",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "While my guitar gently speaks — Todd Fisher, Philo Ventures",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/E_Txocq-Lrw/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDU-xUQO1K701gzhC8HOJmQ0xBZVw",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/E_Txocq-Lrw/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA7yaXRuj8OpW3OF7TiD55tsn02ww",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/E_Txocq-Lrw/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAY_E0zSZZF-FH3LdY4IdYaZULLXA",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/E_Txocq-Lrw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCahHiLjlMufTuyJAuUNWYIbahYNQ",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1115,
+      "view_count": 771,
+      "timestamp": null,
+      "live_status": null,
+      "availability": null,
+      "channel_url": "https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader_url": "https://www.youtube.com/@aiDotEngineer",
+      "creators": null,
+      "channel": "AI Engineer",
+      "channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader": "AI Engineer",
+      "uploader_id": "@aiDotEngineer",
+      "ie_key": "Youtube",
+      "id": "E_Txocq-Lrw",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=E_Txocq-Lrw",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "The Next Game Engine Won't Have a Manual — Arturo Nunez, Nereu",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/VBCDhRrvlYo/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCpmO-tkbQzjQLM9OEGhL_jjUbDRQ",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/VBCDhRrvlYo/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBrH0Zxb04Q081gJjz90lj1SimeEQ",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/VBCDhRrvlYo/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCZgiLnm-aSBNdTKrcsLsSRzLqJcw",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/VBCDhRrvlYo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCMPUkuOJ1nZOUpQjTfDNA6JE2VYQ",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1173,
+      "view_count": 859,
+      "timestamp": null,
+      "live_status": null,
+      "availability": null,
+      "channel_url": "https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader_url": "https://www.youtube.com/@aiDotEngineer",
+      "creators": null,
+      "channel": "AI Engineer",
+      "channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader": "AI Engineer",
+      "uploader_id": "@aiDotEngineer",
+      "ie_key": "Youtube",
+      "id": "VBCDhRrvlYo",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=VBCDhRrvlYo",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Building an Agentic Video Editor for Mass Consumer — Ekaterina Deyneka, Reelful",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/pPj_tjlvYjA/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCcwXQl9q4vfXA-XkDgBuYt0KxOSA",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/pPj_tjlvYjA/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDTQr45dFdAIZNkMlBhNL5wf1KeGA",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/pPj_tjlvYjA/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCg9ttvfIfyBXw5UcQGa-qW7Iy7Fw",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/pPj_tjlvYjA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBNcJIIwsObTYtc9CFxCOn-Z-uJXA",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 765,
+      "view_count": 1000,
+      "timestamp": null,
+      "live_status": null,
+      "availability": null,
+      "channel_url": "https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader_url": "https://www.youtube.com/@aiDotEngineer",
+      "creators": null,
+      "channel": "AI Engineer",
+      "channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader": "AI Engineer",
+      "uploader_id": "@aiDotEngineer",
+      "ie_key": "Youtube",
+      "id": "pPj_tjlvYjA",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=pPj_tjlvYjA",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Training Krea 2: What matters in generative model training — Sangwu Lee, Krea.ai",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/-tviRdpmHvs/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAmL6ib__P3HrIun02pvMyZZ3UjVQ",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/-tviRdpmHvs/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAISkPYHKohKazZ3cqdlaXu5PscsA",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/-tviRdpmHvs/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA-7hIP7rUdkAVf1yAd6hFM9HW8IA",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/-tviRdpmHvs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAZNDUuOqlP9hTbSIjRbz9A7HHTbQ",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1306,
+      "view_count": 744,
+      "timestamp": null,
+      "live_status": null,
+      "availability": null,
+      "channel_url": "https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader_url": "https://www.youtube.com/@aiDotEngineer",
+      "creators": null,
+      "channel": "AI Engineer",
+      "channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader": "AI Engineer",
+      "uploader_id": "@aiDotEngineer",
+      "ie_key": "Youtube",
+      "id": "-tviRdpmHvs",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=-tviRdpmHvs",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Context Engineering in 2026 — Louis-François Bouchard, Omar Solano & Samridhi Vaid, Towards AI",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/WP3hjUXd918/hqdefault_custom_2.jpg?sqp=CMydpdQG-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAwpJEazLLAF1KgFazR95Fn28SD4A",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/WP3hjUXd918/hqdefault_custom_2.jpg?sqp=CMydpdQG-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAFReIoWJQIB3ItePatTaN9GbAjaQ",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/WP3hjUXd918/hqdefault_custom_2.jpg?sqp=CMydpdQG-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBuTYSO3X9u_NMCx4W8BbRoKVi_-g",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/WP3hjUXd918/hqdefault_custom_2.jpg?sqp=CMydpdQG-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBsZfwdLNvW_lQRSr3cIdvqxvWGFg",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 3806,
+      "view_count": 4900,
+      "timestamp": null,
+      "live_status": null,
+      "availability": null,
+      "channel_url": "https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader_url": "https://www.youtube.com/@aiDotEngineer",
+      "creators": null,
+      "channel": "AI Engineer",
+      "channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader": "AI Engineer",
+      "uploader_id": "@aiDotEngineer",
+      "ie_key": "Youtube",
+      "id": "WP3hjUXd918",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=WP3hjUXd918",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Improving Agents is a Data Mining Problem — Vivek Trivedy, LangChain",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/CvRngaQZQ3Y/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDI8KIvWw8j5kk3opLe1PgXH3O-5w",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/CvRngaQZQ3Y/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDO5bLGLH3iXZvuCxOHIBv5YR-IOA",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/CvRngaQZQ3Y/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDS5m0XDKoMrG3stk2cNlNy9NKGQw",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/CvRngaQZQ3Y/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD3f3dFoC-L9NjG5zK_yBKPI6Hjaw",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1202,
+      "view_count": 9400,
+      "timestamp": null,
+      "live_status": null,
+      "availability": null,
+      "channel_url": "https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader_url": "https://www.youtube.com/@aiDotEngineer",
+      "creators": null,
+      "channel": "AI Engineer",
+      "channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader": "AI Engineer",
+      "uploader_id": "@aiDotEngineer",
+      "ie_key": "Youtube",
+      "id": "CvRngaQZQ3Y",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=CvRngaQZQ3Y",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Lessons from Studying Every Memory System — Shlok Khemani, Independent",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/5ZGyKWjQDr0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA4Te89ZhAbi3laNatjjz5wIfOQdg",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/5ZGyKWjQDr0/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAoTbqOvq9NopmLajNJy8AcAFLw_w",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/5ZGyKWjQDr0/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAJXnbjo5QNK9SR3egcnvb2SERoZA",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/5ZGyKWjQDr0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB5ResC9aj28O-QtDYN1BoD41Wkuw",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1171,
+      "view_count": 2800,
+      "timestamp": null,
+      "live_status": null,
+      "availability": null,
+      "channel_url": "https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader_url": "https://www.youtube.com/@aiDotEngineer",
+      "creators": null,
+      "channel": "AI Engineer",
+      "channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader": "AI Engineer",
+      "uploader_id": "@aiDotEngineer",
+      "ie_key": "Youtube",
+      "id": "5ZGyKWjQDr0",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=5ZGyKWjQDr0",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Designing Agents (The Floor Is the Frontier) — Ben Hylak, Raindrop",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/jHMiYtjoJfA/hqdefault_custom_1.jpg?sqp=CMydpdQG-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAb9T8qFGvoW9WsTGU0VTp0WydVoA",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/jHMiYtjoJfA/hqdefault_custom_1.jpg?sqp=CMydpdQG-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA3hlpZxZ3QXXxWyyCtZH-keYUxCA",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/jHMiYtjoJfA/hqdefault_custom_1.jpg?sqp=CMydpdQG-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBreOeBIsPB7KF9PtAAco8xllF5vA",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/jHMiYtjoJfA/hqdefault_custom_1.jpg?sqp=CMydpdQG-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCRZ0uHgwNkVVB6xBZ2qjHsgi7CWA",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1186,
+      "view_count": 1500,
+      "timestamp": null,
+      "live_status": null,
+      "availability": null,
+      "channel_url": "https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader_url": "https://www.youtube.com/@aiDotEngineer",
+      "creators": null,
+      "channel": "AI Engineer",
+      "channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader": "AI Engineer",
+      "uploader_id": "@aiDotEngineer",
+      "ie_key": "Youtube",
+      "id": "jHMiYtjoJfA",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=jHMiYtjoJfA",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Bringing Continual Learning into Enterprises — Samuel Denton, Applied Compute",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/ZTA0GwpAUak/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAvcv7oq_46CnxyGl9IZfgKj7MF7Q",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/ZTA0GwpAUak/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCcEfB7iNMtTnsTDJ1B9np5Hzn_-w",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/ZTA0GwpAUak/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCJUrZoupbX5faBwlTCsBzndTIPWg",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/ZTA0GwpAUak/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAsPyyTMtjfVa1YB5OcfKEEP-whwg",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1143,
+      "view_count": 1400,
+      "timestamp": null,
+      "live_status": null,
+      "availability": null,
+      "channel_url": "https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader_url": "https://www.youtube.com/@aiDotEngineer",
+      "creators": null,
+      "channel": "AI Engineer",
+      "channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader": "AI Engineer",
+      "uploader_id": "@aiDotEngineer",
+      "ie_key": "Youtube",
+      "id": "ZTA0GwpAUak",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=ZTA0GwpAUak",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "LLM Knowledge Bases: a practical guide — Ben Holmes, Warp",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/I3bpdgFJCUY/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDXEPfeyoKPZSp8mzPa_MVvmO8s1Q",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/I3bpdgFJCUY/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDUNe6mlCu-ObYFyDGc1Six_-ka1w",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/I3bpdgFJCUY/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD9eI68NxKLrJzL3rpzzpgZCBYDXg",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/I3bpdgFJCUY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCq0BECTLv3LTLBKYSvPolSXVRiIw",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1277,
+      "view_count": 12000,
+      "timestamp": null,
+      "live_status": null,
+      "availability": null,
+      "channel_url": "https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader_url": "https://www.youtube.com/@aiDotEngineer",
+      "creators": null,
+      "channel": "AI Engineer",
+      "channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader": "AI Engineer",
+      "uploader_id": "@aiDotEngineer",
+      "ie_key": "Youtube",
+      "id": "I3bpdgFJCUY",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=I3bpdgFJCUY",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Adaption Labs: Gradient-Free Continual Learning — Sara Hooker, Adaption",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/XEd_SRVHBgU/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBG6Q5eYctdNYCLkKzjQDtGUMvzwQ",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/XEd_SRVHBgU/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBDVvAGOuj6s18nMFJ2jfJMFDaIEQ",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/XEd_SRVHBgU/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAdg-Q_71w98NszzlxDASgiGA7GiA",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/XEd_SRVHBgU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCuAp2fCoF9GtghCZGG_ipFvNvS_Q",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1251,
+      "view_count": 1100,
+      "timestamp": null,
+      "live_status": null,
+      "availability": null,
+      "channel_url": "https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader_url": "https://www.youtube.com/@aiDotEngineer",
+      "creators": null,
+      "channel": "AI Engineer",
+      "channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader": "AI Engineer",
+      "uploader_id": "@aiDotEngineer",
+      "ie_key": "Youtube",
+      "id": "XEd_SRVHBgU",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=XEd_SRVHBgU",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Intelligence + Continual Learning = Expertise — Yu Su, NeoCognition",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/I6aiEf3aEFQ/hqdefault_custom_2.jpg?sqp=CMydpdQG-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBIl1x-jiKh_WbArUbd0SXjZVjD1A",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/I6aiEf3aEFQ/hqdefault_custom_2.jpg?sqp=CMydpdQG-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLByiSeR8EP2KzdI4U_T--pBgQt0Yg",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/I6aiEf3aEFQ/hqdefault_custom_2.jpg?sqp=CMydpdQG-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD9jjpcvcCvWRlTJINqaqinLF3N7w",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/I6aiEf3aEFQ/hqdefault_custom_2.jpg?sqp=CMydpdQG-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCDcMHPXDotgLX_obkA75wBWN7-VA",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1183,
+      "view_count": 10000,
+      "timestamp": null,
+      "live_status": null,
+      "availability": null,
+      "channel_url": "https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader_url": "https://www.youtube.com/@aiDotEngineer",
+      "creators": null,
+      "channel": "AI Engineer",
+      "channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader": "AI Engineer",
+      "uploader_id": "@aiDotEngineer",
+      "ie_key": "Youtube",
+      "id": "I6aiEf3aEFQ",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=I6aiEf3aEFQ",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Scaling Compute on Context — Jack Morris, Engram",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/WiqDvX6isc4/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCJuOlcct4Ca5lkjRS-tknR75wetw",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/WiqDvX6isc4/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBa0fx_LEpHGKWn7_6f58o7swf93g",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/WiqDvX6isc4/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDxFhD8E-8krWFYVwzpCY3Wr0rkEw",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/WiqDvX6isc4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDOZQHIKFUy3nvRgprKlx-SRnJGBQ",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1182,
+      "view_count": 767,
+      "timestamp": null,
+      "live_status": null,
+      "availability": null,
+      "channel_url": "https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader_url": "https://www.youtube.com/@aiDotEngineer",
+      "creators": null,
+      "channel": "AI Engineer",
+      "channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader": "AI Engineer",
+      "uploader_id": "@aiDotEngineer",
+      "ie_key": "Youtube",
+      "id": "WiqDvX6isc4",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=WiqDvX6isc4",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Memory Harnesses for Long-Running Research Agents — Stefania Druga, Sakana.ai",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/R3-anFK1YM8/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCn0_vVC08zaGWbbDrWEU3egkb9-w",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/R3-anFK1YM8/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBE62i56yXBjHeWFgAkVZEV8jz4MA",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/R3-anFK1YM8/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD7P6Fh14kzDaEvq-aA8ph_uZpDWg",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/R3-anFK1YM8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAdTR1Iy32jV6Tmi2VCaKjvhfBoEQ",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 784,
+      "view_count": 21000,
+      "timestamp": null,
+      "live_status": null,
+      "availability": null,
+      "channel_url": "https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader_url": "https://www.youtube.com/@aiDotEngineer",
+      "creators": null,
+      "channel": "AI Engineer",
+      "channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader": "AI Engineer",
+      "uploader_id": "@aiDotEngineer",
+      "ie_key": "Youtube",
+      "id": "R3-anFK1YM8",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=R3-anFK1YM8",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Scaling up Continual Learning — Ronak Malde, Trajectory",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/zL1kLftVTlo/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAy80HksDnoFvB_uubZFJ-aYUKupw",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/zL1kLftVTlo/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAa48hMHDWV5rbBv92un7PPtSryXw",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/zL1kLftVTlo/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDCFEAb4IorrO7Y22C7CIQpSxphlQ",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/zL1kLftVTlo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAQvWEnMffyxqMq58NGxFXYaoshPQ",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1383,
+      "view_count": 2000,
+      "timestamp": null,
+      "live_status": null,
+      "availability": null,
+      "channel_url": "https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader_url": "https://www.youtube.com/@aiDotEngineer",
+      "creators": null,
+      "channel": "AI Engineer",
+      "channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader": "AI Engineer",
+      "uploader_id": "@aiDotEngineer",
+      "ie_key": "Youtube",
+      "id": "zL1kLftVTlo",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=zL1kLftVTlo",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Beyond Static Intelligence: Evaluating Continual Learning — Parth Asawa, UC Berkeley",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/iqloyWCGYQQ/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD0xYvaei5d7Gp4NvRI1QXPFjRQVw",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/iqloyWCGYQQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBLlYfD2rCFi5swJrM8_z1qGYtgGQ",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/iqloyWCGYQQ/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB6R2Rk0p0TumUvp7jZ2uR-DAqMag",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/iqloyWCGYQQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB3W1xHiL-RVJJjm0LOSfyHEgTDxA",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1230,
+      "view_count": 1300,
+      "timestamp": null,
+      "live_status": null,
+      "availability": null,
+      "channel_url": "https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader_url": "https://www.youtube.com/@aiDotEngineer",
+      "creators": null,
+      "channel": "AI Engineer",
+      "channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader": "AI Engineer",
+      "uploader_id": "@aiDotEngineer",
+      "ie_key": "Youtube",
+      "id": "iqloyWCGYQQ",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=iqloyWCGYQQ",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Agents, codebases, and teams — Aditya Khandelwal, Amazon AGI Lab",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/aeTb5BdmTTc/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCXrZb3XKW151PqKpUHVvcxPy9Jcg",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/aeTb5BdmTTc/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLB_L6rg29LSBVnKQnrMyBPYujEqKQ",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/aeTb5BdmTTc/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDHUDFinD4NGjHFsO81oj9Q3xlFSA",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/aeTb5BdmTTc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAJvEnyirmHpar_XGo6P--F9ackpg",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1017,
+      "view_count": 3200,
+      "timestamp": null,
+      "live_status": null,
+      "availability": null,
+      "channel_url": "https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader_url": "https://www.youtube.com/@aiDotEngineer",
+      "creators": null,
+      "channel": "AI Engineer",
+      "channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader": "AI Engineer",
+      "uploader_id": "@aiDotEngineer",
+      "ie_key": "Youtube",
+      "id": "aeTb5BdmTTc",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=aeTb5BdmTTc",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Codex, Behind the Harness — Dominik Kundel, OpenAI",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/shRR1e2HXMk/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA58NKEc_sLijoJ2TwdvIXto4r-Sg",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/shRR1e2HXMk/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBUwcwDPjkKsmb68x9m1cSSIMFMeA",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/shRR1e2HXMk/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCEzInYgXK_HBi-o9AmOlpW8sEMpg",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/shRR1e2HXMk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBjj1t39VXmTWBye7brFKx5QIu_bw",
+          "height": 188,
+          "width": 336
+        }
+      ],
+      "duration": 1255,
+      "view_count": 8000,
+      "timestamp": null,
+      "live_status": null,
+      "availability": null,
+      "channel_url": "https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader_url": "https://www.youtube.com/@aiDotEngineer",
+      "creators": null,
+      "channel": "AI Engineer",
+      "channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
+      "uploader": "AI Engineer",
+      "uploader_id": "@aiDotEngineer",
+      "ie_key": "Youtube",
+      "id": "shRR1e2HXMk",
+      "_type": "url",
+      "url": "https://www.youtube.com/watch?v=shRR1e2HXMk",
+      "__x_forwarded_for_ip": null
+    },
+    {
+      "title": "Multiplayer agentic engineering — Arjun Singh, Superconductor",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/OL7kfezynJM/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBBf4h2lLoeDZX7OJMTEgYQWtv8TQ",
+          "height": 94,
+          "width": 168
+        },
+        {
+          "url": "https://i.ytimg.com/vi/OL7kfezynJM/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAfxVjIe8UmH2DImzetaNk5KKss-g",
+          "height": 110,
+          "width": 196
+        },
+        {
+          "url": "https://i.ytimg.com/vi/OL7kfezynJM/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAAs5Vw2RHYldjy9_YMQpYfDHIkQw",
+          "height": 138,
+          "width": 246
+        },
+        {
+          "url": "https://i.ytimg.com/vi/OL7kfezynJM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBP1ublr6UI47tCtKPnk3_FJBj7aw",
           "height": 188,
           "width": 336
         }
       ],
       "duration": 1124,
-      "view_count": 507,
+      "view_count": 3400,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -113,7 +1037,7 @@
         }
       ],
       "duration": 1351,
-      "view_count": 918,
+      "view_count": 10000,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -134,28 +1058,28 @@
       "title": "Velocity Sickness: What Happens When Your Whole Team Gets 10x Faster — Matt Dailey, Ref.",
       "thumbnails": [
         {
-          "url": "https://i.ytimg.com/vi/Kz4QJmNrVXU/hqdefault_custom_2.jpg?sqp=CNit5NMG-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCp8sa0ywxbhndW6nNR0FMpQQmO1w",
+          "url": "https://i.ytimg.com/vi/Kz4QJmNrVXU/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBtNfiP2vKpoqQypSkxGTbVrS5qUw",
           "height": 94,
           "width": 168
         },
         {
-          "url": "https://i.ytimg.com/vi/Kz4QJmNrVXU/hqdefault_custom_2.jpg?sqp=CNit5NMG-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBc85SIt8S1KJYub2Yp20cDjLz_uw",
+          "url": "https://i.ytimg.com/vi/Kz4QJmNrVXU/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCdz6wD_ie5rLbBFX1XXecuyhHHFA",
           "height": 110,
           "width": 196
         },
         {
-          "url": "https://i.ytimg.com/vi/Kz4QJmNrVXU/hqdefault_custom_2.jpg?sqp=CNit5NMG-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBTyraoZPvwnR3RBV1u6tlct8wdWA",
+          "url": "https://i.ytimg.com/vi/Kz4QJmNrVXU/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDyLu-z0_bwRZao0fzg48VhqO3p2w",
           "height": 138,
           "width": 246
         },
         {
-          "url": "https://i.ytimg.com/vi/Kz4QJmNrVXU/hqdefault_custom_2.jpg?sqp=CNit5NMG-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAN6BB3sdkoW61Rr2qOpsNUOyNq_w",
+          "url": "https://i.ytimg.com/vi/Kz4QJmNrVXU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBKExxWRG1NNDA6Lxmj1ICl9jxt0Q",
           "height": 188,
           "width": 336
         }
       ],
       "duration": 1237,
-      "view_count": 1200,
+      "view_count": 7500,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -176,28 +1100,28 @@
       "title": "Always-on agents run production without the on-call tax — Justin Smith, Resolve AI",
       "thumbnails": [
         {
-          "url": "https://i.ytimg.com/vi/vSx5IULvBns/hqdefault_custom_2.jpg?sqp=CNit5NMG-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD1NkXKmzCEypWYHLApfLw6GJuHuA",
+          "url": "https://i.ytimg.com/vi/vSx5IULvBns/hqdefault_custom_2.jpg?sqp=CMydpdQG-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBgK_6mTFncvQwCpi8Pm9dAn8VxZw",
           "height": 94,
           "width": 168
         },
         {
-          "url": "https://i.ytimg.com/vi/vSx5IULvBns/hqdefault_custom_2.jpg?sqp=CNit5NMG-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAo4M-A2Admmk_t70Xh8S9JaqXcHg",
+          "url": "https://i.ytimg.com/vi/vSx5IULvBns/hqdefault_custom_2.jpg?sqp=CMydpdQG-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAA5QLy1L9mneltHugb4IgxeQpXVQ",
           "height": 110,
           "width": 196
         },
         {
-          "url": "https://i.ytimg.com/vi/vSx5IULvBns/hqdefault_custom_2.jpg?sqp=CNit5NMG-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBjGuMNuB_QJcdISbmyhDXMQ6dlWA",
+          "url": "https://i.ytimg.com/vi/vSx5IULvBns/hqdefault_custom_2.jpg?sqp=CMydpdQG-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD-WoxwnCgmWQurQAypEB6Z2rq9lw",
           "height": 138,
           "width": 246
         },
         {
-          "url": "https://i.ytimg.com/vi/vSx5IULvBns/hqdefault_custom_2.jpg?sqp=CNit5NMG-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBzo1Lut4VTEkAe1wta0i4v93yQMw",
+          "url": "https://i.ytimg.com/vi/vSx5IULvBns/hqdefault_custom_2.jpg?sqp=CMydpdQG-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDTMg6AfUg-eAROJPW71NtSLZBhTw",
           "height": 188,
           "width": 336
         }
       ],
       "duration": 1496,
-      "view_count": 1000,
+      "view_count": 2400,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -218,28 +1142,28 @@
       "title": "Realtime multiplayer, automation, and you! — Idan Gazit, GitHub",
       "thumbnails": [
         {
-          "url": "https://i.ytimg.com/vi/iQ5xldZ9StU/hqdefault_custom_1.jpg?sqp=CNit5NMG-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDRXsp6ccNu6oz4xeslVvJsowiAgQ",
+          "url": "https://i.ytimg.com/vi/iQ5xldZ9StU/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDXekkp15Yf5wVb4UP0Johv1T6WhA",
           "height": 94,
           "width": 168
         },
         {
-          "url": "https://i.ytimg.com/vi/iQ5xldZ9StU/hqdefault_custom_1.jpg?sqp=CNit5NMG-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBrRjnqtWEzPAqGKOfwjYTmqD2iwA",
+          "url": "https://i.ytimg.com/vi/iQ5xldZ9StU/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLB0elI1r1JS3XzL32mtK5mF8dil5g",
           "height": 110,
           "width": 196
         },
         {
-          "url": "https://i.ytimg.com/vi/iQ5xldZ9StU/hqdefault_custom_1.jpg?sqp=CNit5NMG-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBva1ZhQyX2nwt9VqIh7PErp7C1Sg",
+          "url": "https://i.ytimg.com/vi/iQ5xldZ9StU/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC8JQcei7t7snMvFeOGLUIQzE2QnQ",
           "height": 138,
           "width": 246
         },
         {
-          "url": "https://i.ytimg.com/vi/iQ5xldZ9StU/hqdefault_custom_1.jpg?sqp=CNit5NMG-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD7A3vEfjR74YaV2JdrCSVxpVMTGg",
+          "url": "https://i.ytimg.com/vi/iQ5xldZ9StU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDmkCb5eI6fV2Vh0tJadg-YPhQ2Rg",
           "height": 188,
           "width": 336
         }
       ],
       "duration": 1301,
-      "view_count": 1700,
+      "view_count": 2600,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -260,28 +1184,28 @@
       "title": "Benchmarking Coding Agents on New vs Legacy Codebases — Denys Linkov, Wisedocs",
       "thumbnails": [
         {
-          "url": "https://i.ytimg.com/vi/7vn4WpqNpck/hqdefault_custom_2.jpg?sqp=CNit5NMG-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZ7fO1tQt-LdQLBCsBltrUiHEMmQ",
+          "url": "https://i.ytimg.com/vi/7vn4WpqNpck/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCsewOw-wq5ecpUx4Ii3bZDB7f1Ew",
           "height": 94,
           "width": 168
         },
         {
-          "url": "https://i.ytimg.com/vi/7vn4WpqNpck/hqdefault_custom_2.jpg?sqp=CNit5NMG-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCEQQbvUa6VXL6CVX1h2m5R3rY8FQ",
+          "url": "https://i.ytimg.com/vi/7vn4WpqNpck/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD0zOlLH1Scl5_v25FhtLfwtjZ8kA",
           "height": 110,
           "width": 196
         },
         {
-          "url": "https://i.ytimg.com/vi/7vn4WpqNpck/hqdefault_custom_2.jpg?sqp=CNit5NMG-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCgp8Z3gnNmOtwZ9_jTD43EgUzEpA",
+          "url": "https://i.ytimg.com/vi/7vn4WpqNpck/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBZcvtZzYCuIfJBOq-4oPUhUke9lQ",
           "height": 138,
           "width": 246
         },
         {
-          "url": "https://i.ytimg.com/vi/7vn4WpqNpck/hqdefault_custom_2.jpg?sqp=CNit5NMG-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBaWG57j2mHOUOS8VCdMkN5ICfZkA",
+          "url": "https://i.ytimg.com/vi/7vn4WpqNpck/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAHM8LZkeDzRUcu_FVFvxtIPiYx4Q",
           "height": 188,
           "width": 336
         }
       ],
       "duration": 1088,
-      "view_count": 2100,
+      "view_count": 3100,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -323,7 +1247,7 @@
         }
       ],
       "duration": 1208,
-      "view_count": 13000,
+      "view_count": 76000,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -344,28 +1268,28 @@
       "title": "Open Source Is Dead. Long Live Open Source. — Saoud Rizwan, Cline",
       "thumbnails": [
         {
-          "url": "https://i.ytimg.com/vi/CoEIs6Xm8m8/hqdefault_custom_1.jpg?sqp=CNit5NMG-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCeRgqIbI-sxrlZDSUUrzuMDKciJw",
+          "url": "https://i.ytimg.com/vi/CoEIs6Xm8m8/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLB3pny5sdUemfu4RiVK4p5qDhhLwg",
           "height": 94,
           "width": 168
         },
         {
-          "url": "https://i.ytimg.com/vi/CoEIs6Xm8m8/hqdefault_custom_1.jpg?sqp=CNit5NMG-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDt-tBWsYdhKYgNgMpXJ5B_gk0BrQ",
+          "url": "https://i.ytimg.com/vi/CoEIs6Xm8m8/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDzpWQt5j4PWxA812aZCwXof4k0Pg",
           "height": 110,
           "width": 196
         },
         {
-          "url": "https://i.ytimg.com/vi/CoEIs6Xm8m8/hqdefault_custom_1.jpg?sqp=CNit5NMG-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC8Poqf-OXqX1wQpse4IBQKt88s5Q",
+          "url": "https://i.ytimg.com/vi/CoEIs6Xm8m8/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBTdtK6AusYWjSb7dDc7UzW2Illlg",
           "height": 138,
           "width": 246
         },
         {
-          "url": "https://i.ytimg.com/vi/CoEIs6Xm8m8/hqdefault_custom_1.jpg?sqp=CNit5NMG-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCDkVUf8upc7OfVwtYAYwLCPjJHEg",
+          "url": "https://i.ytimg.com/vi/CoEIs6Xm8m8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBr5S-kfonXdnLoF2MmqnjUl5kWjg",
           "height": 188,
           "width": 336
         }
       ],
       "duration": 1050,
-      "view_count": 1400,
+      "view_count": 1900,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -380,48 +1304,6 @@
       "id": "CoEIs6Xm8m8",
       "_type": "url",
       "url": "https://www.youtube.com/watch?v=CoEIs6Xm8m8",
-      "__x_forwarded_for_ip": null
-    },
-    {
-      "title": "Codex, Behind the Harness — Dominik Kundel, OpenAI",
-      "thumbnails": [
-        {
-          "url": "https://i.ytimg.com/vi/shRR1e2HXMk/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA58NKEc_sLijoJ2TwdvIXto4r-Sg",
-          "height": 94,
-          "width": 168
-        },
-        {
-          "url": "https://i.ytimg.com/vi/shRR1e2HXMk/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBUwcwDPjkKsmb68x9m1cSSIMFMeA",
-          "height": 110,
-          "width": 196
-        },
-        {
-          "url": "https://i.ytimg.com/vi/shRR1e2HXMk/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCEzInYgXK_HBi-o9AmOlpW8sEMpg",
-          "height": 138,
-          "width": 246
-        },
-        {
-          "url": "https://i.ytimg.com/vi/shRR1e2HXMk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBjj1t39VXmTWBye7brFKx5QIu_bw",
-          "height": 188,
-          "width": 336
-        }
-      ],
-      "duration": null,
-      "view_count": null,
-      "timestamp": null,
-      "live_status": "is_upcoming",
-      "availability": null,
-      "channel_url": "https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA",
-      "uploader_url": "https://www.youtube.com/@aiDotEngineer",
-      "creators": null,
-      "channel": "AI Engineer",
-      "channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
-      "uploader": "AI Engineer",
-      "uploader_id": "@aiDotEngineer",
-      "ie_key": "Youtube",
-      "id": "shRR1e2HXMk",
-      "_type": "url",
-      "url": "https://www.youtube.com/watch?v=shRR1e2HXMk",
       "__x_forwarded_for_ip": null
     },
     {
@@ -449,7 +1331,7 @@
         }
       ],
       "duration": 2601,
-      "view_count": 4700,
+      "view_count": 11000,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -491,7 +1373,7 @@
         }
       ],
       "duration": 2761,
-      "view_count": 1300,
+      "view_count": 1800,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -533,7 +1415,7 @@
         }
       ],
       "duration": 2897,
-      "view_count": 2000,
+      "view_count": 2800,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -575,7 +1457,7 @@
         }
       ],
       "duration": 1134,
-      "view_count": 3800,
+      "view_count": 4600,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -617,7 +1499,7 @@
         }
       ],
       "duration": 3390,
-      "view_count": 4600,
+      "view_count": 5100,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -659,7 +1541,7 @@
         }
       ],
       "duration": 1118,
-      "view_count": 4500,
+      "view_count": 5300,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -701,7 +1583,7 @@
         }
       ],
       "duration": 1434,
-      "view_count": 5100,
+      "view_count": 5700,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -743,7 +1625,7 @@
         }
       ],
       "duration": 1045,
-      "view_count": 1500,
+      "view_count": 1700,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -761,7 +1643,7 @@
       "__x_forwarded_for_ip": null
     },
     {
-      "title": "\"If an LLM has a Chrome zero-day, it would be able to hack nation-states.\" — Prof. David Brumley",
+      "title": "Teaching AI to Find Real Vulnerabilities — Prof. David Brumley, Bugcrowd",
       "thumbnails": [
         {
           "url": "https://i.ytimg.com/vi/ZFxh7sqbUZo/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBI_fIa3X59tMI7jAz70sUoLiiIzw",
@@ -785,7 +1667,7 @@
         }
       ],
       "duration": 1637,
-      "view_count": 2300,
+      "view_count": 2500,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -827,7 +1709,7 @@
         }
       ],
       "duration": 1275,
-      "view_count": 2100,
+      "view_count": 2300,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -869,7 +1751,7 @@
         }
       ],
       "duration": 1085,
-      "view_count": 1600,
+      "view_count": 1800,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -911,7 +1793,7 @@
         }
       ],
       "duration": 1145,
-      "view_count": 1100,
+      "view_count": 1200,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -953,7 +1835,7 @@
         }
       ],
       "duration": 1100,
-      "view_count": 4600,
+      "view_count": 5200,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -995,7 +1877,7 @@
         }
       ],
       "duration": 1152,
-      "view_count": 901,
+      "view_count": 1000,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -1037,7 +1919,7 @@
         }
       ],
       "duration": 1087,
-      "view_count": 1300,
+      "view_count": 1400,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -1079,7 +1961,7 @@
         }
       ],
       "duration": 993,
-      "view_count": 1500,
+      "view_count": 1800,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -1121,7 +2003,7 @@
         }
       ],
       "duration": 1065,
-      "view_count": 1000,
+      "view_count": 1100,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -1163,7 +2045,7 @@
         }
       ],
       "duration": 1062,
-      "view_count": 1500,
+      "view_count": 1700,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -1205,7 +2087,7 @@
         }
       ],
       "duration": 990,
-      "view_count": 7000,
+      "view_count": 7800,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -1247,7 +2129,7 @@
         }
       ],
       "duration": 769,
-      "view_count": 887,
+      "view_count": 964,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -1289,7 +2171,7 @@
         }
       ],
       "duration": 1167,
-      "view_count": 2700,
+      "view_count": 3600,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -1331,7 +2213,7 @@
         }
       ],
       "duration": 1214,
-      "view_count": 1200,
+      "view_count": 1300,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -1373,7 +2255,7 @@
         }
       ],
       "duration": 1292,
-      "view_count": 5700,
+      "view_count": 6200,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -1415,7 +2297,7 @@
         }
       ],
       "duration": 1224,
-      "view_count": 2200,
+      "view_count": 2500,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -1457,7 +2339,7 @@
         }
       ],
       "duration": 822,
-      "view_count": 2900,
+      "view_count": 3100,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -1499,7 +2381,7 @@
         }
       ],
       "duration": 1463,
-      "view_count": 966,
+      "view_count": 1000,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -1541,7 +2423,7 @@
         }
       ],
       "duration": 1297,
-      "view_count": 1300,
+      "view_count": 1400,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -1583,7 +2465,7 @@
         }
       ],
       "duration": 1149,
-      "view_count": 697,
+      "view_count": 772,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -1625,7 +2507,7 @@
         }
       ],
       "duration": 984,
-      "view_count": 1500,
+      "view_count": 1600,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -1667,7 +2549,7 @@
         }
       ],
       "duration": 1350,
-      "view_count": 8100,
+      "view_count": 9600,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -1709,7 +2591,7 @@
         }
       ],
       "duration": 1269,
-      "view_count": 18000,
+      "view_count": 21000,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -1751,7 +2633,7 @@
         }
       ],
       "duration": 1190,
-      "view_count": 904,
+      "view_count": 988,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -1793,7 +2675,7 @@
         }
       ],
       "duration": 989,
-      "view_count": 2400,
+      "view_count": 3000,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -1835,7 +2717,7 @@
         }
       ],
       "duration": 1044,
-      "view_count": 4500,
+      "view_count": 4800,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -1877,7 +2759,7 @@
         }
       ],
       "duration": 1207,
-      "view_count": 1200,
+      "view_count": 1500,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -1919,7 +2801,7 @@
         }
       ],
       "duration": 1106,
-      "view_count": 1400,
+      "view_count": 1600,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -1961,7 +2843,7 @@
         }
       ],
       "duration": 1281,
-      "view_count": 4200,
+      "view_count": 4600,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -2003,7 +2885,7 @@
         }
       ],
       "duration": 1223,
-      "view_count": 13000,
+      "view_count": 17000,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -2087,7 +2969,7 @@
         }
       ],
       "duration": 845,
-      "view_count": 1400,
+      "view_count": 1600,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -2129,7 +3011,7 @@
         }
       ],
       "duration": 1009,
-      "view_count": 5500,
+      "view_count": 7100,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -2171,7 +3053,7 @@
         }
       ],
       "duration": 1089,
-      "view_count": 1000,
+      "view_count": 1200,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -2192,28 +3074,28 @@
       "title": "How Forward Deployed Engineering is done at Kepler — Vinoo Ganesh",
       "thumbnails": [
         {
-          "url": "https://i.ytimg.com/vi/1OMHGsUZiqA/hqdefault_custom_1.jpg?sqp=CNit5NMG-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCb_kg7UpkGF2M8SOuy3DHzRNuFJQ",
+          "url": "https://i.ytimg.com/vi/1OMHGsUZiqA/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA3LsJ8CNtZFAJb7hp0DWpRqtWP1A",
           "height": 94,
           "width": 168
         },
         {
-          "url": "https://i.ytimg.com/vi/1OMHGsUZiqA/hqdefault_custom_1.jpg?sqp=CNit5NMG-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA9GAOlWblYwo6bh-UaYHlFKR-ZCA",
+          "url": "https://i.ytimg.com/vi/1OMHGsUZiqA/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCdoSLGxROqWXK5rw_fwSCxRVCW1g",
           "height": 110,
           "width": 196
         },
         {
-          "url": "https://i.ytimg.com/vi/1OMHGsUZiqA/hqdefault_custom_1.jpg?sqp=CNit5NMG-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAG23hEHyhoP2z_-H_x_BYzU1mV_A",
+          "url": "https://i.ytimg.com/vi/1OMHGsUZiqA/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCIRdGxmispu2YfgHh2q9OMPUUa2Q",
           "height": 138,
           "width": 246
         },
         {
-          "url": "https://i.ytimg.com/vi/1OMHGsUZiqA/hqdefault_custom_1.jpg?sqp=CNit5NMG-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA4ylQbymR7kDsE3H8rZCArr4wPFA",
+          "url": "https://i.ytimg.com/vi/1OMHGsUZiqA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAXCpKa5NynpWtnqTd8PlaWhaT7-w",
           "height": 188,
           "width": 336
         }
       ],
       "duration": 1340,
-      "view_count": 2200,
+      "view_count": 2900,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -2255,7 +3137,7 @@
         }
       ],
       "duration": 1068,
-      "view_count": 20000,
+      "view_count": 28000,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -2298,7 +3180,7 @@
         }
       ],
       "duration": 1299,
-      "view_count": 1200,
+      "view_count": 1300,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -2340,7 +3222,7 @@
         }
       ],
       "duration": 2019,
-      "view_count": 3200,
+      "view_count": 3300,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -2382,7 +3264,7 @@
         }
       ],
       "duration": 1054,
-      "view_count": 2800,
+      "view_count": 3000,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -2424,7 +3306,7 @@
         }
       ],
       "duration": 1102,
-      "view_count": 5300,
+      "view_count": 5700,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -2466,7 +3348,7 @@
         }
       ],
       "duration": 1051,
-      "view_count": 2200,
+      "view_count": 2300,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -2508,7 +3390,7 @@
         }
       ],
       "duration": 1277,
-      "view_count": 3400,
+      "view_count": 3600,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -2550,7 +3432,7 @@
         }
       ],
       "duration": 1077,
-      "view_count": 14000,
+      "view_count": 15000,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -2592,7 +3474,7 @@
         }
       ],
       "duration": 1305,
-      "view_count": 5900,
+      "view_count": 6100,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -2634,7 +3516,7 @@
         }
       ],
       "duration": 1224,
-      "view_count": 3200,
+      "view_count": 3500,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -2676,7 +3558,7 @@
         }
       ],
       "duration": 1393,
-      "view_count": 1500,
+      "view_count": 1600,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -2718,7 +3600,7 @@
         }
       ],
       "duration": 1299,
-      "view_count": 43000,
+      "view_count": 57000,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -2760,7 +3642,7 @@
         }
       ],
       "duration": 1169,
-      "view_count": 2200,
+      "view_count": 2400,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -2802,7 +3684,7 @@
         }
       ],
       "duration": 1271,
-      "view_count": 1200,
+      "view_count": 1300,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -2844,7 +3726,7 @@
         }
       ],
       "duration": 4502,
-      "view_count": 32000,
+      "view_count": 38000,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -2886,7 +3768,7 @@
         }
       ],
       "duration": 1031,
-      "view_count": 4500,
+      "view_count": 4600,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -2970,7 +3852,7 @@
         }
       ],
       "duration": 1305,
-      "view_count": 1700,
+      "view_count": 1800,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -3012,7 +3894,7 @@
         }
       ],
       "duration": 1519,
-      "view_count": 16000,
+      "view_count": 17000,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -3054,7 +3936,7 @@
         }
       ],
       "duration": 2456,
-      "view_count": 1700,
+      "view_count": 1800,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -3096,7 +3978,7 @@
         }
       ],
       "duration": 936,
-      "view_count": 5000,
+      "view_count": 5200,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -3138,7 +4020,7 @@
         }
       ],
       "duration": 913,
-      "view_count": 10000,
+      "view_count": 11000,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -3180,7 +4062,7 @@
         }
       ],
       "duration": 1187,
-      "view_count": 4500,
+      "view_count": 4700,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -3222,7 +4104,7 @@
         }
       ],
       "duration": 1160,
-      "view_count": 5600,
+      "view_count": 5700,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -3264,7 +4146,7 @@
         }
       ],
       "duration": 1082,
-      "view_count": 2700,
+      "view_count": 2900,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -3307,7 +4189,7 @@
         }
       ],
       "duration": 1409,
-      "view_count": 1100,
+      "view_count": 1200,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -3349,7 +4231,7 @@
         }
       ],
       "duration": 1133,
-      "view_count": 17000,
+      "view_count": 18000,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -3391,7 +4273,7 @@
         }
       ],
       "duration": 1290,
-      "view_count": 394,
+      "view_count": 451,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -3433,7 +4315,7 @@
         }
       ],
       "duration": 3616,
-      "view_count": 14000,
+      "view_count": 15000,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -3475,7 +4357,7 @@
         }
       ],
       "duration": 8421,
-      "view_count": 12000,
+      "view_count": 13000,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -3517,7 +4399,7 @@
         }
       ],
       "duration": 1055,
-      "view_count": 2100,
+      "view_count": 2200,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -3601,7 +4483,7 @@
         }
       ],
       "duration": 1268,
-      "view_count": 57000,
+      "view_count": 65000,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -3643,7 +4525,7 @@
         }
       ],
       "duration": 964,
-      "view_count": 5400,
+      "view_count": 5600,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -3685,7 +4567,7 @@
         }
       ],
       "duration": 976,
-      "view_count": 2900,
+      "view_count": 3000,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -3727,7 +4609,7 @@
         }
       ],
       "duration": 1001,
-      "view_count": 3900,
+      "view_count": 4000,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -3769,7 +4651,7 @@
         }
       ],
       "duration": 1232,
-      "view_count": 7700,
+      "view_count": 7900,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -3811,7 +4693,7 @@
         }
       ],
       "duration": 3090,
-      "view_count": 14000,
+      "view_count": 15000,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -3853,7 +4735,7 @@
         }
       ],
       "duration": 1254,
-      "view_count": 12000,
+      "view_count": 13000,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -3895,7 +4777,7 @@
         }
       ],
       "duration": 1306,
-      "view_count": 59000,
+      "view_count": 68000,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -3937,7 +4819,7 @@
         }
       ],
       "duration": 1247,
-      "view_count": 18000,
+      "view_count": 19000,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -3979,7 +4861,7 @@
         }
       ],
       "duration": 1106,
-      "view_count": 80000,
+      "view_count": 82000,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -4021,7 +4903,7 @@
         }
       ],
       "duration": 1273,
-      "view_count": 5300,
+      "view_count": 5400,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -4063,7 +4945,7 @@
         }
       ],
       "duration": 2674,
-      "view_count": 80000,
+      "view_count": 81000,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -4105,7 +4987,7 @@
         }
       ],
       "duration": 2812,
-      "view_count": 8300,
+      "view_count": 8900,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -4147,7 +5029,7 @@
         }
       ],
       "duration": 2669,
-      "view_count": 24000,
+      "view_count": 25000,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -4191,7 +5073,7 @@
         }
       ],
       "duration": 1029,
-      "view_count": 10000,
+      "view_count": 12000,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -4233,7 +5115,7 @@
         }
       ],
       "duration": 1173,
-      "view_count": 108000,
+      "view_count": 118000,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -4275,7 +5157,7 @@
         }
       ],
       "duration": 1295,
-      "view_count": 4300,
+      "view_count": 4400,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -4318,7 +5200,7 @@
         }
       ],
       "duration": 1513,
-      "view_count": 73000,
+      "view_count": 74000,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -4360,7 +5242,7 @@
         }
       ],
       "duration": 962,
-      "view_count": 87000,
+      "view_count": 89000,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -4403,7 +5285,7 @@
         }
       ],
       "duration": 1168,
-      "view_count": 147000,
+      "view_count": 153000,
       "timestamp": null,
       "live_status": null,
       "availability": null,
@@ -4542,7 +5424,7 @@
   "webpage_url_basename": "playlist",
   "webpage_url_domain": "youtube.com",
   "release_year": null,
-  "epoch": 1786320621,
+  "epoch": 1787383578,
   "__files_to_move": {},
   "_version": {
     "version": "2026.07.04",
