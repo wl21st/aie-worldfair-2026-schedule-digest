@@ -23,6 +23,7 @@ from typing import Any, Iterable
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_INPUT = ROOT / "raw" / "sessions.json"
 DEFAULT_YOUTUBE_JSON = ROOT / "raw" / "youtube-aiewf-2026-playlist.json"
+DEFAULT_CHANNEL_JSON = ROOT / "raw" / "youtube-aiengineer-channel-flat.json"
 DEFAULT_OUTPUT = ROOT / "ai-engineer-worlds-fair-2026-sessions.md"
 DEFAULT_EXISTING_MARKDOWN = ROOT / "ai-engineer-worlds-fair-2026-master.md"
 YOUTUBE_PLAYLIST_URL = "https://www.youtube.com/playlist?list=PLDyBmFH9HlVc"
@@ -182,7 +183,7 @@ def fetch_youtube_playlist(url: str, destination: Path) -> dict[str, Any]:
     return value
 
 
-def load_youtube_entries(path: Path) -> list[dict[str, str]]:
+def load_youtube_entries(path: Path, *, source: str) -> list[dict[str, str]]:
     data = json.loads(path.read_text(encoding="utf-8"))
     entries = data.get("entries") if isinstance(data, dict) else data
     if not isinstance(entries, list):
@@ -196,6 +197,7 @@ def load_youtube_entries(path: Path) -> list[dict[str, str]]:
             "id": video_id,
             "title": str(entry["title"]),
             "url": f"https://www.youtube.com/watch?v={video_id}",
+            "source": source,
         })
     return result
 
@@ -250,6 +252,8 @@ def choose_youtube_link(
         # Agents" unless the named speaker also matches. Short-title
         # containment is otherwise a common source of false links.
         short_containment = contains and not equal and len(video_key_tokens) < 3
+        if video.get("source") == "channel" and speaker_overlap == 0:
+            continue
         exact = equal or (contains and not short_containment)
         # Exact title overlap is enough. Fuzzy matches must also share session
         # vocabulary and/or a named speaker to avoid linking generic AI videos.
@@ -273,7 +277,7 @@ def choose_youtube_link(
     # separation from the next candidate.
     if not best[4] and len(candidates) > 1 and best[0] - second_score < 0.06:
         return None, "ambiguous"
-    return best[5]["url"], "playlist"
+    return best[5]["url"], best[5].get("source", "playlist")
 
 
 def build_keyword_index(rows: list[dict[str, Any]]) -> tuple[Counter[str], dict[str, str]]:
@@ -379,7 +383,7 @@ def generate_markdown(
         "",
         f"Complete schedule table generated from the {total}-record `raw/sessions.json` snapshot. Session fields and descriptions are preserved from the official schedule export.[1]",
         "",
-        f"YouTube links point to recordings found in the official AI Engineer channel's World's Fair 2026 playlist or previously verified official recording links; `—` means no confident match was found.[2]",
+        f"YouTube links point to recordings found in the official AI Engineer channel's World's Fair 2026 playlist or channel feed, or previously verified official recording links; `—` means no confident match was found.[2]",
         "",
         "Keywords are deterministic summaries derived from each session title and description; the original track remains in its own column.",
         "",
@@ -451,6 +455,7 @@ def generate_markdown(
         "sessions": total,
         "youtube_links": linked,
         "playlist_links": source_counts["playlist"],
+        "channel_links": source_counts["channel"],
         "existing_master_links": source_counts["existing-master"],
         "ambiguous_or_unmatched": source_counts["ambiguous"] + source_counts["none"],
         "playlist_entries": len(videos),
@@ -462,6 +467,7 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--input", type=Path, default=DEFAULT_INPUT)
     parser.add_argument("--youtube-json", type=Path, default=DEFAULT_YOUTUBE_JSON)
+    parser.add_argument("--youtube-channel-json", type=Path, default=DEFAULT_CHANNEL_JSON)
     parser.add_argument("--youtube-url", default=YOUTUBE_PLAYLIST_URL)
     parser.add_argument("--existing-markdown", type=Path, default=DEFAULT_EXISTING_MARKDOWN)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
@@ -475,9 +481,14 @@ def main() -> int:
     if args.fetch_youtube or not args.youtube_json.exists():
         print(f"Fetching YouTube playlist metadata: {args.youtube_url}", file=sys.stderr)
         fetch_youtube_playlist(args.youtube_url, args.youtube_json)
-    videos = load_youtube_entries(args.youtube_json)
+    playlist_videos = load_youtube_entries(args.youtube_json, source="playlist")
+    channel_videos = load_youtube_entries(args.youtube_channel_json, source="channel") if args.youtube_channel_json.exists() else []
+    playlist_ids = {video["id"] for video in playlist_videos}
+    videos = playlist_videos + [video for video in channel_videos if video["id"] not in playlist_ids]
     existing_links = load_existing_links(args.existing_markdown)
     markdown, stats = generate_markdown(rows, videos, existing_links)
+    stats["playlist_entries"] = len(playlist_videos)
+    stats["channel_entries"] = len(channel_videos)
     atomic_write_text(args.output, markdown)
     print(json.dumps({"output": str(args.output), **stats}, ensure_ascii=False))
     return 0
