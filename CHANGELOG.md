@@ -2,6 +2,12 @@
 
 This file records refreshes and content changes to the AI Engineer World's Fair 2026 schedule digest repository.
 
+## 2026-08-24
+
+- Refreshed the official World's Fair playlist cache; the live playlist now contains 274 raw entries, including 271 usable entries with titles. Added `17-YSUHo6Lk` — **Agentic SDLC at Uber — Uday Kiran Medisetty & Adam Huda, Uber** — to the World's Fair video list.
+- Regenerated `ai-engineer-worlds-fair-2026-youtube-videos.md` with 271 identified playlist rows and `ai-engineer-worlds-fair-2026-sessions.md` with 167 confident recording rows. Session 109 now links to the Uber recording, and the same recording was added to both matching ranked views in `ai-engineer-worlds-fair-2026-master.md`.
+- Updated `index.md` catalog counts to 1,051 channel videos and 271 identified World's Fair playlist videos. Validation: live playlist membership, channel metadata, clickable thumbnail markup, `git diff --check`, and immutable `raw/sessions.json` were verified. Changes remain uncommitted.
+
 ## 2026-08-22
 
 - Refreshed the official World's Fair playlist cache from 119 to 128 entries; 125 playlist IDs were identified in the channel feed and rendered in `ai-engineer-worlds-fair-2026-youtube-videos.md`. New playlist recordings: `5dCAmSDOAjI` (The Next Medium: Why Real-Time Interactive Video Changes Everything — Ahmed Ahres, Reactor), `byn9PURoBNY` (Infra behind Krea 2: How to train and serve at scale — Gabriel Jorge Menezes, Krea.ai), `Xln-On3syJk` (Generative Video at the Speed of Light — Keegan McCallum, uRun), `z1dqv74SpUs` (Voice agents with Realtime Video — Sidney Primas, LemonSlice), `E_Txocq-Lrw` (While my guitar gently speaks — Todd Fisher, Philo Ventures), `VBCDhRrvlYo` (The Next Game Engine Won't Have a Manual — Arturo Nunez, Nereu), `pPj_tjlvYjA` (Building an Agentic Video Editor for Mass Consumer — Ekaterina Deyneka, Reelful), `-tviRdpmHvs` (Training Krea 2: What matters in generative model training — Sangwu Lee, Krea.ai), and `WP3hjUXd918` (Context Engineering in 2026 — Louis-François Bouchard, Omar Solano & Samridhi Vaid, Towards AI).
