@@ -7,6 +7,7 @@ This file records refreshes and content changes to the AI Engineer World's Fair 
 - Refreshed the official World's Fair playlist cache; the live playlist now contains 274 raw entries, including 271 usable entries with titles. Added `17-YSUHo6Lk` — **Agentic SDLC at Uber — Uday Kiran Medisetty & Adam Huda, Uber** — to the World's Fair video list.
 - Regenerated `ai-engineer-worlds-fair-2026-youtube-videos.md` with 271 identified playlist rows and `ai-engineer-worlds-fair-2026-sessions.md` with 167 confident recording rows. Session 109 now links to the Uber recording, and the same recording was added to both matching ranked views in `ai-engineer-worlds-fair-2026-master.md`.
 - Updated `index.md` catalog counts to 1,051 channel videos and 271 identified World's Fair playlist videos. Validation: live playlist membership, channel metadata, clickable thumbnail markup, `git diff --check`, and immutable `raw/sessions.json` were verified. Changes remain uncommitted.
+- Retro-audited all 561 schedule records against the 1,051-entry official channel snapshot for exact-title and strong title/speaker matches. Added the verified channel recording `rbjWzZK2LU0` — **Give the Agent a Budget, Not a Token — Sachin Malhotra, Anthropic** — to session 542 and all three matching ranked-view occurrences; it is intentionally not added to the playlist-scoped catalog because the live World's Fair playlist does not contain that ID. The only other exact-title candidate, `2xJoimgoqBg` for “Security Track Intro,” has a different speaker and remains excluded.
 
 ## 2026-08-22
 
