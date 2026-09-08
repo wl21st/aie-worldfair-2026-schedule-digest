@@ -2,6 +2,13 @@
 
 This file records refreshes and content changes to the AI Engineer World's Fair 2026 schedule digest repository.
 
+## 2026-09-08
+
+- Refreshed the official AI Engineer channel snapshot from 1,051 to 1,106 raw entries, adding 57 new channel-feed IDs. The newest upload is `5Cxe5dv2Xlw` — **Why AI Agents Need Million-Token Context — Thomas Wolf & Olive Song, MiniMax**.
+- Refreshed the official World's Fair playlist cache from 274 to 325 raw entries, including 320 usable entries. The session digest gained 52 new recording IDs: 47 playlist-backed matches and five channel-feed-only matches: `L173Z8DpaJg` (**The Agent Behind the Curtain: Building the Oz Cloud Agent Platform**), `yqF6XhzbWBk` (**Inside 847 Production Clinical AI Notes**), `KHudyx5wW3U` (**Agent Frameworks Considered Harmful**), `0I6aoPSRzVc` (**What If Your Chip Design Team Moved Like a Single Body?**), and `GJX19pNhmSw` (**FinOps for AI Agents: Who Spent All the Tokens?**). These channel-only recordings remain outside the playlist-scoped catalog.
+- Regenerated `ai-engineer-worlds-fair-2026-sessions.md` with 561 complete schedule rows and 221 confident recording rows; propagated the verified links through the matching ranked master occurrences. Regenerated `ai-engineer-youtube-channel-videos.md` with 1,106 rows and `ai-engineer-worlds-fair-2026-youtube-videos.md` with 320 playlist rows. Updated `index.md` counts to 1,106 channel videos and 320 identified World's Fair playlist videos.
+- Validation passed: playlist/channel fetches succeeded without exposed credentials; `raw/sessions.json` remained byte-for-byte unchanged with SHA-256 `8ba22355266a2add0338a0d90994d1552a4b27fb92c2fe4846b24111ad24e9ba`; Python compilation, `git diff --check`, session/catalog row counts, official-link grounding, master source coverage, and cache-only deterministic regeneration all passed. Changes remain uncommitted.
+
 ## 2026-08-24
 
 - Refreshed the official World's Fair playlist cache; the live playlist now contains 274 raw entries, including 271 usable entries with titles. Added `17-YSUHo6Lk` — **Agentic SDLC at Uber — Uday Kiran Medisetty & Adam Huda, Uber** — to the World's Fair video list.
