@@ -4,6 +4,8 @@ This file records refreshes and content changes to the AI Engineer World's Fair 
 
 ## 2026-09-16
 
+- Used the channel watermark to detect one contiguous new official upload: `O84lhGc1OOI` — **If we want them to do Knowledge Work, design them as Knowledge Agents — Benjamin Clavié, Mixedbread** — duration `17m 55s`.
+- Refreshed the channel catalog from 1,144 to 1,145 entries, the World's Fair playlist match list from 358 to 359 entries, and advanced `raw/youtube-aiengineer-channel-watermark.json` to the new channel boundary. Updated landing-page counts. Changes remain uncommitted.
 - Refreshed the official World's Fair playlist from 341 to 368 raw entries, including 358 usable entries, and refreshed the official channel feed from 1,122 to 1,144 entries. Added `fZH97QHHYjY` — **The unreasonable effectiveness of BM25 for agentic search — Jo Kristian Bergum, Hornet.dev** — to the catalogs and linked it to session 85.
 - Regenerated `ai-engineer-worlds-fair-2026-sessions.md` with 561 complete rows and 259 confident recording rows; added the verified recording to the matching ranked row in `ai-engineer-worlds-fair-2026-master.md`. Regenerated `ai-engineer-youtube-channel-videos.md` with 1,144 newest-first rows and `ai-engineer-worlds-fair-2026-youtube-videos.md` with 358 newest-first playlist rows. Updated `index.md` counts.
 - Validation: live playlist membership, official channel metadata, YouTube title/duration (`18m 29s`), `git diff --check`, session/catalog counts and clickable-thumbnail checks passed. Changes remain uncommitted.
