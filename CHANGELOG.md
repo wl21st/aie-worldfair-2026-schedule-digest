@@ -2,6 +2,14 @@
 
 This file records refreshes and content changes to the AI Engineer World's Fair 2026 schedule digest repository.
 
+## 2026-09-22
+
+- Used the channel watermark to scope the refresh to 15 previously unseen official uploads. The candidate contained all 1,145 prior IDs and 1,160 total entries; 12 formed the newest prefix before the existing boundary, while three were interleaved later in the feed and were retained after review.
+- Reused the existing World's Fair playlist snapshot instead of refetching it. Four of the 15 new channel videos were already present in that snapshot, so the World's Fair catalog increased from 359 to 363 matched videos without additional playlist work.
+- Refreshed `ai-engineer-youtube-channel-videos.md` to 1,160 entries, regenerated `ai-engineer-worlds-fair-2026-sessions.md` with 561 schedule rows and 273 confident YouTube matches, and propagated 21 newly verified links into `ai-engineer-worlds-fair-2026-master.md`.
+- New channel uploads: `SQMCtZX3trg`, `c1hGBoWw20A`, `btxG75rNJC4`, `Hvb2LfMH58c`, `g4SsanB0gMc`, `75ckHC2LU_0`, `cQQbJqvZkpo`, `l1-D89bAuOA`, `sOB3HSiG8vo`, `7c9FSUVcXR0`, `xs-ob87TTzg`, `eZ8WWZzoaR0`, `iJVxxxHM_Oc`, `V-isu4eTHgw`, `_gvamfT8H-w`.
+- Validation passed: cache-only regeneration was byte-for-byte deterministic; `raw/sessions.json` stayed unchanged with SHA-256 `8ba22355266a2add0338a0d90994d1552a4b27fb92c2fe4846b24111ad24e9ba`; Python compilation, `git diff --check`, watermark consistency, and catalog/link counts passed.
+
 ## 2026-09-16
 
 - Used the channel watermark to detect one contiguous new official upload: `O84lhGc1OOI` — **If we want them to do Knowledge Work, design them as Knowledge Agents — Benjamin Clavié, Mixedbread** — duration `17m 55s`.
