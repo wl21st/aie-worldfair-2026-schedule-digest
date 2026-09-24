@@ -2,6 +2,15 @@
 
 This file records refreshes and content changes to the AI Engineer World's Fair 2026 schedule digest repository.
 
+## 2026-09-24
+
+- Used the channel watermark to scope the refresh to 9 previously unseen official uploads. The candidate contained all 1,160 prior IDs and 1,169 total entries; all 9 formed a complete newest-first prefix before the existing boundary.
+- Refreshed `raw/youtube-aiengineer-channel-flat.json` and `ai-engineer-youtube-channel-videos.md` to 1,169 entries, advanced the channel watermark, and regenerated `ai-engineer-worlds-fair-2026-sessions.md` with 561 schedule rows and 282 confident YouTube matches.
+- Updated `ai-engineer-worlds-fair-2026-master.md` with 14 newly verified session matches across 17 ranked-category rows, including repeated occurrences.
+- New channel uploads: `T72nqdC92PM`, `ZZcE0HeO-Hc`, `ztlXKfPCT3Q`, `A_I8mw8yfns`, `0I07YAuF8xA`, `jNE8No-wvok`, `dKcTBQzR7jI`, `RQi7x-navxU`, `jgWY66RaSrQ`.
+- Reused the existing World's Fair playlist snapshot. A live playlist probe was partial (386 advertised entries, 381 usable), so `raw/youtube-aiewf-2026-playlist.json` and the playlist-scoped catalog were deliberately left unchanged.
+- Validation passed: channel IDs/order and watermark consistency, deterministic channel/session regeneration, unchanged `raw/sessions.json`, Python compilation, and `git diff --check`.
+
 ## 2026-09-22
 
 - Used the channel watermark to scope the refresh to 15 previously unseen official uploads. The candidate contained all 1,145 prior IDs and 1,160 total entries; 12 formed the newest prefix before the existing boundary, while three were interleaved later in the feed and were retained after review.

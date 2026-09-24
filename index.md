@@ -22,7 +22,7 @@ Complete table of all 561 schedule records, including generated keywords and off
 
 ### ▶️ [YouTube Channel Catalog](./ai-engineer-youtube-channel-videos.html)
 
-Newest-first catalog of 1,160 videos from the official AI Engineer YouTube channel, with thumbnails, duration, and deterministic topic tags for spotting new uploads.
+Newest-first catalog of 1,169 videos from the official AI Engineer YouTube channel, with thumbnails, duration, and deterministic topic tags for spotting new uploads.
 
 Use the [watermarked refresh workflow](./YOUTUBE_REFRESH.html) to detect the exact newest-upload range before applying the next channel snapshot.
 
