@@ -110,7 +110,7 @@ def tags_for(title: str) -> list[str]:
 def thumbnail(video_id: str) -> str:
     image = f"https://i.ytimg.com/vi/{video_id}/hqdefault.jpg"
     url = f"https://www.youtube.com/watch?v={video_id}"
-    return f'<a href="{url}" aria-label="Watch on YouTube"><img class="youtube-thumbnail" src="{image}" alt="YouTube thumbnail" loading="lazy"></a>'
+    return f'<a href="{url}" target="_blank" rel="noopener" aria-label="Watch on YouTube"><img class="youtube-thumbnail" src="{image}" alt="YouTube thumbnail" loading="lazy"></a>'
 
 
 def generate(entries: list[dict]) -> str:

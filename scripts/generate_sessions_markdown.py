@@ -144,7 +144,7 @@ def youtube_thumbnail(url: str) -> str:
     video_id = match.group(1)
     thumbnail_url = f"https://i.ytimg.com/vi/{video_id}/hqdefault.jpg"
     return (
-        f'<a href="{url}" aria-label="Watch on YouTube">'
+        f'<a href="{url}" target="_blank" rel="noopener" aria-label="Watch on YouTube">'
         f'<img class="youtube-thumbnail" src="{thumbnail_url}" '
         f'alt="YouTube thumbnail" loading="lazy">'
         "</a>"
