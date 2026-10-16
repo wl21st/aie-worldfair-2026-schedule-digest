@@ -13,7 +13,7 @@ This report details the technical investigation, preprocessing, vector duplicate
 * **Embedding Model**: `gemini-embedding-2-preview`
 * **Output Dimensions**: `128` (truncated using Matryoshka Representation Learning / MRL from native `3072` dimensions)
 * **Total Speakers Embedded**: `550`
-* **Source Files**: `raw/speakers-embeddings.json`, `raw/speakers.json`, `raw/sessions.json`
+* **Source Files**: `raw/speakers-embeddings.json`, `raw/speakers.json`, [`raw/sessions.json`](https://www.ai.engineer/worldsfair/2026/sessions.json)
 
 ---
 

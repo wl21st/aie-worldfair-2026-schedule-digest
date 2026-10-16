@@ -18,7 +18,7 @@ Ranked selection of top 30 sessions across key AI tracks (LLM Infrastructure, AI
 
 ### 📅 [All Sessions](./ai-engineer-worlds-fair-2026-sessions.html)
 
-Complete table of all 561 schedule records, including generated keywords and official YouTube recording links where a confident match was found. A filtered [sessions-with-recordings view](./ai-engineer-worlds-fair-2026-sessions.html#sessions-with-youtube-recordings) is included on the same page.
+Complete table of all 561 schedule records from the [official sessions.json source](https://www.ai.engineer/worldsfair/2026/sessions.json), including generated keywords and official YouTube recording links where a confident match was found. A filtered [sessions-with-recordings view](./ai-engineer-worlds-fair-2026-sessions.html#sessions-with-youtube-recordings) is included on the same page.
 
 ### ▶️ [YouTube Channel Catalog](./ai-engineer-youtube-channel-videos.html)
 

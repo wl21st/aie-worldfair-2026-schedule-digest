@@ -6,7 +6,7 @@ title: "AI Engineer World's Fair 2026 — Top 30 by AI Category"
 # AI Engineer World's Fair 2026 — Top 30 by AI Category
 
 Scope: ranked for an enterprise AI architect and LLM/AI infrastructure enthusiast; categories overlap intentionally.[1]
-Ranking basis: full session descriptions, native tracks, technical substance, production evidence, and enterprise relevance. Exact duplicate schedule records are consolidated; distinct Part/Pt/continued sessions remain separate.[1]
+Ranking basis: full session descriptions from the [official sessions.json source](https://www.ai.engineer/worldsfair/2026/sessions.json), native tracks, technical substance, production evidence, and enterprise relevance. Exact duplicate schedule records are consolidated; distinct Part/Pt/continued sessions remain separate.[1]
 
 YouTube: links point to recordings found in the official AI Engineer channel; `—` means no confident title/speaker match was found.[2]
 
@@ -435,6 +435,6 @@ Speaker names link to the first available public contact URL in the official spe
 
 ## Sources
 
-[1] https://www.ai.engineer/worldsfair/2026/sessions.json — AI Engineer World's Fair 2026 sessions.json
+[1] [https://www.ai.engineer/worldsfair/2026/sessions.json](https://www.ai.engineer/worldsfair/2026/sessions.json) — AI Engineer World's Fair 2026 sessions.json
 [2] https://www.youtube.com/@aiDotEngineer/videos — AI Engineer official YouTube channel — videos
 [3] https://www.ai.engineer/worldsfair/2026/speakers.json — official AI Engineer World's Fair 2026 speaker contact data.

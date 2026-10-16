@@ -5,7 +5,7 @@ title: "AI Engineer World's Fair 2026 — All Sessions"
 
 # AI Engineer World's Fair 2026 — All Sessions
 
-Complete schedule table generated from the 561-record `raw/sessions.json` snapshot. Session fields and descriptions are preserved from the official schedule export.[1]
+Complete schedule table generated from the 561-record [`raw/sessions.json`](https://www.ai.engineer/worldsfair/2026/sessions.json) snapshot. Session fields and descriptions are preserved from the official schedule export.[1]
 
 YouTube links point to recordings found in the official AI Engineer channel's World's Fair 2026 playlist or channel feed, or previously verified official recording links; `—` means no confident match was found.[2]
 
@@ -932,5 +932,5 @@ Complete schedule, including records without a confident YouTube match.
 
 ## Sources
 
-[1] https://www.ai.engineer/worldsfair/2026/sessions.json — official AI Engineer World's Fair 2026 session schedule JSON.
+[1] [https://www.ai.engineer/worldsfair/2026/sessions.json](https://www.ai.engineer/worldsfair/2026/sessions.json) — official AI Engineer World's Fair 2026 session schedule JSON.
 [2] https://www.youtube.com/playlist?list=PLDyBmFH9HlVc — official AI Engineer World's Fair 2026 Complete Playlist; channel: https://www.youtube.com/@aiDotEngineer.
