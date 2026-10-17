@@ -1,11 +1,14 @@
 {
   "schema_version": 1,
   "source_url": "https://www.youtube.com/@aiDotEngineer/videos",
-  "captured_at_utc": "2026-10-16T02:27:59Z",
-  "entry_count": 1345,
-  "newest_video_id": "Fva8hFosqyQ",
+  "captured_at_utc": "2026-10-17T07:44:43Z",
+  "entry_count": 1348,
+  "newest_video_id": "KtBivPzmOM8",
   "oldest_video_id": "6d60zVdcCV4",
   "known_video_ids": [
+    "KtBivPzmOM8",
+    "BOWYujhIQuo",
+    "kiClTcJUnhc",
     "Fva8hFosqyQ",
     "0JZy5AuuQzc",
     "tZycGA_Fbfo",
