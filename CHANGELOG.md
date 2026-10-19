@@ -2,6 +2,25 @@
 
 This file records refreshes and content changes to the AI Engineer World's Fair 2026 schedule digest repository.
 
+## 2026-10-19
+
+- Used the channel watermark to scope the refresh to 14 previously unseen official uploads. The candidate contained 1,347 of the 1,348 prior IDs and 1,361 total entries; all 14 formed a complete newest-first prefix before the existing boundary.
+- The prior public video `rAUyRDOFyHU` — **Agents in Orbit: Workflows, Not Autopilot — Eduardo Simon & Javier Casal, Flywire** — was no longer present in the `/videos` feed, although its watch page remained public. The refreshed feed snapshot and watermark follow the current official feed and omit that ID.
+- Refreshed `raw/youtube-aiengineer-channel-flat.json` and `ai-engineer-youtube-channel-videos.md` to 1,361 entries, advanced the channel watermark, and regenerated `ai-engineer-worlds-fair-2026-sessions.md` with 561 schedule rows and 339 confident YouTube matches.
+- Added the newly matched **The model swap workshop** recording (`UGjk3Uk0MxM`) to the session catalog and refreshed the World's Fair playlist-scoped catalog to 387 matched entries. Updated landing-page counts.
+- New channel uploads: `_4Ph2dhmUFI`, `7Y4sbZgBdnc`, `UGjk3Uk0MxM`, `J7n3WJnFTto`, `vS2IA9pq0Q4`, `L4dUFimVDKU`, `-AOxpwVeIWw`, `7T-gldvgfpo`, `W4pnzOURwHQ`, `obfPzbapMIM`, `q4WC4TowkBo`, `IavxrdVnwXM`, `SHMCGrNJJGc`, `Ti-BmGU1_mQ`.
+- Validation passed: repeated snapshot/regeneration was deterministic, channel IDs/order and watermark consistency passed, `raw/sessions.json` stayed unchanged with SHA-256 `8ba22355266a2add0338a0d90994d1552a4b27fb92c2fe4846b24111ad24e9ba`, Python compilation passed, and `git diff --check` passed.
+
+## 2026-10-17
+
+- Restored from commit `8753e81` (`docs: refresh YouTube channel catalog`): refreshed the official channel catalog from 1,345 to 1,348 entries and advanced the watermark from `Fva8hFosqyQ` to `KtBivPzmOM8`.
+- Added three channel uploads: `KtBivPzmOM8` — **Memory-Aware Agent Harnesses for Anti-Money Laundering — Nacho Martinez, Oracle**; `BOWYujhIQuo` — **AI Agents Cut 3-Day Portfolio Builds to Minutes — Jack McDonald, Apollo & Michael Manapat, Rowspace**; and `kiClTcJUnhc` — **Why One AI Agent Isn’t Enough (And How to Run 1,000) — CJ Avilla & Harrison Stall, Anthropic**.
+
+## 2026-10-15
+
+- Restored from commit `34bc703` (`docs: refresh AIE YouTube digests`): refreshed the channel snapshot from 1,169 to 1,345 entries, refreshed the World's Fair playlist snapshot to 392 raw entries with 387 matched catalog entries, and regenerated the session digest from 282 to 338 confident recording matches. This backfill added 176 channel-feed recordings and advanced the watermark to `Fva8hFosqyQ`.
+- Restored the repository and presentation changes from commits `fd754d3`, `c7051ce`, `8357f59`, `572e6d0`, and `4e402ae`: added `README.md`, linked the official sessions source, added then replaced the YouTube playback modal with external-link behavior, and regenerated YouTube links to open in new tabs.
+
 ## 2026-09-24
 
 - Used the channel watermark to scope the refresh to 9 previously unseen official uploads. The candidate contained all 1,160 prior IDs and 1,169 total entries; all 9 formed a complete newest-first prefix before the existing boundary.

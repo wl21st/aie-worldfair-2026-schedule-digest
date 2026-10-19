@@ -22,13 +22,13 @@ Complete table of all 561 schedule records from the [official sessions.json sour
 
 ### ▶️ [YouTube Channel Catalog](./ai-engineer-youtube-channel-videos.html)
 
-Newest-first catalog of 1,169 videos from the official AI Engineer YouTube channel, with thumbnails, duration, and deterministic topic tags for spotting new uploads.
+Newest-first catalog of 1,361 videos from the official AI Engineer YouTube channel, with thumbnails, duration, and deterministic topic tags for spotting new uploads.
 
 Use the [watermarked refresh workflow](./YOUTUBE_REFRESH.html) to detect the exact newest-upload range before applying the next channel snapshot.
 
 ### 🎬 [World's Fair 2026 YouTube Videos](./ai-engineer-worlds-fair-2026-youtube-videos.html)
 
-Newest-first list of the 363 currently identified videos in the official World's Fair 2026 playlist, with thumbnails, duration, and topic tags.
+Newest-first list of the 387 currently identified videos in the official World's Fair 2026 playlist, with thumbnails, duration, and topic tags.
 
 ### 🎤 [Keynotes](./keynotes.html)
 
