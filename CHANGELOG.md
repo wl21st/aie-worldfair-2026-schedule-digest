@@ -6,10 +6,10 @@ This file records refreshes and content changes to the AI Engineer World's Fair 
 
 - Used OpenCLI's official AI Engineer uploads adapter and per-video metadata to refresh the current feed. The candidate contained all 1,361 prior IDs and 1,398 total entries; all 37 new uploads formed a complete newest-first prefix before the existing boundary `_4Ph2dhmUFI`.
 - Refreshed `raw/youtube-aiengineer-channel-flat.json`, `ai-engineer-youtube-channel-videos.md`, and `ai-engineer-youtube-channel-summary.md` to 1,398 entries, advanced the channel watermark, and updated the landing-page count.
-- Added `ai-engineer-youtube-new-uploads.html`, a separate interactive 37-video catch-up page with search, title-derived topic filtering, newest/oldest sorting, captured-view sorting, and direct YouTube links.
+- Added `ai-engineer-youtube-new-uploads.html`, a separate interactive 387-video World's Fair 2026 page with newest-first channel-feed ordering, search, title-derived topic filtering, captured-view sorting, and direct YouTube links. The 37 newest channel uploads are AIE CODE summit videos and are intentionally excluded.
 - Regenerated `ai-engineer-worlds-fair-2026-sessions.md` with 561 schedule rows and 339 confident YouTube matches, plus the World's Fair playlist-scoped catalog with 387 matched entries.
 - New channel uploads: `4UtrRVtUN_g`, `Y_p3y6zP5QE`, `OmyqelTwpOo`, `gv4w23xYj-0`, `ImnZ7s68jw8`, `u_jvuCjuvEk`, `DZ24Xbm9Joc`, `dZgA6btnb_s`, `aVbRSIQO2dE`, `kspZP5BgkEU`, `v5tm5EAzsAs`, `CLve4Nx_RwI`, `WOszaC1WWbQ`, `ZMZlAn6Pyfg`, `oP2WLFpMoDY`, `5O6jLtoeKrg`, `GCse4OMzY8U`, `opHmX7qClzE`, `laQ8wMysnkk`, `UB6hoWyh3B0`, `uTrY8slys0w`, `A3FL_zTQKU0`, `Wk2bUUGFC_o`, `Ve2bAarPA2I`, `mMw3arwQsL0`, `c_SPW__jF9w`, `_dTF3NpPzGo`, `CFbnVpSsDFQ`, `bU5gDVyu_28`, `DouK81O8R3o`, `uA4ah-dVHvU`, `YvQ4BVTWfHI`, `3axY1wz2OvA`, `adfw3xJBx1o`, `Bz1HFxQA1o8`, `UHbODjuviAU`, `f_HwzoYrZ7s`.
-- Validation passed: all 37 OpenCLI video metadata reads succeeded, the second watermark detector run reported `no-change` with no missing IDs, repeated generation was byte-for-byte deterministic, and `git diff --check` passed. Changes remain uncommitted.
+- Validation passed: all 37 OpenCLI video metadata reads succeeded, the second watermark detector run reported `no-change` with no missing IDs, repeated generation was byte-for-byte deterministic, and `git diff --check` passed.
 
 ## 2026-10-19
 

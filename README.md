@@ -12,7 +12,7 @@ Research and reference materials for **AI Engineer World's Fair 2026**, held Jun
 - [Keynote Summaries](keynotes.md): daily keynote summaries and cross-cutting conference analysis.
 - [World's Fair YouTube Catalog](ai-engineer-worlds-fair-2026-youtube-videos.md): videos identified in the official World's Fair 2026 playlist.
 - [AI Engineer YouTube Channel Catalog](ai-engineer-youtube-channel-videos.md): a broader catalog of videos from the official AI Engineer channel.
-- [New AI Engineer Uploads](ai-engineer-youtube-new-uploads.html): the 37 videos added since the previous channel snapshot, with search, topic filtering, and sorting.
+- [World's Fair 2026 Latest Uploads](ai-engineer-youtube-new-uploads.html): the official World's Fair playlist videos sorted by newest-first channel upload order, with search, topic filtering, and sorting.
 - [Embedding Investigation Report](digest/embedding-investigation-report.md): analysis of vector preprocessing, duplicate detection, cosine similarity, and cluster verification.
 
 ## Data Sources
