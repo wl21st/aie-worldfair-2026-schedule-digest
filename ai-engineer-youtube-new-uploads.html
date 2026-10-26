@@ -1,0 +1,577 @@
+---
+layout: default
+title: "AI Engineer YouTube — New Uploads Since Last Snapshot"
+description: "The 37 newest AI Engineer YouTube uploads added since the previous channel snapshot."
+---
+
+<style>
+.new-upload-page {
+  --upload-accent: #f59e0b;
+  --upload-accent-strong: #fbbf24;
+  --upload-border: color-mix(in srgb, var(--border-color) 86%, var(--upload-accent) 14%);
+  --upload-muted: var(--text-muted);
+}
+.new-upload-page .upload-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1.5rem;
+  align-items: end;
+  padding: 2rem;
+  margin: 0 0 1.5rem;
+  border: 1px solid var(--upload-border);
+  border-radius: 14px;
+  background: linear-gradient(135deg, var(--bg-card), var(--bg-subtle));
+  box-shadow: var(--shadow-card);
+}
+.new-upload-page .upload-eyebrow {
+  margin: 0 0 .65rem;
+  color: var(--upload-accent-strong);
+  font: 600 .78rem/1.2 var(--font-mono);
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+.new-upload-page h1 { margin-bottom: .7rem; }
+.new-upload-page .upload-lede { max-width: 760px; margin: 0; color: var(--text-muted); font-size: 1.08rem; }
+.new-upload-page .upload-count {
+  min-width: 130px;
+  padding: 1rem 1.2rem;
+  border-left: 3px solid var(--upload-accent);
+  color: var(--text-heading);
+  font: 600 1rem/1.35 var(--font-mono);
+  text-align: right;
+}
+.new-upload-page .upload-count strong { display: block; font-size: 2.1rem; color: var(--upload-accent-strong); }
+.new-upload-page .upload-facts {
+  display: flex; flex-wrap: wrap; gap: .55rem 1.2rem;
+  margin: 0 0 1.5rem; color: var(--upload-muted); font-size: .9rem;
+}
+.new-upload-page .upload-facts code { color: var(--text-main); }
+.new-upload-page .upload-toolbar {
+  display: grid; grid-template-columns: minmax(220px, 1fr) minmax(170px, .45fr) minmax(170px, .45fr) auto;
+  gap: .75rem; align-items: center; margin-bottom: 1rem;
+}
+.new-upload-page .upload-toolbar label { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+.new-upload-page .upload-toolbar input,
+.new-upload-page .upload-toolbar select {
+  width: 100%; padding: .7rem .8rem; border: 1px solid var(--border-color); border-radius: 7px;
+  background: var(--bg-card); color: var(--text-main); font: inherit;
+}
+.new-upload-page .upload-toolbar input:focus-visible,
+.new-upload-page .upload-toolbar select:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+.new-upload-page .upload-result-count { color: var(--upload-muted); font: .82rem var(--font-mono); white-space: nowrap; }
+.new-upload-page .upload-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.new-upload-page .upload-card {
+  display: grid; grid-template-columns: minmax(150px, 34%) minmax(0, 1fr); min-width: 0;
+  overflow: hidden; border: 1px solid var(--border-color); border-radius: 10px; background: var(--bg-card);
+  transition: border-color 160ms ease, transform 160ms ease, background 160ms ease;
+}
+.new-upload-page .upload-card:hover { border-color: var(--upload-accent); background: var(--bg-card-hover); transform: translateY(-2px); }
+.new-upload-page .upload-card[hidden] { display: none; }
+.new-upload-page .upload-thumb-link { position: relative; display: block; min-height: 100%; background: var(--bg-subtle); }
+.new-upload-page .upload-thumb { display: block; width: 100%; height: 100%; min-height: 132px; object-fit: cover; }
+.new-upload-page .upload-rank {
+  position: absolute; top: .55rem; left: .55rem; padding: .2rem .4rem; border-radius: 4px;
+  background: rgba(9, 13, 22, .82); color: #fff; font: 600 .72rem var(--font-mono);
+}
+.new-upload-page .upload-card-body { display: flex; min-width: 0; flex-direction: column; padding: .85rem 1rem; }
+.new-upload-page .upload-card-meta,
+.new-upload-page .upload-card-footer { display: flex; justify-content: space-between; gap: .7rem; color: var(--upload-muted); font: .72rem var(--font-mono); }
+.new-upload-page .upload-card-meta { margin-bottom: .5rem; }
+.new-upload-page .upload-card-body h2 { margin: 0 0 .9rem; font-size: 1.02rem; line-height: 1.28; }
+.new-upload-page .upload-card-body h2 a { color: var(--text-heading); text-decoration: none; }
+.new-upload-page .upload-card-body h2 a:hover { color: var(--upload-accent-strong); }
+.new-upload-page .upload-card-footer { align-items: end; margin-top: auto; }
+.new-upload-page .upload-category { color: var(--upload-accent-strong); }
+.new-upload-page .upload-empty { display: none; padding: 2rem; border: 1px dashed var(--border-color); color: var(--upload-muted); text-align: center; }
+.new-upload-page .upload-empty.is-visible { display: block; }
+.new-upload-page .upload-source { margin-top: 1.5rem; color: var(--upload-muted); font-size: .86rem; }
+.new-upload-page .upload-source a { color: var(--accent-secondary); }
+@media (max-width: 900px) {
+  .new-upload-page .upload-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 700px) {
+  .new-upload-page .upload-hero { grid-template-columns: 1fr; padding: 1.25rem; }
+  .new-upload-page .upload-count { text-align: left; border-left: 0; border-top: 3px solid var(--upload-accent); }
+  .new-upload-page .upload-toolbar { grid-template-columns: 1fr; }
+}
+</style>
+
+<section class="new-upload-page" aria-labelledby="new-upload-title">
+  <div class="upload-hero">
+    <div>
+      <p class="upload-eyebrow">Channel catch-up / newest-first</p>
+      <h1 id="new-upload-title">New uploads since the last snapshot</h1>
+      <p class="upload-lede">The complete contiguous upload range added to the official AI Engineer channel since the previous refresh. Browse the videos, filter by title-derived topic, or sort by captured views.</p>
+    </div>
+    <div class="upload-count"><strong>37</strong>new videos</div>
+  </div>
+
+  <div class="upload-facts" aria-label="Snapshot details">
+    <span>Previous snapshot: <code>2026-10-19T23:36:05Z</code></span>
+    <span>Current snapshot: <code>2026-10-26T10:58:49Z</code></span>
+    <span>Boundary: <code>_4Ph2dhmUFI</code></span>
+  </div>
+
+  <div class="upload-toolbar" role="search">
+    <label for="upload-search">Search new uploads</label>
+    <input id="upload-search" type="search" placeholder="Search titles, speakers, or companies">
+    <label for="upload-category">Filter by topic</label>
+    <select id="upload-category"><option value="">All title-derived topics</option><option value="Agents, harnesses &amp; orchestration">Agents, harnesses &amp; orchestration</option><option value="Coding &amp; software engineering">Coding &amp; software engineering</option><option value="Commerce, finance &amp; payments">Commerce, finance &amp; payments</option><option value="Context, memory &amp; retrieval">Context, memory &amp; retrieval</option><option value="Enterprise &amp; organizational adoption">Enterprise &amp; organizational adoption</option><option value="Evaluation &amp; observability">Evaluation &amp; observability</option><option value="Inference &amp; systems infrastructure">Inference &amp; systems infrastructure</option><option value="Model training &amp; architecture">Model training &amp; architecture</option><option value="Other AI engineering">Other AI engineering</option><option value="Security &amp; authorization">Security &amp; authorization</option><option value="Voice, multimodal &amp; robotics">Voice, multimodal &amp; robotics</option></select>
+    <label for="upload-sort">Sort uploads</label>
+    <select id="upload-sort">
+      <option value="newest">Newest first</option>
+      <option value="oldest">Oldest first</option>
+      <option value="views">Most captured views</option>
+    </select>
+    <span id="upload-result-count" class="upload-result-count" aria-live="polite">37 of 37</span>
+  </div>
+
+  <div id="upload-grid" class="upload-grid">
+<article class="upload-card" data-upload-card data-title="how to build an ai code review agent - daksh gupta, greptile" data-category="Coding &amp; software engineering" data-published="2026-10-26T02:00:23-07:00" data-views="858" data-rank="1">
+  <a class="upload-thumb-link" href="https://www.youtube.com/watch?v=4UtrRVtUN_g" target="_blank" rel="noopener" aria-label="Watch How to Build an AI Code Review Agent - Daksh Gupta, Greptile on YouTube">
+    <img class="upload-thumb" src="https://i.ytimg.com/vi_webp/4UtrRVtUN_g/maxresdefault.webp" alt="" loading="lazy">
+    <span class="upload-rank">01</span>
+  </a>
+  <div class="upload-card-body">
+    <div class="upload-card-meta"><span>Oct 26, 2026 · 02:00 UTC-07:00</span><span>18m 27s</span></div>
+    <h2><a href="https://www.youtube.com/watch?v=4UtrRVtUN_g" target="_blank" rel="noopener">How to Build an AI Code Review Agent - Daksh Gupta, Greptile</a></h2>
+    <div class="upload-card-footer"><span class="upload-category">Coding &amp; software engineering</span><span>858 views</span></div>
+  </div>
+</article>
+<article class="upload-card" data-upload-card data-title="build your own team of managed agents - jack wotherspoon, google deepmind" data-category="Agents, harnesses &amp; orchestration" data-published="2026-10-26T01:00:11-07:00" data-views="1955" data-rank="2">
+  <a class="upload-thumb-link" href="https://www.youtube.com/watch?v=Y_p3y6zP5QE" target="_blank" rel="noopener" aria-label="Watch Build Your Own Team of Managed Agents - Jack Wotherspoon, Google DeepMind on YouTube">
+    <img class="upload-thumb" src="https://i.ytimg.com/vi_webp/Y_p3y6zP5QE/maxresdefault.webp" alt="" loading="lazy">
+    <span class="upload-rank">02</span>
+  </a>
+  <div class="upload-card-body">
+    <div class="upload-card-meta"><span>Oct 26, 2026 · 01:00 UTC-07:00</span><span>19m 43s</span></div>
+    <h2><a href="https://www.youtube.com/watch?v=Y_p3y6zP5QE" target="_blank" rel="noopener">Build Your Own Team of Managed Agents - Jack Wotherspoon, Google DeepMind</a></h2>
+    <div class="upload-card-footer"><span class="upload-category">Agents, harnesses &amp; orchestration</span><span>1955 views</span></div>
+  </div>
+</article>
+<article class="upload-card" data-upload-card data-title="how to build voice agents that don&#x27;t fall apart when you interrupt - jesse hall, livekit" data-category="Voice, multimodal &amp; robotics" data-published="2026-10-26T00:00:26-07:00" data-views="1390" data-rank="3">
+  <a class="upload-thumb-link" href="https://www.youtube.com/watch?v=OmyqelTwpOo" target="_blank" rel="noopener" aria-label="Watch How to Build Voice Agents That Don&#x27;t Fall Apart When You Interrupt - Jesse Hall, LiveKit on YouTube">
+    <img class="upload-thumb" src="https://i.ytimg.com/vi_webp/OmyqelTwpOo/maxresdefault.webp" alt="" loading="lazy">
+    <span class="upload-rank">03</span>
+  </a>
+  <div class="upload-card-body">
+    <div class="upload-card-meta"><span>Oct 26, 2026 · 00:00 UTC-07:00</span><span>20m 55s</span></div>
+    <h2><a href="https://www.youtube.com/watch?v=OmyqelTwpOo" target="_blank" rel="noopener">How to Build Voice Agents That Don&#x27;t Fall Apart When You Interrupt - Jesse Hall, LiveKit</a></h2>
+    <div class="upload-card-footer"><span class="upload-category">Voice, multimodal &amp; robotics</span><span>1390 views</span></div>
+  </div>
+</article>
+<article class="upload-card" data-upload-card data-title="how to write your first ai eval - sallyann delucia, arize ai" data-category="Evaluation &amp; observability" data-published="2026-10-25T16:00:27-07:00" data-views="11397" data-rank="4">
+  <a class="upload-thumb-link" href="https://www.youtube.com/watch?v=gv4w23xYj-0" target="_blank" rel="noopener" aria-label="Watch How to Write Your First AI Eval - SallyAnn DeLucia, Arize AI on YouTube">
+    <img class="upload-thumb" src="https://i.ytimg.com/vi_webp/gv4w23xYj-0/maxresdefault.webp" alt="" loading="lazy">
+    <span class="upload-rank">04</span>
+  </a>
+  <div class="upload-card-body">
+    <div class="upload-card-meta"><span>Oct 25, 2026 · 16:00 UTC-07:00</span><span>35m 19s</span></div>
+    <h2><a href="https://www.youtube.com/watch?v=gv4w23xYj-0" target="_blank" rel="noopener">How to Write Your First AI Eval - SallyAnn DeLucia, Arize AI</a></h2>
+    <div class="upload-card-footer"><span class="upload-category">Evaluation &amp; observability</span><span>11397 views</span></div>
+  </div>
+</article>
+<article class="upload-card" data-upload-card data-title="what does an ai engineer do now? - aparna dhinakaran, arize ai" data-category="Other AI engineering" data-published="2026-10-25T12:00:32-07:00" data-views="14050" data-rank="5">
+  <a class="upload-thumb-link" href="https://www.youtube.com/watch?v=ImnZ7s68jw8" target="_blank" rel="noopener" aria-label="Watch What Does an AI Engineer Do Now? - Aparna Dhinakaran, Arize AI on YouTube">
+    <img class="upload-thumb" src="https://i.ytimg.com/vi_webp/ImnZ7s68jw8/maxresdefault.webp" alt="" loading="lazy">
+    <span class="upload-rank">05</span>
+  </a>
+  <div class="upload-card-body">
+    <div class="upload-card-meta"><span>Oct 25, 2026 · 12:00 UTC-07:00</span><span>15m 27s</span></div>
+    <h2><a href="https://www.youtube.com/watch?v=ImnZ7s68jw8" target="_blank" rel="noopener">What Does an AI Engineer Do Now? - Aparna Dhinakaran, Arize AI</a></h2>
+    <div class="upload-card-footer"><span class="upload-category">Other AI engineering</span><span>14050 views</span></div>
+  </div>
+</article>
+<article class="upload-card" data-upload-card data-title="can your ai analyst keep a secret? - aaron linsky, bridgewater &amp; nikhil benesch, turbopuffer" data-category="Security &amp; authorization" data-published="2026-10-25T08:00:33-07:00" data-views="5636" data-rank="6">
+  <a class="upload-thumb-link" href="https://www.youtube.com/watch?v=u_jvuCjuvEk" target="_blank" rel="noopener" aria-label="Watch Can Your AI Analyst Keep a Secret? - Aaron Linsky, Bridgewater &amp; Nikhil Benesch, turbopuffer on YouTube">
+    <img class="upload-thumb" src="https://i.ytimg.com/vi_webp/u_jvuCjuvEk/maxresdefault.webp" alt="" loading="lazy">
+    <span class="upload-rank">06</span>
+  </a>
+  <div class="upload-card-body">
+    <div class="upload-card-meta"><span>Oct 25, 2026 · 08:00 UTC-07:00</span><span>17m 56s</span></div>
+    <h2><a href="https://www.youtube.com/watch?v=u_jvuCjuvEk" target="_blank" rel="noopener">Can Your AI Analyst Keep a Secret? - Aaron Linsky, Bridgewater &amp; Nikhil Benesch, turbopuffer</a></h2>
+    <div class="upload-card-footer"><span class="upload-category">Security &amp; authorization</span><span>5636 views</span></div>
+  </div>
+</article>
+<article class="upload-card" data-upload-card data-title="how to build financial agents that work across the web - jay sahnan &amp; arik bird, browserbase" data-category="Agents, harnesses &amp; orchestration" data-published="2026-10-25T02:00:10-07:00" data-views="9918" data-rank="7">
+  <a class="upload-thumb-link" href="https://www.youtube.com/watch?v=DZ24Xbm9Joc" target="_blank" rel="noopener" aria-label="Watch How to Build Financial Agents That Work Across the Web - Jay Sahnan &amp; Arik Bird, Browserbase on YouTube">
+    <img class="upload-thumb" src="https://i.ytimg.com/vi_webp/DZ24Xbm9Joc/maxresdefault.webp" alt="" loading="lazy">
+    <span class="upload-rank">07</span>
+  </a>
+  <div class="upload-card-body">
+    <div class="upload-card-meta"><span>Oct 25, 2026 · 02:00 UTC-07:00</span><span>19m 37s</span></div>
+    <h2><a href="https://www.youtube.com/watch?v=DZ24Xbm9Joc" target="_blank" rel="noopener">How to Build Financial Agents That Work Across the Web - Jay Sahnan &amp; Arik Bird, Browserbase</a></h2>
+    <div class="upload-card-footer"><span class="upload-category">Agents, harnesses &amp; orchestration</span><span>9918 views</span></div>
+  </div>
+</article>
+<article class="upload-card" data-upload-card data-title="do not let models invent numbers - vinoo ganesh, kepler" data-category="Model training &amp; architecture" data-published="2026-10-25T01:00:12-07:00" data-views="8096" data-rank="8">
+  <a class="upload-thumb-link" href="https://www.youtube.com/watch?v=dZgA6btnb_s" target="_blank" rel="noopener" aria-label="Watch Do Not Let Models Invent Numbers - Vinoo Ganesh, Kepler on YouTube">
+    <img class="upload-thumb" src="https://i.ytimg.com/vi_webp/dZgA6btnb_s/maxresdefault.webp" alt="" loading="lazy">
+    <span class="upload-rank">08</span>
+  </a>
+  <div class="upload-card-body">
+    <div class="upload-card-meta"><span>Oct 25, 2026 · 01:00 UTC-07:00</span><span>20m 58s</span></div>
+    <h2><a href="https://www.youtube.com/watch?v=dZgA6btnb_s" target="_blank" rel="noopener">Do Not Let Models Invent Numbers - Vinoo Ganesh, Kepler</a></h2>
+    <div class="upload-card-footer"><span class="upload-category">Model training &amp; architecture</span><span>8096 views</span></div>
+  </div>
+</article>
+<article class="upload-card" data-upload-card data-title="why frontier models fail as buy-side analysts - janie gu, google deepmind &amp; suyeol yun, linqalpha" data-category="Model training &amp; architecture" data-published="2026-10-25T00:00:32-07:00" data-views="5004" data-rank="9">
+  <a class="upload-thumb-link" href="https://www.youtube.com/watch?v=aVbRSIQO2dE" target="_blank" rel="noopener" aria-label="Watch Why Frontier Models Fail as Buy-Side Analysts - Janie Gu, Google DeepMind &amp; Suyeol Yun, LinqAlpha on YouTube">
+    <img class="upload-thumb" src="https://i.ytimg.com/vi_webp/aVbRSIQO2dE/maxresdefault.webp" alt="" loading="lazy">
+    <span class="upload-rank">09</span>
+  </a>
+  <div class="upload-card-body">
+    <div class="upload-card-meta"><span>Oct 25, 2026 · 00:00 UTC-07:00</span><span>18m 31s</span></div>
+    <h2><a href="https://www.youtube.com/watch?v=aVbRSIQO2dE" target="_blank" rel="noopener">Why Frontier Models Fail as Buy-Side Analysts - Janie Gu, Google DeepMind &amp; Suyeol Yun, LinqAlpha</a></h2>
+    <div class="upload-card-footer"><span class="upload-category">Model training &amp; architecture</span><span>5004 views</span></div>
+  </div>
+</article>
+<article class="upload-card" data-upload-card data-title="ai writes the code. so what&#x27;s left for engineers? - laurie voss, arize ai" data-category="Coding &amp; software engineering" data-published="2026-10-24T16:00:29-07:00" data-views="68200" data-rank="10">
+  <a class="upload-thumb-link" href="https://www.youtube.com/watch?v=kspZP5BgkEU" target="_blank" rel="noopener" aria-label="Watch AI Writes the Code. So What&#x27;s Left for Engineers? - Laurie Voss, Arize AI on YouTube">
+    <img class="upload-thumb" src="https://i.ytimg.com/vi_webp/kspZP5BgkEU/maxresdefault.webp" alt="" loading="lazy">
+    <span class="upload-rank">10</span>
+  </a>
+  <div class="upload-card-body">
+    <div class="upload-card-meta"><span>Oct 24, 2026 · 16:00 UTC-07:00</span><span>27m 09s</span></div>
+    <h2><a href="https://www.youtube.com/watch?v=kspZP5BgkEU" target="_blank" rel="noopener">AI Writes the Code. So What&#x27;s Left for Engineers? - Laurie Voss, Arize AI</a></h2>
+    <div class="upload-card-footer"><span class="upload-category">Coding &amp; software engineering</span><span>68200 views</span></div>
+  </div>
+</article>
+<article class="upload-card" data-upload-card data-title="your agent fix just broke something else - sofia jakovcevic, arize ai" data-category="Agents, harnesses &amp; orchestration" data-published="2026-10-24T12:00:09-07:00" data-views="10374" data-rank="11">
+  <a class="upload-thumb-link" href="https://www.youtube.com/watch?v=v5tm5EAzsAs" target="_blank" rel="noopener" aria-label="Watch Your Agent Fix Just Broke Something Else - Sofia Jakovcevic, Arize AI on YouTube">
+    <img class="upload-thumb" src="https://i.ytimg.com/vi_webp/v5tm5EAzsAs/maxresdefault.webp" alt="" loading="lazy">
+    <span class="upload-rank">11</span>
+  </a>
+  <div class="upload-card-body">
+    <div class="upload-card-meta"><span>Oct 24, 2026 · 12:00 UTC-07:00</span><span>19m 24s</span></div>
+    <h2><a href="https://www.youtube.com/watch?v=v5tm5EAzsAs" target="_blank" rel="noopener">Your Agent Fix Just Broke Something Else - Sofia Jakovcevic, Arize AI</a></h2>
+    <div class="upload-card-footer"><span class="upload-category">Agents, harnesses &amp; orchestration</span><span>10374 views</span></div>
+  </div>
+</article>
+<article class="upload-card" data-upload-card data-title="how bridgewater turned 100 million documents into an edge - sam green &amp; aaron linsky, bridgewater" data-category="Context, memory &amp; retrieval" data-published="2026-10-24T08:00:38-07:00" data-views="10204" data-rank="12">
+  <a class="upload-thumb-link" href="https://www.youtube.com/watch?v=CLve4Nx_RwI" target="_blank" rel="noopener" aria-label="Watch How Bridgewater Turned 100 Million Documents Into an Edge - Sam Green &amp; Aaron Linsky, Bridgewater on YouTube">
+    <img class="upload-thumb" src="https://i.ytimg.com/vi_webp/CLve4Nx_RwI/maxresdefault.webp" alt="" loading="lazy">
+    <span class="upload-rank">12</span>
+  </a>
+  <div class="upload-card-body">
+    <div class="upload-card-meta"><span>Oct 24, 2026 · 08:00 UTC-07:00</span><span>16m 44s</span></div>
+    <h2><a href="https://www.youtube.com/watch?v=CLve4Nx_RwI" target="_blank" rel="noopener">How Bridgewater Turned 100 Million Documents Into an Edge - Sam Green &amp; Aaron Linsky, Bridgewater</a></h2>
+    <div class="upload-card-footer"><span class="upload-category">Context, memory &amp; retrieval</span><span>10204 views</span></div>
+  </div>
+</article>
+<article class="upload-card" data-upload-card data-title="can ai understand a distressed credit? - harneet kaur, axim intelligence" data-category="Other AI engineering" data-published="2026-10-24T02:00:16-07:00" data-views="7636" data-rank="13">
+  <a class="upload-thumb-link" href="https://www.youtube.com/watch?v=WOszaC1WWbQ" target="_blank" rel="noopener" aria-label="Watch Can AI Understand a Distressed Credit? - Harneet Kaur, Axim Intelligence on YouTube">
+    <img class="upload-thumb" src="https://i.ytimg.com/vi_webp/WOszaC1WWbQ/maxresdefault.webp" alt="" loading="lazy">
+    <span class="upload-rank">13</span>
+  </a>
+  <div class="upload-card-body">
+    <div class="upload-card-meta"><span>Oct 24, 2026 · 02:00 UTC-07:00</span><span>14m 14s</span></div>
+    <h2><a href="https://www.youtube.com/watch?v=WOszaC1WWbQ" target="_blank" rel="noopener">Can AI Understand a Distressed Credit? - Harneet Kaur, Axim Intelligence</a></h2>
+    <div class="upload-card-footer"><span class="upload-category">Other AI engineering</span><span>7636 views</span></div>
+  </div>
+</article>
+<article class="upload-card" data-upload-card data-title="proving alpha: how a hedge fund measures ai&#x27;s roi - hari kumar, contour asset management" data-category="Enterprise &amp; organizational adoption" data-published="2026-10-24T01:00:28-07:00" data-views="6811" data-rank="14">
+  <a class="upload-thumb-link" href="https://www.youtube.com/watch?v=ZMZlAn6Pyfg" target="_blank" rel="noopener" aria-label="Watch Proving Alpha: How a Hedge Fund Measures AI&#x27;s ROI - Hari Kumar, Contour Asset Management on YouTube">
+    <img class="upload-thumb" src="https://i.ytimg.com/vi_webp/ZMZlAn6Pyfg/maxresdefault.webp" alt="" loading="lazy">
+    <span class="upload-rank">14</span>
+  </a>
+  <div class="upload-card-body">
+    <div class="upload-card-meta"><span>Oct 24, 2026 · 01:00 UTC-07:00</span><span>18m 24s</span></div>
+    <h2><a href="https://www.youtube.com/watch?v=ZMZlAn6Pyfg" target="_blank" rel="noopener">Proving Alpha: How a Hedge Fund Measures AI&#x27;s ROI - Hari Kumar, Contour Asset Management</a></h2>
+    <div class="upload-card-footer"><span class="upload-category">Enterprise &amp; organizational adoption</span><span>6811 views</span></div>
+  </div>
+</article>
+<article class="upload-card" data-upload-card data-title="inside arca&#x27;s long-horizon agents that run the business - aman singh, arca" data-category="Agents, harnesses &amp; orchestration" data-published="2026-10-23T14:00:21-07:00" data-views="8869" data-rank="15">
+  <a class="upload-thumb-link" href="https://www.youtube.com/watch?v=oP2WLFpMoDY" target="_blank" rel="noopener" aria-label="Watch Inside Arca&#x27;s Long-Horizon Agents That Run the Business - Aman Singh, Arca on YouTube">
+    <img class="upload-thumb" src="https://i.ytimg.com/vi_webp/oP2WLFpMoDY/maxresdefault.webp" alt="" loading="lazy">
+    <span class="upload-rank">15</span>
+  </a>
+  <div class="upload-card-body">
+    <div class="upload-card-meta"><span>Oct 23, 2026 · 14:00 UTC-07:00</span><span>13m 15s</span></div>
+    <h2><a href="https://www.youtube.com/watch?v=oP2WLFpMoDY" target="_blank" rel="noopener">Inside Arca&#x27;s Long-Horizon Agents That Run the Business - Aman Singh, Arca</a></h2>
+    <div class="upload-card-footer"><span class="upload-category">Agents, harnesses &amp; orchestration</span><span>8869 views</span></div>
+  </div>
+</article>
+<article class="upload-card" data-upload-card data-title="real ai agent attacks and what would have stopped them — andrey rybka, bloomberg" data-category="Security &amp; authorization" data-published="2026-10-23T12:00:34-07:00" data-views="8117" data-rank="16">
+  <a class="upload-thumb-link" href="https://www.youtube.com/watch?v=5O6jLtoeKrg" target="_blank" rel="noopener" aria-label="Watch Real AI Agent Attacks and What Would Have Stopped Them — Andrey Rybka, Bloomberg on YouTube">
+    <img class="upload-thumb" src="https://i.ytimg.com/vi_webp/5O6jLtoeKrg/maxresdefault.webp" alt="" loading="lazy">
+    <span class="upload-rank">16</span>
+  </a>
+  <div class="upload-card-body">
+    <div class="upload-card-meta"><span>Oct 23, 2026 · 12:00 UTC-07:00</span><span>15m 44s</span></div>
+    <h2><a href="https://www.youtube.com/watch?v=5O6jLtoeKrg" target="_blank" rel="noopener">Real AI Agent Attacks and What Would Have Stopped Them — Andrey Rybka, Bloomberg</a></h2>
+    <div class="upload-card-footer"><span class="upload-category">Security &amp; authorization</span><span>8117 views</span></div>
+  </div>
+</article>
+<article class="upload-card" data-upload-card data-title="why compute still trades in group chats — affaan mustafa &amp; alejandro soumah fernandez, jump trading" data-category="Commerce, finance &amp; payments" data-published="2026-10-23T10:18:49-07:00" data-views="5718" data-rank="17">
+  <a class="upload-thumb-link" href="https://www.youtube.com/watch?v=GCse4OMzY8U" target="_blank" rel="noopener" aria-label="Watch Why Compute Still Trades in Group Chats — Affaan Mustafa &amp; Alejandro Soumah Fernandez, Jump Trading on YouTube">
+    <img class="upload-thumb" src="https://i.ytimg.com/vi_webp/GCse4OMzY8U/maxresdefault.webp" alt="" loading="lazy">
+    <span class="upload-rank">17</span>
+  </a>
+  <div class="upload-card-body">
+    <div class="upload-card-meta"><span>Oct 23, 2026 · 10:18 UTC-07:00</span><span>20m 37s</span></div>
+    <h2><a href="https://www.youtube.com/watch?v=GCse4OMzY8U" target="_blank" rel="noopener">Why Compute Still Trades in Group Chats — Affaan Mustafa &amp; Alejandro Soumah Fernandez, Jump Trading</a></h2>
+    <div class="upload-card-footer"><span class="upload-category">Commerce, finance &amp; payments</span><span>5718 views</span></div>
+  </div>
+</article>
+<article class="upload-card" data-upload-card data-title="how openai built chatgpt for bankers and analysts — joseph kim, openai" data-category="Commerce, finance &amp; payments" data-published="2026-10-23T10:00:10-07:00" data-views="21314" data-rank="18">
+  <a class="upload-thumb-link" href="https://www.youtube.com/watch?v=opHmX7qClzE" target="_blank" rel="noopener" aria-label="Watch How OpenAI Built ChatGPT for Bankers and Analysts — Joseph Kim, OpenAI on YouTube">
+    <img class="upload-thumb" src="https://i.ytimg.com/vi_webp/opHmX7qClzE/maxresdefault.webp" alt="" loading="lazy">
+    <span class="upload-rank">18</span>
+  </a>
+  <div class="upload-card-body">
+    <div class="upload-card-meta"><span>Oct 23, 2026 · 10:00 UTC-07:00</span><span>18m 59s</span></div>
+    <h2><a href="https://www.youtube.com/watch?v=opHmX7qClzE" target="_blank" rel="noopener">How OpenAI Built ChatGPT for Bankers and Analysts — Joseph Kim, OpenAI</a></h2>
+    <div class="upload-card-footer"><span class="upload-category">Commerce, finance &amp; payments</span><span>21314 views</span></div>
+  </div>
+</article>
+<article class="upload-card" data-upload-card data-title="buying gpus should work like buying stocks — carmen li, compute exchange" data-category="Inference &amp; systems infrastructure" data-published="2026-10-23T08:00:36-07:00" data-views="5479" data-rank="19">
+  <a class="upload-thumb-link" href="https://www.youtube.com/watch?v=laQ8wMysnkk" target="_blank" rel="noopener" aria-label="Watch Buying GPUs Should Work Like Buying Stocks — Carmen Li, Compute Exchange on YouTube">
+    <img class="upload-thumb" src="https://i.ytimg.com/vi_webp/laQ8wMysnkk/maxresdefault.webp" alt="" loading="lazy">
+    <span class="upload-rank">19</span>
+  </a>
+  <div class="upload-card-body">
+    <div class="upload-card-meta"><span>Oct 23, 2026 · 08:00 UTC-07:00</span><span>18m 05s</span></div>
+    <h2><a href="https://www.youtube.com/watch?v=laQ8wMysnkk" target="_blank" rel="noopener">Buying GPUs Should Work Like Buying Stocks — Carmen Li, Compute Exchange</a></h2>
+    <div class="upload-card-footer"><span class="upload-category">Inference &amp; systems infrastructure</span><span>5479 views</span></div>
+  </div>
+</article>
+<article class="upload-card" data-upload-card data-title="a bank trained its own foundation model to catch fraud — freddy lecue, wells fargo" data-category="Commerce, finance &amp; payments" data-published="2026-10-23T02:00:35-07:00" data-views="6030" data-rank="20">
+  <a class="upload-thumb-link" href="https://www.youtube.com/watch?v=UB6hoWyh3B0" target="_blank" rel="noopener" aria-label="Watch A Bank Trained Its Own Foundation Model to Catch Fraud — Freddy Lecue, Wells Fargo on YouTube">
+    <img class="upload-thumb" src="https://i.ytimg.com/vi_webp/UB6hoWyh3B0/maxresdefault.webp" alt="" loading="lazy">
+    <span class="upload-rank">20</span>
+  </a>
+  <div class="upload-card-body">
+    <div class="upload-card-meta"><span>Oct 23, 2026 · 02:00 UTC-07:00</span><span>17m 40s</span></div>
+    <h2><a href="https://www.youtube.com/watch?v=UB6hoWyh3B0" target="_blank" rel="noopener">A Bank Trained Its Own Foundation Model to Catch Fraud — Freddy Lecue, Wells Fargo</a></h2>
+    <div class="upload-card-footer"><span class="upload-category">Commerce, finance &amp; payments</span><span>6030 views</span></div>
+  </div>
+</article>
+<article class="upload-card" data-upload-card data-title="how to let ai agents sign up for your app safely — isabelle williams, workos" data-category="Agents, harnesses &amp; orchestration" data-published="2026-10-23T01:00:39-07:00" data-views="4644" data-rank="21">
+  <a class="upload-thumb-link" href="https://www.youtube.com/watch?v=uTrY8slys0w" target="_blank" rel="noopener" aria-label="Watch How to Let AI Agents Sign Up for Your App Safely — Isabelle Williams, WorkOS on YouTube">
+    <img class="upload-thumb" src="https://i.ytimg.com/vi_webp/uTrY8slys0w/maxresdefault.webp" alt="" loading="lazy">
+    <span class="upload-rank">21</span>
+  </a>
+  <div class="upload-card-body">
+    <div class="upload-card-meta"><span>Oct 23, 2026 · 01:00 UTC-07:00</span><span>18m 33s</span></div>
+    <h2><a href="https://www.youtube.com/watch?v=uTrY8slys0w" target="_blank" rel="noopener">How to Let AI Agents Sign Up for Your App Safely — Isabelle Williams, WorkOS</a></h2>
+    <div class="upload-card-footer"><span class="upload-category">Agents, harnesses &amp; orchestration</span><span>4644 views</span></div>
+  </div>
+</article>
+<article class="upload-card" data-upload-card data-title="don&#x27;t trust your ai agents. test them like a scientist — stephanie jarmak, omni analytics" data-category="Security &amp; authorization" data-published="2026-10-23T00:00:08-07:00" data-views="9016" data-rank="22">
+  <a class="upload-thumb-link" href="https://www.youtube.com/watch?v=A3FL_zTQKU0" target="_blank" rel="noopener" aria-label="Watch Don&#x27;t Trust Your AI Agents. Test Them Like a Scientist — Stephanie Jarmak, Omni Analytics on YouTube">
+    <img class="upload-thumb" src="https://i.ytimg.com/vi_webp/A3FL_zTQKU0/maxresdefault.webp" alt="" loading="lazy">
+    <span class="upload-rank">22</span>
+  </a>
+  <div class="upload-card-body">
+    <div class="upload-card-meta"><span>Oct 23, 2026 · 00:00 UTC-07:00</span><span>17m 11s</span></div>
+    <h2><a href="https://www.youtube.com/watch?v=A3FL_zTQKU0" target="_blank" rel="noopener">Don&#x27;t Trust Your AI Agents. Test Them Like a Scientist — Stephanie Jarmak, Omni Analytics</a></h2>
+    <div class="upload-card-footer"><span class="upload-category">Security &amp; authorization</span><span>9016 views</span></div>
+  </div>
+</article>
+<article class="upload-card" data-upload-card data-title="why ai startups will disappear without compute markets — evan conrad, san francisco compute" data-category="Inference &amp; systems infrastructure" data-published="2026-10-22T16:00:12-07:00" data-views="8703" data-rank="23">
+  <a class="upload-thumb-link" href="https://www.youtube.com/watch?v=Wk2bUUGFC_o" target="_blank" rel="noopener" aria-label="Watch Why AI Startups Will Disappear Without Compute Markets — Evan Conrad, San Francisco Compute on YouTube">
+    <img class="upload-thumb" src="https://i.ytimg.com/vi_webp/Wk2bUUGFC_o/maxresdefault.webp" alt="" loading="lazy">
+    <span class="upload-rank">23</span>
+  </a>
+  <div class="upload-card-body">
+    <div class="upload-card-meta"><span>Oct 22, 2026 · 16:00 UTC-07:00</span><span>17m 49s</span></div>
+    <h2><a href="https://www.youtube.com/watch?v=Wk2bUUGFC_o" target="_blank" rel="noopener">Why AI Startups Will Disappear Without Compute Markets — Evan Conrad, San Francisco Compute</a></h2>
+    <div class="upload-card-footer"><span class="upload-category">Inference &amp; systems infrastructure</span><span>8703 views</span></div>
+  </div>
+</article>
+<article class="upload-card" data-upload-card data-title="better ai models won&#x27;t fix your engineering team — nicholas arcolano, jellyfish" data-category="Model training &amp; architecture" data-published="2026-10-22T12:00:39-07:00" data-views="7933" data-rank="24">
+  <a class="upload-thumb-link" href="https://www.youtube.com/watch?v=Ve2bAarPA2I" target="_blank" rel="noopener" aria-label="Watch Better AI Models Won&#x27;t Fix Your Engineering Team — Nicholas Arcolano, Jellyfish on YouTube">
+    <img class="upload-thumb" src="https://i.ytimg.com/vi_webp/Ve2bAarPA2I/maxresdefault.webp" alt="" loading="lazy">
+    <span class="upload-rank">24</span>
+  </a>
+  <div class="upload-card-body">
+    <div class="upload-card-meta"><span>Oct 22, 2026 · 12:00 UTC-07:00</span><span>16m 38s</span></div>
+    <h2><a href="https://www.youtube.com/watch?v=Ve2bAarPA2I" target="_blank" rel="noopener">Better AI Models Won&#x27;t Fix Your Engineering Team — Nicholas Arcolano, Jellyfish</a></h2>
+    <div class="upload-card-footer"><span class="upload-category">Model training &amp; architecture</span><span>7933 views</span></div>
+  </div>
+</article>
+<article class="upload-card" data-upload-card data-title="1,368 ai failures and what they teach about evals — vishal srivastava, new york life &amp; tanmay sah" data-category="Evaluation &amp; observability" data-published="2026-10-22T02:00:12-07:00" data-views="6686" data-rank="25">
+  <a class="upload-thumb-link" href="https://www.youtube.com/watch?v=mMw3arwQsL0" target="_blank" rel="noopener" aria-label="Watch 1,368 AI Failures and What They Teach About Evals — Vishal Srivastava, New York Life &amp; Tanmay Sah on YouTube">
+    <img class="upload-thumb" src="https://i.ytimg.com/vi_webp/mMw3arwQsL0/maxresdefault.webp" alt="" loading="lazy">
+    <span class="upload-rank">25</span>
+  </a>
+  <div class="upload-card-body">
+    <div class="upload-card-meta"><span>Oct 22, 2026 · 02:00 UTC-07:00</span><span>20m 02s</span></div>
+    <h2><a href="https://www.youtube.com/watch?v=mMw3arwQsL0" target="_blank" rel="noopener">1,368 AI Failures and What They Teach About Evals — Vishal Srivastava, New York Life &amp; Tanmay Sah</a></h2>
+    <div class="upload-card-footer"><span class="upload-category">Evaluation &amp; observability</span><span>6686 views</span></div>
+  </div>
+</article>
+<article class="upload-card" data-upload-card data-title="how to test ai agents when no benchmark exists — nathanael weill, air canada" data-category="Evaluation &amp; observability" data-published="2026-10-22T01:00:01-07:00" data-views="4856" data-rank="26">
+  <a class="upload-thumb-link" href="https://www.youtube.com/watch?v=c_SPW__jF9w" target="_blank" rel="noopener" aria-label="Watch How to Test AI Agents When No Benchmark Exists — Nathanael Weill, Air Canada on YouTube">
+    <img class="upload-thumb" src="https://i.ytimg.com/vi_webp/c_SPW__jF9w/maxresdefault.webp" alt="" loading="lazy">
+    <span class="upload-rank">26</span>
+  </a>
+  <div class="upload-card-body">
+    <div class="upload-card-meta"><span>Oct 22, 2026 · 01:00 UTC-07:00</span><span>19m 50s</span></div>
+    <h2><a href="https://www.youtube.com/watch?v=c_SPW__jF9w" target="_blank" rel="noopener">How to Test AI Agents When No Benchmark Exists — Nathanael Weill, Air Canada</a></h2>
+    <div class="upload-card-footer"><span class="upload-category">Evaluation &amp; observability</span><span>4856 views</span></div>
+  </div>
+</article>
+<article class="upload-card" data-upload-card data-title="why ai writing still reads like slop — louis-françois bouchard, towards ai" data-category="Other AI engineering" data-published="2026-10-22T00:00:28-07:00" data-views="11464" data-rank="27">
+  <a class="upload-thumb-link" href="https://www.youtube.com/watch?v=_dTF3NpPzGo" target="_blank" rel="noopener" aria-label="Watch Why AI Writing Still Reads Like Slop — Louis-François Bouchard, Towards AI on YouTube">
+    <img class="upload-thumb" src="https://i.ytimg.com/vi_webp/_dTF3NpPzGo/maxresdefault.webp" alt="" loading="lazy">
+    <span class="upload-rank">27</span>
+  </a>
+  <div class="upload-card-body">
+    <div class="upload-card-meta"><span>Oct 22, 2026 · 00:00 UTC-07:00</span><span>19m 02s</span></div>
+    <h2><a href="https://www.youtube.com/watch?v=_dTF3NpPzGo" target="_blank" rel="noopener">Why AI Writing Still Reads Like Slop — Louis-François Bouchard, Towards AI</a></h2>
+    <div class="upload-card-footer"><span class="upload-category">Other AI engineering</span><span>11464 views</span></div>
+  </div>
+</article>
+<article class="upload-card" data-upload-card data-title="the ai content system behind 200m views — sarah chieng, cerebras &amp; cova lee, openai" data-category="Other AI engineering" data-published="2026-10-21T16:00:14-07:00" data-views="19557" data-rank="28">
+  <a class="upload-thumb-link" href="https://www.youtube.com/watch?v=CFbnVpSsDFQ" target="_blank" rel="noopener" aria-label="Watch The AI Content System Behind 200M Views — Sarah Chieng, Cerebras &amp; Cova Lee, OpenAI on YouTube">
+    <img class="upload-thumb" src="https://i.ytimg.com/vi_webp/CFbnVpSsDFQ/maxresdefault.webp" alt="" loading="lazy">
+    <span class="upload-rank">28</span>
+  </a>
+  <div class="upload-card-body">
+    <div class="upload-card-meta"><span>Oct 21, 2026 · 16:00 UTC-07:00</span><span>53m 17s</span></div>
+    <h2><a href="https://www.youtube.com/watch?v=CFbnVpSsDFQ" target="_blank" rel="noopener">The AI Content System Behind 200M Views — Sarah Chieng, Cerebras &amp; Cova Lee, OpenAI</a></h2>
+    <div class="upload-card-footer"><span class="upload-category">Other AI engineering</span><span>19557 views</span></div>
+  </div>
+</article>
+<article class="upload-card" data-upload-card data-title="does code quality still matter? it depends on this — max kanat-alexander, capital one" data-category="Coding &amp; software engineering" data-published="2026-10-21T12:01:02-07:00" data-views="191747" data-rank="29">
+  <a class="upload-thumb-link" href="https://www.youtube.com/watch?v=bU5gDVyu_28" target="_blank" rel="noopener" aria-label="Watch Does Code Quality Still Matter? It Depends on This — Max Kanat-Alexander, Capital One on YouTube">
+    <img class="upload-thumb" src="https://i.ytimg.com/vi_webp/bU5gDVyu_28/maxresdefault.webp" alt="" loading="lazy">
+    <span class="upload-rank">29</span>
+  </a>
+  <div class="upload-card-body">
+    <div class="upload-card-meta"><span>Oct 21, 2026 · 12:01 UTC-07:00</span><span>16m 23s</span></div>
+    <h2><a href="https://www.youtube.com/watch?v=bU5gDVyu_28" target="_blank" rel="noopener">Does Code Quality Still Matter? It Depends on This — Max Kanat-Alexander, Capital One</a></h2>
+    <div class="upload-card-footer"><span class="upload-category">Coding &amp; software engineering</span><span>191747 views</span></div>
+  </div>
+</article>
+<article class="upload-card" data-upload-card data-title="one day, $1,000 in tokens: an ai war room for legacy code — ford prior, geico" data-category="Coding &amp; software engineering" data-published="2026-10-21T02:00:26-07:00" data-views="8711" data-rank="30">
+  <a class="upload-thumb-link" href="https://www.youtube.com/watch?v=DouK81O8R3o" target="_blank" rel="noopener" aria-label="Watch One Day, $1,000 in Tokens: An AI War Room for Legacy Code — Ford Prior, GEICO on YouTube">
+    <img class="upload-thumb" src="https://i.ytimg.com/vi_webp/DouK81O8R3o/maxresdefault.webp" alt="" loading="lazy">
+    <span class="upload-rank">30</span>
+  </a>
+  <div class="upload-card-body">
+    <div class="upload-card-meta"><span>Oct 21, 2026 · 02:00 UTC-07:00</span><span>18m 42s</span></div>
+    <h2><a href="https://www.youtube.com/watch?v=DouK81O8R3o" target="_blank" rel="noopener">One Day, $1,000 in Tokens: An AI War Room for Legacy Code — Ford Prior, GEICO</a></h2>
+    <div class="upload-card-footer"><span class="upload-category">Coding &amp; software engineering</span><span>8711 views</span></div>
+  </div>
+</article>
+<article class="upload-card" data-upload-card data-title="ai cut our research time from 7 days to 15 minutes — gareth yoder, vanguard" data-category="Context, memory &amp; retrieval" data-published="2026-10-21T01:00:37-07:00" data-views="5735" data-rank="31">
+  <a class="upload-thumb-link" href="https://www.youtube.com/watch?v=uA4ah-dVHvU" target="_blank" rel="noopener" aria-label="Watch AI Cut Our Research Time From 7 Days to 15 Minutes — Gareth Yoder, Vanguard on YouTube">
+    <img class="upload-thumb" src="https://i.ytimg.com/vi_webp/uA4ah-dVHvU/maxresdefault.webp" alt="" loading="lazy">
+    <span class="upload-rank">31</span>
+  </a>
+  <div class="upload-card-body">
+    <div class="upload-card-meta"><span>Oct 21, 2026 · 01:00 UTC-07:00</span><span>15m 38s</span></div>
+    <h2><a href="https://www.youtube.com/watch?v=uA4ah-dVHvU" target="_blank" rel="noopener">AI Cut Our Research Time From 7 Days to 15 Minutes — Gareth Yoder, Vanguard</a></h2>
+    <div class="upload-card-footer"><span class="upload-category">Context, memory &amp; retrieval</span><span>5735 views</span></div>
+  </div>
+</article>
+<article class="upload-card" data-upload-card data-title="is a faster model actually faster? test the whole job — morgan suo, minimax" data-category="Model training &amp; architecture" data-published="2026-10-21T00:00:34-07:00" data-views="4720" data-rank="32">
+  <a class="upload-thumb-link" href="https://www.youtube.com/watch?v=YvQ4BVTWfHI" target="_blank" rel="noopener" aria-label="Watch Is a Faster Model Actually Faster? Test the Whole Job — Morgan Suo, MiniMax on YouTube">
+    <img class="upload-thumb" src="https://i.ytimg.com/vi_webp/YvQ4BVTWfHI/maxresdefault.webp" alt="" loading="lazy">
+    <span class="upload-rank">32</span>
+  </a>
+  <div class="upload-card-body">
+    <div class="upload-card-meta"><span>Oct 21, 2026 · 00:00 UTC-07:00</span><span>17m 42s</span></div>
+    <h2><a href="https://www.youtube.com/watch?v=YvQ4BVTWfHI" target="_blank" rel="noopener">Is a Faster Model Actually Faster? Test the Whole Job — Morgan Suo, MiniMax</a></h2>
+    <div class="upload-card-footer"><span class="upload-category">Model training &amp; architecture</span><span>4720 views</span></div>
+  </div>
+</article>
+<article class="upload-card" data-upload-card data-title="same gpu, 50% more output: why the operator matters — oliver kennon, semianalysis" data-category="Inference &amp; systems infrastructure" data-published="2026-10-20T16:00:22-07:00" data-views="7564" data-rank="33">
+  <a class="upload-thumb-link" href="https://www.youtube.com/watch?v=3axY1wz2OvA" target="_blank" rel="noopener" aria-label="Watch Same GPU, 50% More Output: Why the Operator Matters — Oliver Kennon, SemiAnalysis on YouTube">
+    <img class="upload-thumb" src="https://i.ytimg.com/vi_webp/3axY1wz2OvA/maxresdefault.webp" alt="" loading="lazy">
+    <span class="upload-rank">33</span>
+  </a>
+  <div class="upload-card-body">
+    <div class="upload-card-meta"><span>Oct 20, 2026 · 16:00 UTC-07:00</span><span>17m 42s</span></div>
+    <h2><a href="https://www.youtube.com/watch?v=3axY1wz2OvA" target="_blank" rel="noopener">Same GPU, 50% More Output: Why the Operator Matters — Oliver Kennon, SemiAnalysis</a></h2>
+    <div class="upload-card-footer"><span class="upload-category">Inference &amp; systems infrastructure</span><span>7564 views</span></div>
+  </div>
+</article>
+<article class="upload-card" data-upload-card data-title="a bank built its own coding agent. it took off — felippe felisola caso &amp; francesco galletta, monzo" data-category="Commerce, finance &amp; payments" data-published="2026-10-20T12:00:34-07:00" data-views="13090" data-rank="34">
+  <a class="upload-thumb-link" href="https://www.youtube.com/watch?v=adfw3xJBx1o" target="_blank" rel="noopener" aria-label="Watch A Bank Built Its Own Coding Agent. It Took Off — Felippe Felisola Caso &amp; Francesco Galletta, Monzo on YouTube">
+    <img class="upload-thumb" src="https://i.ytimg.com/vi_webp/adfw3xJBx1o/maxresdefault.webp" alt="" loading="lazy">
+    <span class="upload-rank">34</span>
+  </a>
+  <div class="upload-card-body">
+    <div class="upload-card-meta"><span>Oct 20, 2026 · 12:00 UTC-07:00</span><span>15m 30s</span></div>
+    <h2><a href="https://www.youtube.com/watch?v=adfw3xJBx1o" target="_blank" rel="noopener">A Bank Built Its Own Coding Agent. It Took Off — Felippe Felisola Caso &amp; Francesco Galletta, Monzo</a></h2>
+    <div class="upload-card-footer"><span class="upload-category">Commerce, finance &amp; payments</span><span>13090 views</span></div>
+  </div>
+</article>
+<article class="upload-card" data-upload-card data-title="shipping ai into 5 major banks without a 12-month compliance wait — al chen, cisco" data-category="Commerce, finance &amp; payments" data-published="2026-10-20T02:00:06-07:00" data-views="14157" data-rank="35">
+  <a class="upload-thumb-link" href="https://www.youtube.com/watch?v=Bz1HFxQA1o8" target="_blank" rel="noopener" aria-label="Watch Shipping AI Into 5 Major Banks Without a 12-Month Compliance Wait — Al Chen, Cisco on YouTube">
+    <img class="upload-thumb" src="https://i.ytimg.com/vi_webp/Bz1HFxQA1o8/maxresdefault.webp" alt="" loading="lazy">
+    <span class="upload-rank">35</span>
+  </a>
+  <div class="upload-card-body">
+    <div class="upload-card-meta"><span>Oct 20, 2026 · 02:00 UTC-07:00</span><span>17m 41s</span></div>
+    <h2><a href="https://www.youtube.com/watch?v=Bz1HFxQA1o8" target="_blank" rel="noopener">Shipping AI Into 5 Major Banks Without a 12-Month Compliance Wait — Al Chen, Cisco</a></h2>
+    <div class="upload-card-footer"><span class="upload-category">Commerce, finance &amp; payments</span><span>14157 views</span></div>
+  </div>
+</article>
+<article class="upload-card" data-upload-card data-title="the investor&#x27;s edge lives in their head — anekha sokhal, moshi" data-category="Other AI engineering" data-published="2026-10-20T01:00:19-07:00" data-views="7461" data-rank="36">
+  <a class="upload-thumb-link" href="https://www.youtube.com/watch?v=UHbODjuviAU" target="_blank" rel="noopener" aria-label="Watch The Investor&#x27;s Edge Lives in Their Head — Anekha Sokhal, Moshi on YouTube">
+    <img class="upload-thumb" src="https://i.ytimg.com/vi_webp/UHbODjuviAU/maxresdefault.webp" alt="" loading="lazy">
+    <span class="upload-rank">36</span>
+  </a>
+  <div class="upload-card-body">
+    <div class="upload-card-meta"><span>Oct 20, 2026 · 01:00 UTC-07:00</span><span>16m 29s</span></div>
+    <h2><a href="https://www.youtube.com/watch?v=UHbODjuviAU" target="_blank" rel="noopener">The Investor&#x27;s Edge Lives in Their Head — Anekha Sokhal, Moshi</a></h2>
+    <div class="upload-card-footer"><span class="upload-category">Other AI engineering</span><span>7461 views</span></div>
+  </div>
+</article>
+<article class="upload-card" data-upload-card data-title="why ai agents will need their own bank accounts — lincoln murr, coinbase" data-category="Commerce, finance &amp; payments" data-published="2026-10-20T00:00:35-07:00" data-views="7710" data-rank="37">
+  <a class="upload-thumb-link" href="https://www.youtube.com/watch?v=f_HwzoYrZ7s" target="_blank" rel="noopener" aria-label="Watch Why AI Agents Will Need Their Own Bank Accounts — Lincoln Murr, Coinbase on YouTube">
+    <img class="upload-thumb" src="https://i.ytimg.com/vi_webp/f_HwzoYrZ7s/maxresdefault.webp" alt="" loading="lazy">
+    <span class="upload-rank">37</span>
+  </a>
+  <div class="upload-card-body">
+    <div class="upload-card-meta"><span>Oct 20, 2026 · 00:00 UTC-07:00</span><span>16m 58s</span></div>
+    <h2><a href="https://www.youtube.com/watch?v=f_HwzoYrZ7s" target="_blank" rel="noopener">Why AI Agents Will Need Their Own Bank Accounts — Lincoln Murr, Coinbase</a></h2>
+    <div class="upload-card-footer"><span class="upload-category">Commerce, finance &amp; payments</span><span>7710 views</span></div>
+  </div>
+</article>
+  </div>
+  <p id="upload-empty" class="upload-empty">No uploads match the current search and topic filter.</p>
+
+  <p class="upload-source">Source: <a href="https://www.youtube.com/@aiDotEngineer/videos" target="_blank" rel="noopener">official AI Engineer channel feed</a>. The range was detected from the repository watermark; topic labels are deterministic title-derived metadata, not transcript classifications.</p>
+</section>
+
+<script>
+(function () {
+  var grid = document.getElementById('upload-grid');
+  var cards = Array.prototype.slice.call(grid.querySelectorAll('[data-upload-card]'));
+  var search = document.getElementById('upload-search');
+  var category = document.getElementById('upload-category');
+  var sort = document.getElementById('upload-sort');
+  var count = document.getElementById('upload-result-count');
+  var empty = document.getElementById('upload-empty');
+
+  function render() {
+    var query = search.value.trim().toLowerCase();
+    var selectedCategory = category.value;
+    var ordered = cards.slice().sort(function (a, b) {
+      if (sort.value === 'oldest') return Number(b.dataset.rank) - Number(a.dataset.rank);
+      if (sort.value === 'views') return Number(b.dataset.views) - Number(a.dataset.views) || Number(a.dataset.rank) - Number(b.dataset.rank);
+      return Number(a.dataset.rank) - Number(b.dataset.rank);
+    });
+    var visible = 0;
+    ordered.forEach(function (card) {
+      var matchesQuery = !query || card.dataset.title.indexOf(query) !== -1;
+      var matchesCategory = !selectedCategory || card.dataset.category === selectedCategory;
+      card.hidden = !(matchesQuery && matchesCategory);
+      if (!card.hidden) visible += 1;
+      grid.appendChild(card);
+    });
+    count.textContent = visible + ' of ' + cards.length;
+    empty.classList.toggle('is-visible', visible === 0);
+  }
+
+  search.addEventListener('input', render);
+  category.addEventListener('change', render);
+  sort.addEventListener('change', render);
+}());
+</script>
